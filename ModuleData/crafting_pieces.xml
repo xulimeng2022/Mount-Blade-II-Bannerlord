@@ -1,0 +1,278 @@
+<CraftingPieces>
+
+  <CraftingPiece id="huaxia_spear_blade_27" name="{=1rGNXUaJ}薄细钢绞枪头" tier="5"
+    piece_type="Blade" mesh="spear_blade_27" length="69.5" weight="0.5" excluded_item_usage_features="swing">
+
+    <StatContributions handling_bonus="5" thrust_speed_bonus="2" thrust_damage_bonus="2" />
+    <BladeData stack_amount="5" physics_material="wood_weapon" body_name="bo_spear_b"
+      holster_mesh="throwing_spear_quiver_2" holster_body_name="bo_throwing_spear_quiver_2" holster_mesh_length="94.6">
+      <Thrust damage_type="Pierce" damage_factor="5" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron5" count="2" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_spear_handle_26" name="{=ELpWa0K5}固化橡木长矛轴" tier="5" piece_type="Handle"
+    mesh="spear_handle_26" length="280" weight="1.5" excluded_item_usage_features="Javelin">
+    <BuildData piece_offset="22.9" />
+    <StatContributions handling_bonus="30" swing_speed_bonus="50" thrust_speed_bonus="3" thrust_damage_bonus="3" />
+    <Materials>
+      <Material id="Wood" count="3" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_spear_handle_5" name="{=baQ99nza}长灰轴" tier="2" piece_type="Handle"
+    mesh="spear_handle_5" length="229" weight="1.6" CraftingCost="110"
+    excluded_item_usage_features="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin">
+    <BuildData piece_offset="22.9" />
+    <StatContributions handling_bonus="10" swing_speed_bonus="35" thrust_speed_bonus="10" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_spear_handle_22" name="{=HaNPlFBt}包裹硬木长轴" tier="3" piece_type="Handle"
+    mesh="spear_handle_22" length="240" weight="1.5"
+    excluded_item_usage_features="TwoHandedPolearm_Couchable:TwoHandedPolearm_Bracing:Javelin">
+    <BuildData piece_offset="22.9" />
+    <StatContributions handling_bonus="20" swing_speed_bonus="40" thrust_speed_bonus="20" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="hanji_blade" name="{=hanji_blade}布吉刀锋" tier="2" piece_type="Blade" mesh="puji_simple"
+    length="36" weight="0.3">
+
+    <BuildData piece_offset="-23" />
+    <StatContributions handling_bonus="20" swing_speed_bonus="20" thrust_damage_bonus="10" />
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="2" />
+      <Swing damage_type="Pierce" damage_factor="2" />
+    </BladeData>
+    <Flags>
+      <Flag name="CanDismount" />
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="3" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="hanji_guarded_blade" name="{=hanji_guarded_blade}布吉刀锋" tier="3" piece_type="Blade"
+    mesh="fine_puji" length="27" weight="0.4">
+
+    <BuildData piece_offset="-18" />
+    <StatContributions handling_bonus="20" swing_speed_bonus="20" thrust_damage_bonus="20" />
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="3.5" />
+      <Swing damage_type="Cut" damage_factor="3.5" />
+    </BladeData>
+    <Flags>
+      <Flag name="CanDismount" />
+    </Flags>
+    <Materials>
+      <Material id="Iron3" count="3" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_bronze_spear_blade_t2" name="{=huaxia_bronze_spear_blade_t2}细青铜矛刃"
+    tier="4" piece_type="Blade" mesh="mao_blade" length="42" weight="0.3">
+    <BuildData piece_offset="-28" />
+
+    <StatContributions handling_bonus="50" swing_speed_bonus="50" />
+    <BladeData stack_amount="5" physics_material="wood_weapon" body_name="bo_spear_b"
+      holster_mesh="throwing_spear_quiver_4_1" holster_body_name="bo_throwing_spear_quiver_4_1"
+      holster_mesh_length="96.2">
+      <Thrust damage_type="Pierce" damage_factor="3" />
+      <Swing damage_type="Cut" damage_factor="1.5" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_ge_blade" name="{=huaxia_ge_blade}普通匕首斧刃" tier="3" piece_type="Blade"
+    mesh="simple_ge_blade" length="18" weight="0.32">
+
+    <BuildData piece_offset="-16" />
+    <StatContributions handling_bonus="40" swing_speed_bonus="40" />
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Blunt" damage_factor="2" />
+      <Swing damage_type="Pierce" damage_factor="2" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron3" count="2" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_guard_ge_blade" name="{=huaxia_guard_ge_blade}普通匕首斧刃" tier="3"
+    piece_type="Guard" mesh="simple_ge_blade" length="18" weight="0.32">
+
+    <BuildData piece_offset="-18" />
+    <StatContributions handling_bonus="40" swing_speed_bonus="100" />
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Swing damage_type="Pierce" damage_factor="2" />
+    </BladeData>
+    <Flags>
+      <Flag name="CanDismount" />
+    </Flags>
+    <Materials>
+      <Material id="Iron3" count="2" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_guard_ge_blade_stacked" name="{=huaxia_guard_ge_blade}普通匕首斧刃堆叠" tier="3"
+    piece_type="Guard" mesh="simple_ge_blade" length="18" weight="0.32">
+
+    <BuildData piece_offset="-30" next_piece_offset="-12" />
+    <StatContributions handling_bonus="40" swing_speed_bonus="100" />
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Swing damage_type="Pierce" damage_factor="2" />
+    </BladeData>
+    <Flags>
+      <Flag name="CanDismount" />
+    </Flags>
+    <Materials>
+      <Material id="Iron3" count="2" />
+    </Materials>
+  </CraftingPiece>  
+
+  <CraftingPiece id="huaxia_ge_fine_blade" name="{=huaxia_ge_fine_blade}精细匕首刀片" tier="5"
+    piece_type="Blade" mesh="ge_fine_blade" length="20" weight="0.3">
+
+    <BuildData piece_offset="-18" />
+    <StatContributions handling_bonus="50" swing_speed_bonus="60" />
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Blunt" damage_factor="3" />
+      <Swing damage_type="Pierce" damage_factor="3" />
+    </BladeData>
+    <Flags>
+      <Flag name="BonusAgainstShield" />
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="2" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_guard_ge_fine_blade" name="{=huaxia_guard_ge_fine_blade}精细匕首刀片" tier="5"
+    piece_type="Guard" mesh="ge_fine_blade" length="20" weight="0.3">
+
+    <BuildData piece_offset="-20" />
+    <StatContributions handling_bonus="50" swing_speed_bonus="100" />
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Swing damage_type="Pierce" damage_factor="3" />
+    </BladeData>
+    <Flags>
+      <Flag name="BonusAgainstShield" />
+      <Flag name="CanDismount" />
+    </Flags>
+    <Materials>
+      <Material id="Iron5" count="2" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_guard_ge_fine_blade_stacked" name="{=huaxia_guard_ge_fine_blade}精细匕首斧刃堆叠" tier="5"
+  piece_type="Guard" mesh="ge_fine_blade" length="20" weight="0.3">
+
+  <BuildData piece_offset="-35" next_piece_offset="-15" />
+  <StatContributions handling_bonus="50" swing_speed_bonus="100" />
+  <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+    <Swing damage_type="Pierce" damage_factor="3" />
+  </BladeData>
+  <Flags>
+    <Flag name="BonusAgainstShield" />
+    <Flag name="CanDismount" />
+  </Flags>
+  <Materials>
+    <Material id="Iron5" count="2" />
+  </Materials>
+</CraftingPiece>  
+
+  <CraftingPiece id="huaxia_guard_polearm_sha_crescent" name="{=xoSaQWhX}华夏长剑新月卫" tier="2"
+    piece_type="Guard" mesh="vlandian_guard_5" culture="Culture.huaxia" length="1.2" weight="0.25">
+
+    <BuildData next_piece_offset="0.2" />
+    <StatContributions armor_bonus="3" />
+    <Materials>
+      <Material id="Iron4" count="2" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_guard_bronze_crescent" name="{=HlFpG5xw}铜翼护卫" tier="4" piece_type="Guard"
+    mesh="vlandian_guard_3" culture="Culture.vlandia" length="1.803" weight="0.20">
+
+    <BuildData next_piece_offset="0.2" />
+    <StatContributions armor_bonus="4" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_polearm_blade_3_iron" name="{=3Y7plSBX}华夏铁长柄刃" tier="2"
+    piece_type="Blade" mesh="battania_blade_2" culture="Culture.huaxia" length="57.1" weight="0.59">
+
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="2.5" />
+      <Swing damage_type="Cut" damage_factor="3.5" />
+    </BladeData>
+
+    <Materials>
+      <Material id="Iron3" count="3" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="huaxia_polearm_blade_steel" name="{=3Y7plSBX}华夏铁长柄刃" tier="2" piece_type="Blade"
+    mesh="battania_blade_4" culture="Culture.huaxia" length="67.4" weight="0.69">
+
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="3" />
+      <Swing damage_type="Cut" damage_factor="4" />
+    </BladeData>
+
+    <Materials>
+      <Material id="Iron4" count="3" />
+    </Materials>
+  </CraftingPiece>
+
+
+  <CraftingPiece id="huaxia_spear_banner_3" name="{=HA4O76ri}缎带" tier="3" piece_type="Guard" mesh="spear_banner_3"
+    culture="Culture.neutral_culture" length="9.2" weight="0">
+    <BuildData piece_offset="-20" next_piece_offset="-11" />
+    <Materials>
+      <Material id="Iron4" count="0" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="huaxia_spear_banner_10" name="{=tooJPhpa}薄燕尾旗" tier="3" piece_type="Guard"
+    mesh="spear_banner_10" culture="Culture.neutral_culture" length="12" weight="0">
+    <BuildData piece_offset="-25" next_piece_offset="-13" />
+    <Materials>
+      <Material id="Iron4" count="0" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="huaxia_spear_banner_15" name="{=q9K7Y2pZ}布艺横幅" tier="2" piece_type="Guard"
+    mesh="spear_banner_15" culture="Culture.neutral_culture" length="3.5" weight="0">
+    <BuildData piece_offset="-10" next_piece_offset="-6" />
+    <Materials>
+      <Material id="Iron4" count="0" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="huaxia_spear_banner_17" name="{=YFkEsUhn}红马尾饰边" tier="4" piece_type="Guard"
+    mesh="spear_banner_17" culture="Culture.neutral_culture" length="8.84" weight="0">
+    <Materials>
+      <Material id="Iron4" count="0" />
+    </Materials>
+    <Flags>
+      <Flag name="CanDismount" />
+    </Flags>
+  </CraftingPiece>
+  <CraftingPiece id="huaxia_spear_banner_16" name="{=wTSBQduq}马尾饰边" tier="3" piece_type="Guard"
+    mesh="spear_banner_16" culture="Culture.neutral_culture" length="4" weight="0">
+    <Materials>
+      <Material id="Iron4" count="0" />
+    </Materials>
+    <Flags>
+      <Flag name="CanDismount" />
+    </Flags>
+  </CraftingPiece>
+</CraftingPieces>

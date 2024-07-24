@@ -1,0 +1,442 @@
+<!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
+For examples please refer
+to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
+
+<Items>
+	<CraftedItem id="huaxia_han_dao_1" name="{=huaxia_han_dao_1}Huaxia Iron Han Dao" crafting_template="OneHandedSword"
+		culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="khuzait_noble_blade_3" Type="Blade" scale_factor="110" />
+			<Piece id="sturgian_guard_1" Type="Guard" />
+			<Piece id="empire_grip_6" Type="Handle" scale_factor="108" />
+			<Piece id="khuzait_pommel_1" Type="Pommel" scale_factor="150" />
+		</Pieces>
+		<!-- Length: 82 Weight: 1.77 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_han_dao_2" name="{=huaxia_han_dao_2}Huaxia Steel Han Dao" crafting_template="OneHandedSword"
+		culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="sturgian_blade_5" Type="Blade" scale_factor="130" />
+			<Piece id="sturgian_guard_8" Type="Guard" scale_factor="90" />
+			<Piece id="khuzait_grip_2" Type="Handle" scale_factor="90" />
+			<Piece id="khuzait_pommel_1" Type="Pommel" scale_factor="130" />
+		</Pieces>
+		<!-- Length: 83 Weight: 1.12 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_war_jian" name="{=huaxia_war_jian}Huaxia Iron Jian" crafting_template="OneHandedSword" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="battania_blade_4" Type="Blade" scale_factor="120" />
+			<Piece id="sturgian_guard_7" Type="Guard" scale_factor="70" />
+			<Piece id="vlandian_grip_1" Type="Handle" scale_factor="130" />
+			<Piece id="cleaver_pommel_4" Type="Pommel" scale_factor="160" />
+		</Pieces>
+		<!-- Length: 92 Weight: 1.1 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_jinchu_changjian" name="{=huaxia_jinchu_changjian}Huaxia Jingchu Chang Jian"
+		crafting_template="TwoHandedSword" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="vlandian_blade_1" Type="Blade" scale_factor="120" />
+			<Piece id="cleaver_guard_4" Type="Guard" scale_factor="70" />
+			<Piece id="empire_grip_15" Type="Handle" scale_factor="140" />
+			<Piece id="sturgian_pommel_1" Type="Pommel" scale_factor="80" />
+		</Pieces>
+		<!-- Length: 135 Weight: 1.5 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_elite_jian_1" name="{=huaxia_elite_jian_1}Han Guang" crafting_template="OneHandedSword" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="aserai_blade_11" Type="Blade" />
+			<Piece id="aserai_noble_guard_2" Type="Guard" scale_factor="60" />
+			<Piece id="sturgian_noble_grip_1" Type="Handle" scale_factor="110" />
+			<Piece id="aserai_noble_pommel_3" Type="Pommel" scale_factor="80" />
+		</Pieces>
+		<!-- Length: 113 Weight: 1.66 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_elite_jian_2" name="{=huaxia_elite_jian_2}Huaxia Juque Jian"
+		crafting_template="TwoHandedSword" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="aserai_blade_7" Type="Blade" scale_factor="120" />
+			<Piece id="sturgian_guard_12" Type="Guard" scale_factor="80" />
+			<Piece id="cleaver_grip_7" Type="Handle" scale_factor="110" />
+			<Piece id="sturgian_pommel_12" Type="Pommel" scale_factor="80" />
+		</Pieces>
+		<!-- Length: 132 Weight: 1.82 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_hengdao" name="{=huaxia_hengdao}Huaxia Heng Dao" crafting_template="TwoHandedSword" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="sturgian_blade_5" Type="Blade" scale_factor="160" />
+			<Piece id="sturgian_guard_9" Type="Guard" scale_factor="60" />
+			<Piece id="khuzait_grip_12" Type="Handle" scale_factor="110" />
+			<Piece id="vlandian_pommel_10" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 116 Weight: 1.4 -->
+	</CraftedItem>
+
+
+	<CraftedItem id="huaxia_zhanma_1" name="{=huaxia_zhanma_1}Huaxia Zhan Ma Dao" crafting_template="TwoHandedSword" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="vlandian_blade_9" Type="Blade" scale_factor="180" />
+			<Piece id="sturgian_guard_3" Type="Guard" scale_factor="90" />
+			<Piece id="cleaver_grip_4" Type="Handle" />
+			<Piece id="vlandian_pommel_10" Type="Pommel" scale_factor="120" />
+		</Pieces>
+		<!-- Length: 129 Weight: 3 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_zhanma_2" name="{=huaxia_zhanma_2}Huaxia Great Zhan Ma Dao"
+		crafting_template="TwoHandedSword" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="empire_blade_5" Type="Blade" scale_factor="120" />
+			<Piece id="sturgian_guard_3" Type="Guard" scale_factor="90" />
+			<Piece id="cleaver_grip_4" Type="Handle" scale_factor="180" />
+			<Piece id="vlandian_pommel_10" Type="Pommel" scale_factor="120" />
+		</Pieces>
+		<!-- Length: 150 Weight: 2.2 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_elite_changjian" name="{=huaxia_elite_changjian}Huaxia Qin Wang Chang Jian"
+		crafting_template="TwoHandedSword" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="aserai_blade_11" Type="Blade" scale_factor="110" />
+			<Piece id="sturgian_guard_12" Type="Guard" scale_factor="90" />
+			<Piece id="khuzait_grip_11" Type="Handle" scale_factor="110" />
+			<Piece id="cleaver_pommel_2" Type="Pommel" scale_factor="90" />
+		</Pieces>
+		<!-- Length: 125 Weight: 1.59 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_inf_ji" name="{=huaxia_inf_ji}Huaxia Infantry Ji" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="hanji_blade" Type="Blade" scale_factor="110" />
+			<Piece id="default_polearm_guard" Type="Guard" />
+			<Piece id="spear_handle_1" Type="Handle" scale_factor="120" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="huaxia_tigerfork" name="{=huaxia_tigerfork}Huaxia Tiger Fork" crafting_template="TwoHandedPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="spear_blade_32" Type="Blade" scale_factor="90" />
+			<Piece id="spear_guard_18" Type="Guard" />
+			<Piece id="spear_handle_3" Type="Handle" scale_factor="120" />
+			<Piece id="spear_pommel_2" Type="Pommel" scale_factor="90" />
+		</Pieces>
+		<!-- Length: 131 Weight: 1.84 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_pudao" name="{=huaxia_pudao}Huaxia Infantry Pudao" crafting_template="TwoHandedPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="spear_blade_33" Type="Blade" scale_factor="160" />
+			<Piece id="spear_banner_15" Type="Guard" scale_factor="90" />
+			<Piece id="spear_handle_1" Type="Handle" />
+			<Piece id="spear_pommel_2" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 149 Weight: 1.8 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_guandao" name="{=huaxia_guandao}Huaxia Lord Guan Yan Yue Dao"
+		crafting_template="TwoHandedPolearm" swing_damage="66" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="spear_blade_19" Type="Blade" scale_factor="190" />
+			<Piece id="spear_banner_17" Type="Guard" scale_factor="90" />
+			<Piece id="spear_handle_16" Type="Handle" scale_factor="70" />
+			<Piece id="spear_pommel_12" Type="Pommel" scale_factor="110" />
+		</Pieces>
+		<!-- Length: 163 Weight: 2 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_shuo" name="{=huaxia_shuo}Huaxia Elite Cavalry Shuo" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_spear_blade_27" Type="Blade" scale_factor="110" />
+			<Piece id="huaxia_spear_banner_16" Type="Guard" scale_factor="90" />
+			<Piece id="huaxia_spear_handle_26" Type="Handle" />
+			<Piece id="spear_pommel_11" Type="Pommel" scale_factor="110" />
+		</Pieces>
+		<!-- Length: 239 Weight: 2.15 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_cw_huolongdao" name="{=huaxia_cw_huolongdao}Huaxia Fire Dragon Dao"
+		crafting_template="Chineselongweapon" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="podao_blade" Type="Blade" />
+			<Piece id="mashuo_guard" Type="Guard" />
+			<Piece id="qinglongyanyuedao_grip" Type="Handle" />
+			<Piece id="mashuo_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 189 Weight: 1.4 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_cw_heihuqiang" name="{=huaxia_cw_heihuqiang}Huxia Black Tiger Spear"
+		crafting_template="Chineselongweapon" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="mashuo_blade" Type="Blade" scale_factor="110" />
+			<Piece id="fangtianhuaji_guard" Type="Guard" scale_factor="80" />
+			<Piece id="mashuo_grip" Type="Handle" scale_factor="90" />
+			<Piece id="mashuo_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 195 Weight: 1.35 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_noble_dagger" name="{=huaxia_noble_dagger}Huxia Yuchang Dagger" crafting_template="Dagger" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="dagger_blade_6" Type="Blade" />
+			<Piece id="battania_dagger_guard_8" Type="Guard" scale_factor="80" />
+			<Piece id="aserai_grip_8" Type="Handle" />
+			<Piece id="battania_pommel_8" Type="Pommel" scale_factor="60" />
+		</Pieces>
+		<!-- Length: 54 Weight: 0.59 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_fly_dagger" name="{=huaxia_fly_dagger}Huaxia Flying Dagger"
+		crafting_template="ThrowingKnife" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="dagger_blade_14" Type="Blade" scale_factor="110" />
+			<Piece id="sturgian_dagger_guard_8" Type="Guard" scale_factor="110" />
+			<Piece id="sturgian_grip_5" Type="Handle" scale_factor="90" />
+			<Piece id="khuzait_pommel_1" Type="Pommel" scale_factor="110" />
+		</Pieces>
+		<!-- Length: 46 Weight: 0.92 -->
+	</CraftedItem>
+
+
+	<CraftedItem id="huaxia_puji_t2" name="{=huaxia_puji_t2}Huaxia Fine Puji" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="hanji_guarded_blade" Type="Blade" />
+			<Piece id="huaxia_spear_banner_15" Type="Guard" scale_factor="90" />
+			<Piece id="huaxia_spear_handle_5" Type="Handle" />
+			<Piece id="spear_pommel_2" Type="Pommel" />
+			<!-- Length: 162 Weight: 3.2 -->
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_puji_t3" name="{=huaxia_puji_t3}Huaxia Fine Long Puji" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="hanji_guarded_blade" Type="Blade" scale_factor="80" />
+			<Piece id="huaxia_spear_banner_3" Type="Guard" scale_factor="80" />
+			<Piece id="huaxia_spear_handle_26" Type="Handle" />
+			<Piece id="spear_pommel_3" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 168 Weight: 3.3 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t1_ge" name="{=huaxia_t1_ge}Huaxia Common Daggeraxe" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_ge_blade" Type="Blade" />
+			<Piece id="default_polearm_guard" Type="Guard" />
+			<Piece id="spear_handle_1" Type="Handle" scale_factor="140" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 100 Weight: 1.72 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t1_ge_stacked" name="{=huaxia_t1_ge_stacked}Huaxia Common Stacked Daggeraxe"
+		crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_ge_blade" Type="Blade" scale_factor="90" />
+			<Piece id="huaxia_guard_ge_blade_stacked" Type="Guard" scale_factor="90" />
+			<Piece id="spear_handle_1" Type="Handle" scale_factor="140" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 127 Weight: 2.2 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t2_ge" name="{=huaxia_t2_ge} Huaxia Longer Daggeraxe" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_ge_blade" Type="Blade" />
+			<Piece id="huaxia_spear_banner_15" Type="Guard" scale_factor="90" />
+			<Piece id="spear_handle_1" Type="Handle" scale_factor="160" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 126 Weight: 1.97 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t2_ge_stacked" name="{=huaxia_t2_ge_stacked} Huaxia Longer Stacked Daggeraxe"
+		crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_ge_blade" Type="Blade" scale_factor="90" />
+			<Piece id="huaxia_guard_ge_blade_stacked" Type="Guard" scale_factor="90" />
+			<Piece id="spear_handle_1" Type="Handle" scale_factor="160" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 145 Weight: 2.44 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t3_ge" name="{=huaxia_t3_ge}Huaxia Noble Daggeraxe" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_ge_fine_blade" Type="Blade" />
+			<Piece id="huaxia_spear_banner_10" Type="Guard" scale_factor="70" />
+			<Piece id="huaxia_spear_handle_26" Type="Handle" scale_factor="90" />
+			<Piece id="spear_pommel_12" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 149 Weight: 2.26 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t3_ge_stacked" name="{=huaxia_t3_ge_stacked}Huaxia Noble Stacked Daggeraxe"
+		crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_ge_fine_blade" Type="Blade" scale_factor="90" />
+			<Piece id="huaxia_guard_ge_fine_blade_stacked" Type="Guard" scale_factor="90" />
+			<Piece id="huaxia_spear_handle_26" Type="Handle" scale_factor="90" />
+			<Piece id="spear_pommel_12" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 148 Weight: 1.84 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t2_bronze_ji" name="{=huaxia_t1_bronze_ji}Huaxia Bronze Ji"
+		crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_bronze_spear_blade_t2" Type="Blade" scale_factor="90" />
+			<Piece id="huaxia_guard_ge_blade" Type="Guard" scale_factor="105" />
+			<Piece id="huaxia_spear_handle_5" Type="Handle" scale_factor="90" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 136 Weight: 2.49 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t4_bronze_ji" name="{=huaxia_t4_bronze_ji}Huaxia Noble Bronze Ji"
+		crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_bronze_spear_blade_t2" Type="Blade" scale_factor="90" />
+			<Piece id="huaxia_guard_ge_fine_blade" Type="Guard" scale_factor="110" />
+			<Piece id="huaxia_spear_handle_26" Type="Handle" scale_factor="90" />
+			<Piece id="spear_pommel_11" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 159 Weight: 2.38 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t1_hansha" name="{=huaxia_t1_hansha}Huaxia Common Hansha" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_polearm_blade_3_iron" Type="Blade" scale_factor="90" />
+			<Piece id="vlandian_guard_5" Type="Guard" scale_factor="110" />
+			<Piece id="spear_handle_1" Type="Handle" scale_factor="90" />
+			<Piece id="spear_pommel_1" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 133 Weight: 1.88 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t3_hansha" name="{=huaxia_t3_hansha}Huaxia Steel Hansha" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_polearm_blade_steel" Type="Blade" scale_factor="90" />
+			<Piece id="empire_guard_5" Type="Guard" scale_factor="90" />
+			<Piece id="spear_handle_1" Type="Handle" scale_factor="90" />
+			<Piece id="spear_pommel_10" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 146 Weight: 1.77 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t4_hansha" name="{=huaxia_t4_hansha}Huaxia Lord's Hansha" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_polearm_blade_steel" Type="Blade" scale_factor="90" />
+			<Piece id="vlandian_guard_3" Type="Guard" scale_factor="99" />
+			<Piece id="spear_handle_1" Type="Handle" scale_factor="90" />
+			<Piece id="spear_pommel_12" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 143 Weight: 1.9 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t4_modao" name="{=huaxia_t4_modao}Huaxia Lord's Modao" crafting_template="TwoHandedPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="spear_blade_24" Type="Blade" scale_factor="160" />
+			<Piece id="spear_banner_17" Type="Guard" scale_factor="90" />
+			<Piece id="spear_handle_15" Type="Handle" scale_factor="65" />
+			<Piece id="spear_pommel_2" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 188 Weight: 2.72 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t4_spear" name="{=huaxia_t4_spear}Huaxia Lord's Hunting Spear" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_bronze_spear_blade_t2" Type="Blade" />
+			<Piece id="huaxia_spear_banner_10" Type="Guard" />
+			<Piece id="huaxia_spear_handle_26" Type="Handle" scale_factor="110" />
+			<Piece id="spear_pommel_12" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 195 Weight: 2.21 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t4_lance" name="{=huaxia_t4_lance}Huaxia Lord's Shuo" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_spear_blade_27" Type="Blade" scale_factor="110" />
+			<Piece id="huaxia_spear_banner_17" Type="Guard" scale_factor="90" />
+			<Piece id="huaxia_spear_handle_26" Type="Handle" scale_factor="110" />
+			<Piece id="spear_pommel_11" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 257 Weight: 2.46 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t3_javelin" name="{=huaxia_t3_javelin}Huaxia Biaoqiang" crafting_template="Javelin" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="spear_blade_35" Type="Blade" scale_factor="110" />
+			<Piece id="spear_guard_7" Type="Guard" scale_factor="110" />
+			<Piece id="spear_handle_10" Type="Handle" scale_factor="110" />
+			<Piece id="spear_pommel_5" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 101 Weight: 1.11 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t4_javelin" name="{=huaxia_t4_javelin}Huaxia Lord's Biaoqiang" crafting_template="Javelin" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="spear_blade_27" Type="Blade" scale_factor="110" />
+			<Piece id="spear_guard_7" Type="Guard" scale_factor="110" />
+			<Piece id="spear_handle_11" Type="Handle" scale_factor="110" />
+			<Piece id="spear_pommel_12" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 134 Weight: 1.5 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_hooked_spear" name="{=huaxia_hooked_spear}Huaxia Hooked Spear" crafting_template="HuaxiaPolearm" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="spear_blade_10" Type="Blade" scale_factor="90" />
+			<Piece id="huaxia_spear_banner_16" Type="Guard" scale_factor="70" />
+			<Piece id="spear_handle_3" Type="Handle" scale_factor="110" />
+			<Piece id="spear_pommel_1" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 161 Weight: 1.92 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t1_hand_daggeraxe" name="{=huaxia_t1_hand_daggeraxe}Common Bronze Hand Daggeraxe" crafting_template="HuaxiaDaggeraxe" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_ge_blade" Type="Blade" scale_factor="110" />
+			<Piece id="default_polearm_guard" Type="Guard" />
+			<Piece id="axe_craft_20_handle" Type="Handle" scale_factor="110" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 50 Weight: 0.81 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t1_hand_ji" name="{=huaxia_t1_hand_ji}Common Bronze Hand Ji" crafting_template="HuaxiaDaggeraxe" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_bronze_spear_blade_t2" Type="Blade" scale_factor="90" />
+			<Piece id="huaxia_guard_ge_blade" Type="Guard" scale_factor="110" />
+			<Piece id="axe_craft_20_handle" Type="Handle" scale_factor="110" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 60 Weight: 1.16 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t1_hand_ji" name="{=huaxia_t1_hand_ji}Decorated Bronze Hand Ji" crafting_template="HuaxiaDaggeraxe" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="huaxia_bronze_spear_blade_t2" Type="Blade" scale_factor="90" />
+			<Piece id="huaxia_guard_ge_fine_blade" Type="Guard" scale_factor="110" />
+			<Piece id="axe_craft_5_handle" Type="Handle" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 84 Weight: 0.99 -->
+	</CraftedItem>
+
+	<CraftedItem id="huaxia_t3_hand_ji" name="{=huaxia_t3_hand_ji}Fine Steel Hand Ji" crafting_template="HuaxiaDaggeraxe" culture="Culture.huaxia">
+		<Pieces>
+			<Piece id="hanji_guarded_blade" Type="Blade" />
+			<Piece id="default_polearm_guard" Type="Guard" />
+			<Piece id="axe_craft_20_handle" Type="Handle" scale_factor="120" />
+			<Piece id="default_polearm_pommel" Type="Pommel" />
+		</Pieces>
+		<!-- Length: 61 Weight: 0.9 -->
+	</CraftedItem>
+</Items>

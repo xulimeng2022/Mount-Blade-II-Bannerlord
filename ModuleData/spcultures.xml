@@ -1,0 +1,322 @@
+<!--You can add new or override old culture data by adding nodes to this xml.
+For examples please refer to: SandBoxCore/ModuleData/spcultures.xml.-->
+<SPCultures>
+	<Culture id="huaxia" 
+	name="{=huaxia.name}Huaxia" 
+	is_main_culture="true" 
+	color="960000" color2="E5AD00" 
+	elite_basic_troop="NPCCharacter.huaxia_wuyang" 
+	basic_troop="NPCCharacter.huaxia_peasant_recruit" 
+	melee_militia_troop="NPCCharacter.huaxia_militia_infantry" 
+	ranged_militia_troop="NPCCharacter.huaxia_militia_archer" 
+	melee_elite_militia_troop="NPCCharacter.huaxia_militia_veteran_infantry" 
+	ranged_elite_militia_troop="NPCCharacter.huaxia_militia_veteran_archer" 
+	can_have_settlement="true" 
+	town_edge_number="4" 
+	prosperity_bonus="1" 
+	militia_bonus="1" 
+	villager_party_template="PartyTemplate.villager_huaxia_template" 
+	default_party_template="PartyTemplate.huaxia_kingdom_hero_party" 
+	encounter_background_mesh="encounter_khuzait" 
+	elite_caravan_party_template="PartyTemplate.elite_caravan_template_huaxia" 
+	caravan_party_template="PartyTemplate.caravan_template_huaxia" 
+	militia_party_template="PartyTemplate.militia_huaxia_template" 
+	rebels_party_template="PartyTemplate.rebels_huaxia_template" 
+	vassal_reward_party_template="PartyTemplate.vassal_reward_troops_huaxia" 
+	text="{=str_culture_description.huaxia}Beyond the eastern mountains, across the far east plains, the Huaxia people thrived. The people is said to originate beside the river Han. Some say it refers to the celestrial river in the heaven, more probable that it refers to a now lost river to the far east. They are farmers and engineers that tamed the flooding of rivers and grew abundant crops to feed their growing population. They are the earliest to develop crossbows, or Nu, in the local tongue. Experts not only in crossbows and heavy infantry, they also adopted horse archery to defend against the northern nomadic raiders." 
+	tournament_master="NPCCharacter.tournament_master_huaxia" 
+	villager="NPCCharacter.villager_huaxia" 
+	caravan_master="NPCCharacter.caravan_master_huaxia" 
+	armed_trader="NPCCharacter.armed_trader_huaxia" 
+	caravan_guard="NPCCharacter.caravan_guard_huaxia" 
+	veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_huaxia" 
+	duel_preset="NPCCharacter.huaxia_duel_preset" 
+	prison_guard="NPCCharacter.prison_guard_huaxia" 
+	guard="NPCCharacter.guard_huaxia"
+	blacksmith="NPCCharacter.blacksmith_huaxia" 
+	weaponsmith="NPCCharacter.weaponsmith_huaxia" 
+	townswoman="NPCCharacter.townswoman_huaxia" 
+	townswoman_infant="NPCCharacter.townswoman_infant_huaxia" 
+	townswoman_child="NPCCharacter.townswoman_child_huaxia" 
+	townswoman_teenager="NPCCharacter.townswoman_teenager_huaxia" 
+	townsman="NPCCharacter.townsman_huaxia" 
+	townsman_infant="NPCCharacter.townsman_infant_huaxia" 
+	townsman_child="NPCCharacter.townsman_child_huaxia" 
+	townsman_teenager="NPCCharacter.townsman_teenager_huaxia" 
+	village_woman="NPCCharacter.village_woman_huaxia" 
+	villager_male_child="NPCCharacter.villager_child_huaxia" 
+	villager_male_teenager="NPCCharacter.villager_teenager_huaxia" 
+	villager_female_child="NPCCharacter.village_woman_child_huaxia" 
+	villager_female_teenager="NPCCharacter.village_woman_teenager_huaxia" 
+	ransom_broker="NPCCharacter.ransom_broker_huaxia" 
+	gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_huaxia" 
+	merchant_notary="NPCCharacter.merchant_notary_huaxia" 
+	artisan_notary="NPCCharacter.artisan_notary_huaxia" 
+	preacher_notary="NPCCharacter.preacher_notary_huaxia" 
+	rural_notable_notary="NPCCharacter.rural_notable_notary_huaxia" 
+	shop_worker="NPCCharacter.shop_worker_huaxia" 
+	tavernkeeper="NPCCharacter.tavernkeeper_huaxia" 
+	taverngamehost="NPCCharacter.taverngamehost_huaxia" 
+	musician="NPCCharacter.musician_huaxia" 
+	tavern_wench="NPCCharacter.tavern_wench_huaxia" 
+	armorer="NPCCharacter.armorer_huaxia" 
+	horseMerchant="NPCCharacter.horseMerchant_huaxia" 
+	barber="NPCCharacter.barber_huaxia" 
+	merchant="NPCCharacter.merchant_huaxia" 
+	beggar="NPCCharacter.beggar_huaxia" 
+	female_beggar="NPCCharacter.female_beggar_huaxia" 
+	female_dancer="NPCCharacter.female_dancer_huaxia" 
+	gear_practice_dummy="NPCCharacter.gear_practice_dummy_huaxia" 
+	weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_huaxia" 
+	weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_huaxia" 
+	weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_huaxia" 
+	gear_dummy="NPCCharacter.gear_dummy_huaxia" 
+	board_game_type="Puluc">
+		<vassal_reward_items>
+			<item id="Item.huaxia_elite_changjian" />
+			<item id="Item.huaxia_puji_t3" />
+			<item id="Item.huaxia_t3_ge_stacked" />
+			<item id="Item.huaxia_t4_bronze_ji" />
+			<item id="Item.yingwujundoumou" />
+			<item id="Item.xuanjiajunjianjia" />
+			<item id="Item.huaxia_t3_hand_ji" />
+			<item id="Item.huaxia_t4_hansha" />
+			<item id="Item.huaxia_t4_modao" />
+			<item id="Item.huaxia_t4_spear" />
+			<item id="Item.huaxia_t4_lance" />
+			<item id="Item.huaxia_t4_javelin" />
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.huaxia_war_jian" />
+			<item id="Item.huaxia_han_dao_2" />
+			<item id="Item.huaxia_hengdao" />
+			<item id="Item.huaxia_t3_hand_ji" />
+		</banner_bearer_replacement_weapons>	
+		<male_names>
+			<name name="{=hx_male_name1}Ziqiang" />
+			<name name="{=hx_male_name2}Gangwu" />
+			<name name="{=hx_male_name3}Wuji" />
+			<name name="{=hx_male_name4}Ziyong" />
+			<name name="{=hx_male_name5}Ziyi" />
+			<name name="{=hx_male_name6}Zijian" />
+			<name name="{=hx_male_name7}Zigong" />
+			<name name="{=hx_male_name8}Ziwei" />
+			<name name="{=hx_male_name9}Zijie" />
+			<name name="{=hx_male_name10}Leifu" />
+			<name name="{=hx_male_name11}Wangshu" />
+			<name name="{=hx_male_name12}Mochou" />
+			<name name="{=hx_male_name13}Feihong" />
+			<name name="{=hx_male_name14}Nianzhen" />
+			<name name="{=hx_male_name15}Qingshan" />
+			<name name="{=hx_male_name16}Zibo" />
+			<name name="{=hx_male_name17}Zizhong" />
+			<name name="{=hx_male_name18}Ziji" />
+			<name name="{=hx_male_name19}Fenglin" />
+			<name name="{=hx_male_name20}Xiaoyu" />
+			<name name="{=hx_male_name21}Kaiming" />
+			<name name="{=hx_male_name22}Yongheng" />
+			<name name="{=hx_male_name23}Mingzhe" />
+			<name name="{=hx_male_name25}Ruixiang" />
+			<name name="{=hx_male_name26}Tianyi" />
+			<name name="{=hx_male_name27}Yundong" />
+			<name name="{=hx_male_name28}Xiaotian" />
+			<name name="{=hx_male_name29}Jiayi" />
+			<name name="{=hx_male_name30}Wenchang" />
+			<name name="{=hx_male_name31}Zhongli" />
+			<name name="{=hx_male_name32}Shouzhe" />
+			<name name="{=hx_male_name33}Huijian" />
+			<name name="{=hx_male_name34}Yunlong" />
+			<name name="{=hx_male_name35}Xuankai" />
+			<name name="{=hx_male_name36}Zhaoming" />
+			<name name="{=hx_male_name37}Jinming" />
+			<name name="{=hx_male_name38}Changwei" />			
+		</male_names>
+		<female_names>
+			<name name="{=hx_female_name1}Xiujing" />
+			<name name="{=hx_female_name2}Lili" />
+			<name name="{=hx_female_name3}Zijing" />
+			<name name="{=hx_female_name4}Nawei" />
+			<name name="{=hx_female_name5}Yanzi" />
+			<name name="{=hx_female_name6}Lanlan" />
+			<name name="{=hx_female_name7}Xiuying" />
+			<name name="{=hx_female_name8}Yuqin" />
+			<name name="{=hx_female_name9}Zhiruo" />
+			<name name="{=hx_female_name10}Yuyan" />
+			<name name="{=hx_female_name11}Huiyin" />
+			<name name="{=hx_female_name12}Yingyue" />
+			<name name="{=hx_female_name13}Rushi" />
+			<name name="{=hx_female_name14}Mei" />
+			<name name="{=hx_female_name15}Ruolan" />
+			<name name="{=hx_female_name16}Ruhua" />
+			<name name="{=hx_female_name17}Juan" />
+			<name name="{=hx_female_name18}Zilian" />
+			<name name="{=hx_female_name19}Qingyun" />
+			<name name="{=hx_female_name20}Bao'er" />
+			<name name="{=hx_female_name21}Huaxiang" />
+			<name name="{=hx_female_name22}Lianxin" />
+			<name name="{=hx_female_name23}Mingzhu" />
+			<name name="{=hx_female_name24}Yuyao" />
+			<name name="{=hx_female_name25}Ruizhu" />
+			<name name="{=hx_female_name26}Qiuju" />
+			<name name="{=hx_female_name27}Cuiyu" />
+			<name name="{=hx_female_name28}Ziyun" />
+			<name name="{=hx_female_name29}Chunhua" />
+			<name name="{=hx_female_name30}Meixiang" />
+			<name name="{=hx_female_name31}Yaozhu" />
+			<name name="{=hx_female_name32}Hewu" />
+			<name name="{=hx_female_name33}Xuehua" />
+			<name name="{=hx_female_name34}Lanxin" />
+			<name name="{=hx_female_name35}Shanzhu" />
+			<name name="{=hx_female_name36}Huang'er" />
+			<name name="{=hx_female_name37}Qiujin" />			
+		</female_names>
+		<clan_names>
+			<name name="{=hx_clan_name1}Yin" />
+			<name name="{=hx_clan_name2}Shang" />
+			<name name="{=hx_clan_name3}Chen" />
+			<name name="{=hx_clan_name4}Qi" />
+			<name name="{=hx_clan_name5}Qin" />
+			<name name="{=hx_clan_name6}Zhao" />
+			<name name="{=hx_clan_name7}Liu" />
+			<name name="{=hx_clan_name8}Xiang" />
+			<name name="{=hx_clan_name9}Chu" />
+			<name name="{=hx_clan_name10}Cao" />
+			<name name="{=hx_clan_name11}Sun" />
+			<name name="{=hx_clan_name12}Li" />
+			<name name="{=hx_clan_name13}Wu" />
+			<name name="{=hx_clan_name14}Hu" />
+			<name name="{=hx_clan_name15}Zhang" />
+			<name name="{=hx_clan_name16}Gong" />
+			<name name="{=hx_clan_name17}Xu" />
+			<name name="{=hx_clan_name18}Wang" />
+			<name name="{=hx_clan_name19}Bai" />
+			<name name="{=hx_clan_name20}Deng" />
+			<name name="{=hx_clan_name21}Fang" />
+			<name name="{=hx_clan_name22}Jiang" />
+			<name name="{=hx_clan_name23}Mo" />
+			<name name="{=hx_clan_name24}Niu" />
+			<name name="{=hx_clan_name25}Ouyang" />
+			<name name="{=hx_clan_name26}Peng" />
+			<name name="{=hx_clan_name27}Shi" />
+			<name name="{=hx_clan_name28}Tang" />
+			<name name="{=hx_clan_name29}Xia" />
+			<name name="{=hx_clan_name30}Yang" />
+			<name name="{=hx_clan_name31}Zhu" />
+			<name name="{=hx_clan_name32}Liang" />
+			<name name="{=hx_clan_name33}Nangong" />
+			<name name="{=hx_clan_name34}Sima" />
+			<name name="{=hx_clan_name35}Zhuge" />
+			<name name="{=hx_clan_name36}Cao" />			
+		</clan_names>
+		<cultural_feats>
+			<feat id="khuzait_cheaper_recruits_mounted" />
+			<feat id="khuzait_increased_animal_production" />
+			<feat id="vlandian_villages_production_bonus" />
+			<feat id="aserai_increased_wages" />
+			<feat id="sturgian_cheaper_recruits_infantry" />
+			<feat id="sturgian_increased_decision_penalty" />
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="121" />
+			<icon id="122" />
+			<icon id="123" />
+			<icon id="124" />
+			<icon id="125" />
+			<icon id="126" />
+			<icon id="127" />
+			<icon id="128" />
+			<icon id="129" />
+			<icon id="130" />
+			<icon id="311" />
+			<icon id="312" />
+			<icon id="313" />
+			<icon id="314" />
+		</possible_clan_banner_icon_ids>
+		<notable_and_wanderer_templates>
+			<template name="NPCCharacter.spc_wanderer_huaxia_0" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_1" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_2" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_3" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_4" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_5" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_6" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_7" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_8" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_9" />
+			<template name="NPCCharacter.spc_wanderer_huaxia_10" />
+			<template name="NPCCharacter.spc_notable_huaxia_merchant_1" />
+			<template name="NPCCharacter.spc_notable_huaxia_0b" />
+			<template name="NPCCharacter.spc_notable_huaxia_1" />
+			<template name="NPCCharacter.spc_notable_huaxia_1b" />
+			<template name="NPCCharacter.spc_notable_huaxia_1c" />
+			<template name="NPCCharacter.spc_notable_huaxia_2" />
+			<template name="NPCCharacter.spc_notable_huaxia_2b" />
+			<template name="NPCCharacter.spc_notable_huaxia_3" />
+			<template name="NPCCharacter.spc_notable_huaxia_4" />
+			<template name="NPCCharacter.spc_huaxia_gangleader_1" />
+			<template name="NPCCharacter.spc_huaxia_gangleader_2" />
+			<template name="NPCCharacter.spc_huaxia_gangleader_3" />
+			<template name="NPCCharacter.spc_huaxia_artisan_1" />
+			<template name="NPCCharacter.spc_huaxia_artisan_2" />
+			<template name="NPCCharacter.spc_huaxia_artisan_3" />
+			<template name="NPCCharacter.spc_huaxia_rural_notable_1" />
+			<template name="NPCCharacter.spc_huaxia_rural_notable_2" />
+			<template name="NPCCharacter.spc_huaxia_headman_1" />
+			<template name="NPCCharacter.spc_huaxia_headman_2" />
+			<template name="NPCCharacter.spc_huaxia_headman_3" />
+		</notable_and_wanderer_templates>
+		<lord_templates>
+			<template name="NPCCharacter.spc_clan_huaxia_yushan_leader_0" />
+			<template name="NPCCharacter.spc_clan_huaxia_yushan_leader_1" />
+			<template name="NPCCharacter.spc_clan_huaxia_yushan_leader_2" />
+			<template name="NPCCharacter.spc_clan_huaxia_yushan_leader_3" />
+			<template name="NPCCharacter.spc_clan_huaxia_yushan_leader_4" />
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.spc_clan_huaxia_yellowturban_leader_0" />
+			<template name="NPCCharacter.spc_clan_huaxia_yushan_leader_3" />
+			<template name="NPCCharacter.spc_clan_huaxia_yushan_leader_4" />
+			<template name="NPCCharacter.spc_clan_huaxia_mingjiao_leader_0" />
+			<template name="NPCCharacter.spc_clan_huaxia_mingjiao_leader_1" />
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_huaxia_one_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_huaxia_one_participant_set_v2" />
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_huaxia_two_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_huaxia_two_participant_set_v2" />
+			<template name="NPCCharacter.tournament_template_huaxia_two_participant_set_v3" />
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_huaxia_four_participant_set_v1" />
+			<template name="NPCCharacter.tournament_template_huaxia_four_participant_set_v2" />
+			<template name="NPCCharacter.tournament_template_huaxia_four_participant_set_v3" />
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.huaxia_jh_recruit" />
+		</basic_mercenary_troops>
+	</Culture>
+
+	<Culture id="huaxia_bandits" 
+	bandit_chief="NPCCharacter.huaxia_bandits_chief" 
+	bandit_raider="NPCCharacter.huaxia_bandits_raider" 
+	bandit_bandit="NPCCharacter.huaxia_bandits_bandit" 
+	bandit_boss="NPCCharacter.huaxia_bandits_boss" 
+	name="{=huaxia_bandits.name}Jianghu Bandits" 
+	elite_basic_troop="NPCCharacter.huaxia_bandits_raider" 
+	basic_troop="NPCCharacter.huaxia_bandits_bandit" 
+	is_bandit="true" can_have_settlement="true" 
+	encounter_background_mesh="encounter_desert_bandits"
+	bandit_boss_party_template="PartyTemplate.huaxia_bandits_boss_party_template">
+	<banner_bearer_replacement_weapons>
+		<item id="Item.huaxia_han_dao_1" />
+		<item id="Item.huaxia_war_jian" />
+		<item id="Item.huaxia_t2_hand_ji" />
+		<item id="Item.huaxia_t1_hand_ji" />
+	  </banner_bearer_replacement_weapons>
+	</Culture>
+
+	<Culture id="huaxia_looters" name="{=huaxia_looters.name}Vagrants" elite_basic_troop="NPCCharacter.huaxia_bandits_bandit" basic_troop="NPCCharacter.huaxia_looter" is_bandit="true" can_have_settlement="false" encounter_background_mesh="encounter_looter" />
+
+</SPCultures>

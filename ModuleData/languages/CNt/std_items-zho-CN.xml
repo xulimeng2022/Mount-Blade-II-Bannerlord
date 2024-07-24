@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="繁體中文"/>
+ </tags>
+ <strings>
+    <string id="huaxia_han_dao_1" text="華夏生鐵漢刀"/>
+    <string id="huaxia_han_dao_2" text="華夏鍛鋼漢刀"/>
+    <string id="huaxia_war_jian" text="華夏鐵短劍"/>
+    <string id="huaxia_jinchu_changjian" text="華夏荊楚長劍"/>
+    <string id="huaxia_elite_jian_1" text="華夏含光劍"/>
+    <string id="huaxia_elite_jian_2" text="華夏巨闕劍"/>
+    <string id="huaxia_hengdao" text="華夏橫刀"/>
+    <string id="huaxia_zhanma_1" text="華夏斬馬刀"/>
+    <string id="huaxia_zhanma_2" text="華夏巨型斬馬刀"/>
+    <string id="huaxia_elite_changjian" text="華夏秦王長劍"/>
+    <string id="huaxia_inf_ji" text="華夏卒戟"/>
+    <string id="huaxia_tigerfork" text="華夏虎叉"/>
+    <string id="huaxia_pudao" text="華夏樸刀"/>
+    <string id="huaxia_guandao" text="華夏關公偃月刀"/>
+    <string id="huaxia_shuo" text="華夏馬槊"/>
+    <string id="huaxia_cw_huolongdao" text="華夏炎龍刀"/>
+    <string id="huaxia_cw_heihuqiang" text="華夏黑虎槍"/>
+    <string id="huaxia_noble_dagger" text="華夏魚腸劍"/>
+    <string id="huaxia_fly_dagger" text="華夏飛鏢"/>
+    <string id="huaxia_puji_t2" text="華夏卜戟"/>
+    <string id="huaxia_puji_t3" text="華夏加長卜戟"/>
+    <string id="huaxia_t1_ge" text="華夏青銅戈"/>
+    <string id="huaxia_t2_ge" text="華夏青銅長戈"/>
+    <string id="huaxia_t3_ge" text="華夏吳王戈"/>
+    
+    <string id="hanji_blade" text="卜戟刃頭"/>
+    <string id="hanji_guarded_blade" text="優質卜戟刃頭"/>
+    <string id="huaxia_bronze_spear_blade_t2" text="青銅矛頭"/>
+    <string id="huaxia_ge_blade" text="青銅戈頭"/>
+    <string id="huaxia_guard_ge_blade" text="青銅戈頭"/>
+    <string id="huaxia_ge_fine_blade" text="貴族青銅戈頭"/>
+    <string id="huaxia_guard_ge_fine_blade" text="貴族青銅戈頭"/>
+
+    
+ </strings>
+</base>

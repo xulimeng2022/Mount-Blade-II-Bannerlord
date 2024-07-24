@@ -1,0 +1,2478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="huaxia_duel_preset" default_group="Infantry" level="1" occupation="Townsfolk"
+    culture="Culture.huaxia" name="{=!}Huaxia preset"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="0" /> #OLD_SKILL# -->
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.morningstar_mace_t3" />
+        <equipment slot="Item1" id="Item.leather_round_shield" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item1" id="Item.leather_round_shield" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bearded_axe_t3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.ridged_2hsword_t4" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia_civilian" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="prison_guard_huaxia" default_group="Infantry" level="4" culture="Culture.huaxia"
+    occupation="PrisonGuard" name="{=XgjXfmM1}Prison Guard"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="50" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Bow" value="50" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item1" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Body" id="Item.TV_khuzait_armor_t" />
+        <equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+        <equipment slot="Cape" id="Item.TV_khuzait_shoulder_q" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Body" id="Item.TV_khuzait_armor_h" />
+        <equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+        <equipment slot="Cape" id="Item.TV_khuzait_shoulder_q" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="guard_huaxia" default_group="Infantry" level="4" occupation="Soldier" culture="Culture.huaxia"
+    name="{=guardnoun}Guard" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <skills>
+      <!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="50" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Bow" value="50" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item1" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.TV_khuzait_armor_t" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+        <equipment slot="Cape" id="Item.TV_khuzait_shoulder_q" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item1" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Body" id="Item.TV_khuzait_armor_h" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Cape" id="Item.TV_khuzait_shoulder_q" />
+        <equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="blacksmith_huaxia" default_group="Infantry" is_hero="false" occupation="Blacksmith"
+    culture="Culture.huaxia" name="{=bNnQt4jN}Blacksmith"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hammer_1_t1" />
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Leg" id="Item.battania_cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_maul_t1_2" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hammer_1_t1" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="weaponsmith_huaxia" default_group="Infantry" is_hero="false" occupation="Weaponsmith"
+    culture="Culture.huaxia" name="{=UaN2lfwi}Weaponsmith"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hammer_1_t1" />
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Leg" id="Item.battania_cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hammer_1_t1" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="townswoman_infant_huaxia" name="{=9Di0NfG2}Infant" age="3" is_female="true" default_group="Infantry"
+    is_hero="false" occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_child_huaxia" name="{=pOCOS8um}Child" age="6" is_female="true" default_group="Infantry"
+    is_hero="false" occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townswoman_teenager_huaxia" name="{=o077j2j5}Teenager" age="14" is_female="true"
+    default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="ransom_broker_huaxia" default_group="Infantry" is_hero="false" name="{=W2WXkiAh}Ransom Broker"
+    occupation="RansomBroker" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Body" id="Item.khuzait_fortified_armor" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Leg" id="Item.strapped_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="gangleader_bodyguard_huaxia" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard"
+    occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" level="16">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Body" id="Item.hemp_tunic" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="merchant_notary_huaxia" default_group="Infantry" name="{=reoVAtrE}Merchant Notary"
+    occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.aserai_civil_d" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.aserai_civil_d" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="artisan_notary_huaxia" default_group="Infantry" name="{=ECxiXTbF}Artisan Notary"
+    occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.aserai_civil_a" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.celtic_dagger" />
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.aserai_civil_a" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.celtic_dagger" />
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>      
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="preacher_notary_huaxia" default_group="Infantry" name="{=bLMGbLF8}Preacher Notary"
+    occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bo_staff" />
+        <equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Body" id="Item.aserai_civil_f" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bo_staff" />
+        <equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Body" id="Item.aserai_civil_f" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.bo_staff" />
+        <equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Body" id="Item.aserai_civil_f" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+        <equipment slot="Body" id="Item.aserai_civil_f" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>      
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.bo_staff" />
+        <equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.aserai_civil_f" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.ao_mabili_leather_headband" />
+        <equipment slot="Body" id="Item.aserai_civil_f" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="rural_notable_notary_huaxia" default_group="Infantry" name="{=AlmaRAib}Rural Notable Notary"
+    occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.aserai_civil_a" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.celtic_dagger" />
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.aserai_civil_a" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.celtic_dagger" />
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.aserai_civil_a" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.celtic_dagger" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.aserai_civil_a" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="townsman_infant_huaxia" name="{=pOCOS8um}Child" age="6" is_female="false" default_group="Infantry"
+    is_hero="false" occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_child_huaxia" name="{=pOCOS8um}Child" age="6" is_female="false" default_group="Infantry"
+    is_hero="false" occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_teenager_huaxia" name="{=o077j2j5}Teenager" age="14" is_female="false"
+    default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.eastern_cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="townsman_huaxia" default_group="Infantry" name="{=muu5cofb}Townsman" occupation="Townsfolk"
+    culture="Culture.huaxia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="shop_worker_huaxia" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker"
+    culture="Culture.huaxia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.cloth_apron" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.half_apron" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_apron" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.half_apron" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="tavernkeeper_huaxia" default_group="Infantry" is_hero="false" name="{=CsjtWt1g}Tavern Keeper"
+    occupation="Tavernkeeper" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cloth_apron" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Body" id="Item.half_apron" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="taverngamehost_huaxia" default_group="Infantry" is_hero="false" name="{=twCIejxn}Game Host"
+    occupation="TavernGameHost" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="musician_huaxia" default_group="Infantry" is_hero="false" name="{=zfCoeglY}Musician"
+    occupation="Musician" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.layered_robe" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="tavern_wench_huaxia" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true"
+    is_hero="false" occupation="TavernWench" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--<face_key
+      value="0016fd3fc0bc100ba85b849797f8e40ba37965b6f4ff0f6c47ecc4a5410794100006865505829038000000000000000000000000000000000000000001780000"
+      />-->
+      <face_key_template value="BodyProperty.beauty_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.vlandian_woman_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>      
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="armorer_huaxia" default_group="Infantry" is_hero="false" occupation="Armorer"
+    culture="Culture.huaxia" name="{=jx8ohENz}Armorer"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hammer_1_t1" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_maul_t1_2" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_hammer_1_t1" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="horseMerchant_huaxia" default_group="Infantry" is_hero="false" occupation="HorseTrader"
+    culture="Culture.huaxia" name="{=79ElOr2x}Horse Trader"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.aserai_civil_d" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>      
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Body" id="Item.merchants_fur_coat" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Head" id="Item.faji" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="merchant_huaxia" default_group="Infantry" is_hero="false" occupation="GoodsTrader"
+    culture="Culture.huaxia" name="{=kPCcelVX}Trader "
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.aserai_civil_d" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>      
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.battania_cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+        <equipment slot="Body" id="Item.merchants_fur_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.merchants_fur_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Body" id="Item.merchants_fur_coat" />
+        <equipment slot="Leg" id="Item.ragged_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="beggar_huaxia" default_group="Infantry" name="{=HZRKBDyB}Beggar" occupation="Townsfolk"
+    culture="Culture.huaxia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <!--face_key
+      value="000507400600141300000000000000100000000000000000000000000000000000010bacf10000000000000000000000000000000000000000000000000000c1"
+      max_value="001cffffd50034d4fffffffffff0fffffffffffffffffffffffffeffffffffff00010baff1ffffff000000000000000000000000000000000000000000008101"
+      /-->
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <!-- Uses village hair -->
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="barber_huaxia" default_group="Infantry" is_hero="false" occupation="Townsfolk"
+    culture="Culture.huaxia" name="{=WH7EGGIg}Barber"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Leg" id="Item.battania_cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Body" id="Item.leather_apron" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="female_beggar_huaxia" default_group="Infantry" is_female="true" level="1" name="{=HZRKBDyB}Beggar"
+    occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <skills></skills>
+    <!-- Uses village hair -->
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.plain_dress" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.aserai_villager_female_headdress" />
+        <equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="female_dancer_huaxia" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true"
+    is_hero="false" occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.beauty_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="tournament_master_huaxia" default_group="Infantry" is_hero="false" occupation="ArenaMaster"
+    culture="Culture.huaxia" name="{=IHKXNP9H}Tournament Master"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.huaxia_veteran" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_han_dao_2" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="villager_infant_huaxia" name="{=9Di0NfG2}Infant" age="3" is_female="false" default_group="Infantry"
+    is_hero="false" occupation="Villager" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_child_huaxia" name="{=pOCOS8um}Child" age="6" is_female="false" default_group="Infantry"
+    is_hero="false" occupation="Villager" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_teenager_huaxia" name="{=o077j2j5}Teenager" age="14" is_female="false"
+    default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.eastern_cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_infant_huaxia" name="{=9Di0NfG2}Infant" age="3" is_female="true"
+    default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_child_huaxia" name="{=pOCOS8um}Child" age="6" is_female="true"
+    default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_teenager_huaxia" name="{=o077j2j5}Teenager" age="14" is_female="true"
+    default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Body" id="Item.vlandian_woman_dress" />
+        <equipment slot="Leg" id="Item.eastern_cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="village_woman_huaxia" default_group="Infantry" is_female="true" level="1"
+    name="{=LFUaO6rG}Huaxia Peasant" occupation="Villager" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.vlandian_woman_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+        <equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+        <equipment slot="Head" id="Item.aserai_villager_female_headdress" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Head" id="Item.aserai_villager_female_headdress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.vlandian_woman_dress" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+        <equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="gear_practice_dummy_huaxia" default_group="Infantry" is_hero="false" occupation="Special"
+    culture="Culture.huaxia" name="{=!}Huaxia Gear Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="weapon_practice_stage_1_huaxia" default_group="Infantry" is_hero="false" occupation="Special"
+    culture="Culture.huaxia" name="{=!}Huaxia Gear Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+        <equipment slot="Item1" id="Item.curved_round_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+        <equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+        <equipment slot="Item2" id="Item.steppe_bow" />
+        <equipment slot="Item3" id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_1_t2" />
+        <equipment slot="Item1" id="Item.curved_round_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="weapon_practice_stage_2_huaxia" default_group="Infantry" is_hero="false" occupation="Special"
+    culture="Culture.huaxia" name="{=!}Huaxia Weapon Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item2" id="Item.steppe_bow" />
+        <equipment slot="Item3" id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item1" id="Item.curved_round_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Item2" id="Item.steppe_bow" />
+        <equipment slot="Item3" id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.curved_round_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="weapon_practice_stage_3_huaxia" default_group="Infantry" is_hero="false" occupation="Special"
+    culture="Culture.huaxia" name="{=!}Huaxia Weapon Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item2" id="Item.steppe_bow" />
+        <equipment slot="Item3" id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item2" id="Item.steppe_bow" />
+        <equipment slot="Item3" id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.curved_round_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item2" id="Item.steppe_bow" />
+        <equipment slot="Item3" id="Item.default_arrows" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item1" id="Item.curved_round_shield" />
+        <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="gear_dummy_huaxia" default_group="Infantry" is_hero="false" occupation="Special"
+    culture="Culture.huaxia" name="{=!}Huaxia Gear Dummy"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.guard" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Head" id="Item.nomad_helmet" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="caravan_leader_huaxia" default_group="Infantry" is_hero="false" is_mercenary="true"
+    culture="Culture.huaxia" occupation="Merchant" name="{=VPis3atP}Huaxia Mercenaries Leader">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" civilian="true" />
+      <equipment slot="Item1" id="Item.eastern_spear_4_t4" />
+      <equipment slot="Cape" id="Item.lamellar_shoulders" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="npc_armed_wanderer_equipment_template_huaxia" default_group="Infantry" is_hero="false" level="16"
+    name="{=!}wanderer_equipment" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_companion_equipment_template_huaxia" default_group="Infantry" is_hero="false" level="16"
+    name="{=!}wanderer_equipment" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_wanderer_equipment_template_huaxia" default_group="Infantry" is_hero="false" level="16"
+    name="{=!}wanderer_equipment" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="villager_huaxia" default_group="Infantry" level="1" name="{=LFUaO6rG}Huaxia Peasant"
+    occupation="Villager" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.huaxia_peasant_recruit" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.faji" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Head" id="Item.faji" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.faji" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.throwing_stone" />
+        <equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.faji" />
+        <equipment slot="Cape" id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.throwing_stone" />
+        <equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Body" id="Item.steppe_robe" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.faji" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.throwing_stone" />
+        <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.cubukuzi" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.faji" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.throwing_stone" />
+        <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Head" id="Item.faji" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.throwing_stone" />
+        <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.throwing_stone" />
+        <equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Head" id="Item.imperial_cloth_coif" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="townswoman_huaxia" default_group="Infantry" is_female="true" level="1"
+    name="{=V8GrFH4B}Huaxia Townswoman" occupation="Townsfolk" culture="Culture.huaxia"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+
+      <!--hair_tags>
+        <hair_tag name="Ukrainian" />
+        <hair_tag name="BraidedInBack"
+      />
+        <hair_tag
+      name="ShoulderLengthTied" />
+        <hair_tag name="TiedInBack" />
+      <hair_tag name="BraidedAboveEars" />
+      </hair_tags-->
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <skills></skills>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_southern_dress" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fine_southern_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Head" id="Item.aserai_villager_female_headdress" />
+        <equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+        <equipment slot="Head" id="Item.desert_headdress" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Head" id="Item.desert_headdress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_dress" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+        <equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+        <equipment slot="Cape" id="Item.female_scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Body" id="Item.khuzait_dress_b" />
+        <equipment slot="Head" id="Item.peaked_imperial_cloth_coif" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!--#endregion-->
+  <!-- #region Fighter Template -->
+  <NPCCharacter id="fighter_huaxia" default_group="Infantry" level="1" name="{=!}Huaxia Fighter" occupation="Villager"
+    culture="Culture.huaxia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="fighter_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="child_template_huaxia_townsman_male" name="{=!}Huaxia Child Townsman Male" age="6"
+    is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.studded_fur_armor" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="child_template_huaxia_townsman_female" name="{=!}Huaxia Child Townsman Female" age="6"
+    is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.studded_fur_armor" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="teenager_template_huaxia_townsman_male" name="{=!}Huaxia Teenager Townsman Male" age="14"
+    is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.eastern_cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.merchants_fur_coat" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="teenager_template_huaxia_townsman_female" name="{=!}Huaxia Teenager Townsman Female" age="14"
+    is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Villager -->
+  <NPCCharacter id="child_template_huaxia_villager_male" name="{=!}Huaxia Child Villager Male" age="6"
+    is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.studded_fur_armor" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="child_template_huaxia_villager_female" name="{=!}Huaxia Child Villager Female" age="6"
+    is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.fur_armor_with_strap" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="teenager_template_huaxia_villager_male" name="{=!}Huaxia Teenager Villager Male" age="14"
+    is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cubuyi" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.nomad_padded_hood" />
+        <equipment slot="Body" id="Item.crude_leather_armor" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.studded_leather_waistcoat" />
+        <equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Gloves" id="Item.studded_vambraces" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="teenager_template_huaxia_villager_female" name="{=!}Huaxia Teenager Villager Female" age="14"
+    is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.tangdaitoujin" />
+        <equipment slot="Body" id="Item.bandit_fur_b" />
+        <equipment slot="Leg" id="Item.highland_boots" />
+        <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Noble -->
+  <NPCCharacter id="child_template_huaxia_noble_male" name="{=!}Huaxia Child Noble Male" age="6"
+    is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Lord"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tassled_southern_robes" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="child_template_huaxia_noble_female" name="{=!}Huaxia Child Noble Female" age="6"
+    is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Lord"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.studded_steppe_leather" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tassled_southern_robes" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="teenager_template_huaxia_noble_male" name="{=!}Huaxia Teenager Noble Male" age="14"
+    is_child_template="true" is_female="false" default_group="Infantry" is_hero="false" occupation="Lord"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.merchants_fur_coat" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Head" id="Item.eastern_cap" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Body" id="Item.leather_lamellar_armor" />
+        <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.eastern_lamellar_armor" />
+        <equipment slot="Cape" id="Item.lamellar_shoulders" />
+        <equipment slot="Leg" id="Item.eastern_cubukuzi" />
+        <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Body" id="Item.aserai_civil_a" />
+        <equipment slot="Leg" id="Item.eastern_cubukuzi" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="teenager_template_huaxia_noble_female" name="{=!}Huaxia Teenager Noble Female" age="14"
+    is_child_template="true" is_female="true" default_group="Infantry" is_hero="false" occupation="Lord"
+    culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.steppe_armor" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.eastern_cap" />
+        <equipment slot="Body" id="Item.khuzait_dress" />
+        <equipment slot="Leg" id="Item.southern_moccasins" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.upturned_fur_cap" />
+        <equipment slot="Body" id="Item.belted_leather_cuirass" />
+        <equipment slot="Leg" id="Item.bianjunxie" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+      </EquipmentRoster>
+      <EquipmentSet id="khu_bat_template_medium" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Culture:battania -->
+  <!--Townsman -->
+
+  <NPCCharacter id="spc_notable_huaxia_merchant_1" name="{=!}Cautious khuzait merchant" voice="ironic"
+    is_template="true" default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_merchant_1" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_merchant_equipment_huaxia" />
+      <EquipmentSet id="npc_merchant_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_huaxia_0b" name="{=qeNv4ftk}{FIRSTNAME} the Broker" voice="ironic" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Merchant"
+    skill_template="SkillSet.spc_notable_huaxia_0b">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_0b" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+      <EquipmentSet id="npc_artisan_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_huaxia_1" name="{=!}{FIRSTNAME} the Dyer" voice="ironic" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_1" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_artisan_equipment_huaxia" />
+      <EquipmentSet id="npc_artisan_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_huaxia_1b" name="{=!}{FIRSTNAME} the Horsetrader" is_template="true" voice="ironic"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_1b" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_merchant_equipment_huaxia" />
+      <EquipmentSet id="npc_merchant_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_huaxia_1c" name="{=!}{FIRSTNAME} the Wineseller" is_template="true" voice="ironic"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_1c" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_merchant_equipment_huaxia" />
+      <EquipmentSet id="npc_merchant_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_huaxia_2" name="{=!}{FIRSTNAME} the Freedwoman" is_template="true" voice="ironic"
+    is_female="true" default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_2" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_huaxia_2b" name="{=!}{FIRSTNAME} the Silkseller" voice="ironic" is_template="true"
+    is_female="true" default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_2b" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_merchant_equipment_huaxia" />
+      <EquipmentSet id="npc_merchant_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_huaxia_3" name="{=!}Huaxia shaman" voice="softspoken" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Preacher">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_3" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_preacher_equipment_huaxia" />
+      <EquipmentSet id="npc_preacher_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_huaxia_4" name="{=!}Female preacher" voice="softspoken" is_template="true"
+    default_group="Infantry" is_female="true" culture="Culture.huaxia" occupation="Preacher">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!-- Add skill groups -->
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_preacher_equipment_huaxia" />
+      <EquipmentSet id="npc_preacher_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- khuzait gang leaders - keep at least 3-4 for variety in persona-->
+  <NPCCharacter id="spc_huaxia_gangleader_1" name="{=!}Female gang leader" voice="curt" is_template="true"
+    default_group="Infantry" is_female="true" culture="Culture.huaxia" occupation="GangLeader">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_5" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_gang_leader_female_equipment_huaxia" />
+      <EquipmentSet id="npc_gang_leader_female_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_huaxia_gangleader_2" name="{=!}Standard male gang leader" voice="ironic" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="GangLeader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_6" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_gang_leader_equipment_huaxia" />
+      <EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_huaxia_gangleader_3" name="{=!}Standard male gang leader" voice="softspoken" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="GangLeader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_6" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+      <EquipmentSet id="npc_gang_leader_equipment_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_huaxia_rural_notable_1" name="{=!}Huaxia craft rural notable" is_template="true" voice="ironic"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="RuralNotable">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_huaxia_rural_notable_1" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_artisan_equipment_huaxia" />
+      <EquipmentSet id="npc_artisan_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_huaxia_rural_notable_2" name="{=!}Huaxia proud rural notable" voice="earnest" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="RuralNotable">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_huaxia_rural_notable_2" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_artisan_equipment_huaxia" />
+      <EquipmentSet id="npc_artisan_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="spc_huaxia_artisan_1" name="{=!}Huaxia rebellious artisan" voice="earnest" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Artisan">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+      <EquipmentSet id="npc_artisan_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_huaxia_artisan_2" name="{=!}Huaxia conservative artisan" voice="curt" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Artisan">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_artisan_equipment_huaxia" />
+      <EquipmentSet id="npc_artisan_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_huaxia_artisan_3" name="{=!}Huaxia devious artisan" voice="ironic" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Artisan">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_merchant_equipment_huaxia" />
+      <EquipmentSet id="npc_merchant_equipment_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_huaxia_headman_1" name="{=!}Huaxia rebellious headman" voice="earnest" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Headman">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_huaxia_headman_2" name="{=!}Huaxia conservative headman" voice="curt" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Headman">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_huaxia_headman_3" name="{=!}Huaxia devious headman" voice="ironic" is_template="true"
+    default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Headman">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <!--<Hero id="spc_notable_huaxia_4" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="SteppeHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_huaxia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="npc_poor_wanderer_huaxia" default_group="Infantry" is_template="true" is_hero="false" level="16"
+    name="{=!}wanderer_equipment" occupation="NotAssigned" culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_poor_wanderer_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="npc_artisan_equipment_huaxia" default_group="Infantry" is_template="true" is_hero="false" level="16"
+    name="{=!}artisan_equipment" occupation="NotAssigned" culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_artisan_equipment_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="npc_gang_leader_equipment_huaxia" default_group="Infantry" is_template="true" is_hero="false"
+    level="16" name="{=!}gang_leader_equipment" occupation="NotAssigned" culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_gang_leader_equipment_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="npc_preacher_equipment_huaxia" default_group="Infantry" is_template="true" is_hero="false"
+    level="16" name="{=!}preacher_equipment" occupation="NotAssigned" culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_preacher_equipment_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="npc_merchant_equipment_huaxia" default_group="Infantry" is_template="true" is_hero="false"
+    level="16" name="{=!}merchant_equipment" occupation="NotAssigned" culture="Culture.huaxia">
+    <face>
+      <face_key_template value="BodyProperty.villager_huaxia" />
+    </face>
+    <Equipments>
+      <EquipmentSet id="npc_merchant_equipment_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

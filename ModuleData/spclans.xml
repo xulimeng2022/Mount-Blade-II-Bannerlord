@@ -1,0 +1,157 @@
+<!--You can add new or override old clan entries by adding nodes to this xml. For examples please refer to: SandBox/ModuleData/spclans.xml.-->
+<Factions>
+	<Faction id="clan_huaxia_li"
+			 name="{=clan_huaxia_li}Li"
+			 tier="6"
+			 owner="Hero.hx_lord_1"
+			 culture="Culture.huaxia"
+			 super_faction="Kingdom.kingdom_huaxia" is_noble="true"
+			 banner_key="11.143.143.2970.2970.1280.1486.0.0.0.122.142.142.528.528.714.764.0.1.45.122.142.142.528.528.815.764.0.0.315"
+			 text="{=clan_huaxia_li_text}Li intermarried the northern nomads, and brought heavy Cavalry methods to the Huaxia proper. They soon rose on the local political landscape, and became the dominate faction. Li is open minded about other cultures, to the distain of the old aristocracies."
+			 />
+			 
+	<Faction id="clan_huaxia_liu"
+			 name="{=clan_huaxia_liu}Liu"
+			 tier="4"
+			 owner="Hero.hx_lord_2"
+			 culture="Culture.huaxia"
+			 super_faction="Kingdom.kingdom_huaxia" is_noble="true"
+			 text="{=clan_huaxia_liu_text}Liu dominated the Huaxia region until the outbreak of Yellow Turban rebellion few hundred years ago, their downfall triggered a violent power struggle, from which the faction has never recovered. Nevertheless its strong political ties has ensured the faction's survival."
+			 banner_key="11.143.143.2970.2970.768.788.1.0.0.120.142.142.415.415.762.813.0.1.0.500.142.142.514.514.760.778.0.1.0" />
+			 <!-- label_color="#1A1A1A" color="#1A1A1A" color2="#A70000" alternative_color="#B01A1A" alternative_color2="#1A1A1A" -->
+
+	<Faction id="clan_huaxia_zhou"
+			 name="{=clan_huaxia_zhou}Zhou"
+			 tier="5"
+			 owner="Hero.hx_lord_3"
+			 culture="Culture.huaxia"
+			 super_faction="Kingdom.kingdom_huaxia" is_noble="true"
+			 text="{=clan_huaxia_zhou_text}Zhou is the descendant of an ancient ruling aristocracy. Although its haydays are long gone, the clan nevertheless regard themselves highly, and seek any chance to reassert their bygone glory."
+			 banner_key="11.143.143.2970.2970.768.788.1.0.0.121.142.142.487.487.762.813.0.1.0" />
+			 <!-- label_color="#950021" color="#950021" color2="#00B487" alternative_color="#00B8AD" alternative_color2="#A80000"  -->
+
+
+	<Faction id="clan_huaxia_zhao"
+			 name="{=clan_huaxia_zhao}Zhao"
+			 tier="4"
+			 owner="Hero.hx_lord_4"
+			 culture="Culture.huaxia"
+			 super_faction="Kingdom.kingdom_huaxia" is_noble="true"
+			 text="{=clan_huaxia_zhao_text}Zhao is an old military clan, that has been in loyal service to the domain for generations."
+			 banner_key="11.143.143.2970.2970.768.788.1.0.0.123.142.142.571.571.765.768.0.1.0"
+			 />
+			 <!-- label_color="#003AC5" color="#003AC5" color2="#FFFFFF" alternative_color="#0093C5" alternative_color2="#00A641" -->
+
+	<Faction id="clan_huaxia_chen"
+			 name="{=clan_huaxia_chen}Chen"
+			 tier="4"
+			 owner="Hero.hx_lord_5"
+			 culture="Culture.huaxia"
+			 super_faction="Kingdom.kingdom_huaxia" is_noble="true"
+			 text="{=clan_huaxia_chen_text}Chen is an old noble clan of the south. Its ancestors rode with the Liu clan in its early days, and was famous for a period. Its descendants are known for their prowess in battle."
+			 banner_key="11.143.143.2970.2970.768.788.1.0.0.112.142.142.491.441.904.755.0.0.63.112.142.142.491.441.641.761.0.1.-61"
+			 />
+			 <!-- label_color="#111111" color="#111111" color2="#CC0000" alternative_color="#111111" alternative_color2="#CC0000" -->
+
+	
+	<Faction id="clan_huaxia_mingjiao"
+			 name="{=clan_huaxia_mingjiao}Mingjiao"
+			 tier="3"
+			 culture="Culture.huaxia"
+			 default_party_template="PartyTemplate.huaxia_cult_sect_template"
+			 label_color="FFFF4646" color="FFFF4646" color2="FFFFFFFF"  alternative_color="FFC1C1C1" alternative_color2="FFFF0000"
+			 is_minor_faction="true"
+			 is_clan_type_mercenary="true"
+			 is_outlaw="true"
+			 is_nomad="true"
+			 initial_posX="607.36" initial_posY="118.67"
+			 text="{=clan_huaxia_mingjiao_text}Ming Jiao is a fire worshipping cult that believes in the coming purge of the world by fire, and the restoration of order thereafter"
+			 banner_key="11.83.83.2970.2970.768.788.1.0.0.401.40.83.599.599.748.764.0.0.0">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.spc_clan_huaxia_mingjiao_leader_0" />
+			<template id="NPCCharacter.spc_clan_huaxia_mingjiao_leader_1" />
+			<template id="NPCCharacter.spc_clan_huaxia_yellowturban_leader_0" />
+		</minor_faction_character_templates>			 
+	</Faction>
+
+
+	<Faction id="clan_huaxia_yushan"
+		 name="{=clan_huaxia_yushan}Yushan Braves"
+		 tier="4"
+		 culture="Culture.huaxia"
+		 default_party_template="PartyTemplate.huaxia_outlaw_merc_template"
+		 label_color="FF00A744" color="FF00A744" color2="FF00A7FF"  alternative_color="FF00A7FF" alternative_color2="FF00A744"
+		 is_minor_faction="true"
+		 is_clan_type_mercenary="true"
+		 initial_posX="797.28" initial_posY="112.42"
+		 text="{=clan_huaxia_yushan_text}Yushan, or Jade mountain, is the last refuge of outcasts of society. The best of them formed a brotherhood that seek their own brand of justice through honor and righteousness. "
+		 banner_key="11.89.89.2970.2970.768.788.1.0.0.510.16.116.453.454.763.621.0.1.0.510.16.116.203.454.643.765.0.1.0.510.16.116.203.454.886.765.0.1.0.510.16.116.203.454.643.903.0.1.0.510.16.116.203.454.886.903.0.1.0">
+		 <minor_faction_character_templates>
+			<template id="NPCCharacter.spc_clan_huaxia_yushan_leader_0" />
+			<template id="NPCCharacter.spc_clan_huaxia_yushan_leader_1" />
+			<template id="NPCCharacter.spc_clan_huaxia_yushan_leader_2" />
+			<template id="NPCCharacter.spc_clan_huaxia_yushan_leader_3" />
+			<template id="NPCCharacter.spc_clan_huaxia_yushan_leader_4" />
+		</minor_faction_character_templates>			 
+		</Faction>		 
+
+	<Faction id="clan_huaxia_yellowturban"
+			name="{=clan_huaxia_yellowturban}Yellow Turbans"
+			tier="3"
+			culture="Culture.huaxia"
+			default_party_template="PartyTemplate.huaxia_cult_sect_template"
+			label_color="FFFFFF00" color="FFFFFF00" color2="FFB9B900" alternative_color="FF381900" alternative_color2="FFFFFF00" 
+			is_minor_faction="true"
+			is_outlaw="true"
+			is_nomad="true"
+			initial_posX="746.39" initial_posY="405.08"
+			text="{=clan_huaxia_yellowturban_text}Yellow Turbans is a folk taoist utopian extremist group, that focuses on eliminating all class differences and unite the people under one flag, where everything are shared in a commune."
+			banner_key="11.144.143.2970.2970.768.788.1.0.0.505.92.142.371.371.764.764.0.0.0.505.84.142.296.296.764.764.0.0.0">
+			<minor_faction_character_templates>
+			<template id="NPCCharacter.hx_sect_hero_2" />
+			<template id="NPCCharacter.hx_sect_hero_2_a" />
+			<template id="NPCCharacter.hx_sect_hero_2_b" />
+			<template id="NPCCharacter.spc_clan_huaxia_yellowturban_leader_0" />
+		</minor_faction_character_templates>					 
+	</Faction>
+	
+	<Faction id="clan_huaxia_jianghu_1"
+			 name="{=clan_huaxia_jianghu_1}Jianghu Bandits"
+			 tier="1"
+			 owner="Hero.hx_bandit_hero"
+			 culture="Culture.huaxia_bandits"
+			 default_party_template="PartyTemplate.huaxia_bandits_template"
+			 label_color="FF00A641" color="FF00A641" color2="FF664400"  alternative_color2="FF664400" alternative_color="FF00A641"
+			 settlement_banner_mesh="none"
+			 is_bandit="true"
+			 is_outlaw="true"
+			 text="{=clan_huaxia_jianghu_1_text}Composed of the outcasts of society that wonder the land, and seek their own brand of justice and vigilante. Often they just devolve into petty criminals and murderers."
+			 banner_key="11.124.124.2970.2970.768.788.1.0.0.504.126.126.226.336.891.808.0.1.0.504.126.126.226.336.636.808.0.1.0.504.126.126.319.474.766.764.0.1.0" />
+
+	<Faction id="clan_huaxia_yellowturban_bandits"
+			 name="{=clan_huaxia_yellowturban_bandits}Yellow Turban Bandits"
+			 tier="1"
+			 owner="Hero.hx_looter_yt_hero"
+			 culture="Culture.huaxia_bandits"
+			 default_party_template="PartyTemplate.huaxia_yellowturban_template"
+			 label_color="FFFDE217" color="FFFDE217" color2="FFB57A1C"  alternative_color2="FFB57A1C" alternative_color="FFFDE217"
+			 settlement_banner_mesh="none"
+			 is_bandit="true"
+			 is_outlaw="true"
+			 text="{=clan_huaxia_yellowturban_bandits_text}Outcasts and vagrants that indoctrinated into petty shamanistic and taoist cults."
+			 banner_key="11.0.0.2970.2970.768.788.1.0.0.502.84.84.323.323.764.764.0.1.0.500.84.84.464.464.764.764.0.1.0" />			 
+	
+	<Faction id="clan_huaxia_looters"
+			 name="{=clan_huaxia_looters}Liukou Looters"
+			 tier="1"
+			 owner="Hero.hx_looter_hero"
+			 culture="Culture.huaxia_looters"
+			 default_party_template="PartyTemplate.huaxia_looters_template"
+			 label_color="FF664400" color="FF664400" color2="FF003B00" alternative_color="FF003B00" alternative_color2="FF664400" 
+			 settlement_banner_mesh="none"
+			 is_bandit="true"
+			 is_outlaw="true"
+			 banner_key="11.157.157.2970.2970.768.788.1.0.0.308.149.149.608.536.766.764.0.1.0"
+			 />
+	
+</Factions>

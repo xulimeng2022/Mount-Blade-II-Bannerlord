@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+    <EquipmentRoster id="player_char_creation_show_huaxia" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_robe" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Body" id="Item.steppe_robe" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- Noble -->
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_1_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_a" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_1_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_d" />
+            <Equipment slot="Head" id="Item.faji" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_1_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_dress" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_1_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_dress" />
+            <Equipment slot="Head" id="Item.desert_headdress" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Merchant -->
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_2_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_2_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_a" />
+            <Equipment slot="Leg" id="Item.leather_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_2_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.khuzait_dress" />
+            <Equipment slot="Leg" id="Item.leather_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_2_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_dress" />
+            <Equipment slot="Leg" id="Item.leather_shoes" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Farmer  -->
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_3_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_robe" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_3_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />            
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_3_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_robe" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_3_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.khuzait_dress" />
+            <Equipment slot="Head" id="Item.aserai_villager_female_headdress" />            
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Craftman -->
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_4_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_robe" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_4_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+            <Equipment slot="Head" id="Item.faji" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_4_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.khuzait_dress" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_4_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.khuzait_dress" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+            <Equipment slot="Head" id="Item.aserai_villager_female_headdress" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Rural Gentry -->
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_5_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_5_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_a" />
+            <Equipment slot="Head" id="Item.faji" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_5_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_5_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.steppe_dress" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Jianghu -->
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_6_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_6_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.fur_coat_over_tunic" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_huaxia_6_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_huaxia_6_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.AR_empire_dress_armor_a" />
+            <Equipment slot="Leg" id="Item.southern_moccasins" />
+            <Equipment slot="Head" id="Item.aserai_villager_female_headdress" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+
+    <!--stood guard with the garrisons-->
+    <EquipmentRoster id="player_char_creation_huaxia_1_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_inf_ji" />
+            <Equipment slot="Item1" id="Item.composite_bow" />
+            <Equipment slot="Item2" id="Item.default_arrows" />
+            <Equipment slot="Item3" id="Item.default_arrows" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_inf_ji" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_huaxia_1_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_inf_ji" />
+            <Equipment slot="Item1" id="Item.composite_bow" />
+            <Equipment slot="Item2" id="Item.default_arrows" />
+            <Equipment slot="Item3" id="Item.default_arrows" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_dress_b" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--rode with the scouts-->
+    <EquipmentRoster id="player_char_creation_huaxia_2_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item1" id="Item.default_arrows" />
+            <Equipment slot="Item3" id="Item.default_arrows" />
+            <Equipment slot="Item2" id="Item.huaxia_hengdao" />
+            <Equipment slot="Item0" id="Item.composite_bow" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+            <Equipment slot="Horse" id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--rode with the scouts-->
+    <EquipmentRoster id="player_char_creation_huaxia_2_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item1" id="Item.default_arrows" />
+            <Equipment slot="Item3" id="Item.default_arrows" />
+            <Equipment slot="Item2" id="Item.huaxia_hengdao" />
+            <Equipment slot="Item0" id="Item.composite_bow" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+            <Equipment slot="Horse" id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness" id="Item.steppe_fur_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--trained with the infantry-->
+    <EquipmentRoster id="player_char_creation_huaxia_3_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item2" id="Item.huaxia_puji_t2" />
+            <Equipment slot="Item1" id="Item.bound_adarga" />
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--trained with the infantry-->
+    <EquipmentRoster id="player_char_creation_huaxia_3_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item2" id="Item.huaxia_puji_t2" />
+            <Equipment slot="Item1" id="Item.bound_adarga" />
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--joined the skirmishers-->
+    <EquipmentRoster id="player_char_creation_huaxia_4_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_t1_ge_stacked" />
+            <Equipment slot="Item3" id="Item.huaxia_t3_javelin" />
+            <Equipment slot="Item2" id="Item.huaxia_t3_javelin" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--joined the skirmishers-->
+    <EquipmentRoster id="player_char_creation_huaxia_4_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_t1_ge_stacked" />
+            <Equipment slot="Item3" id="Item.huaxia_t3_javelin" />
+            <Equipment slot="Item2" id="Item.huaxia_t3_javelin" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--marched with the camp followers-->
+    <EquipmentRoster id="player_char_creation_huaxia_5_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_t1_hand_ji" />
+            <Equipment slot="Item1" id="Item.bound_adarga" />
+            <Equipment slot="Item3" id="Item.huaxia_fly_dagger" />
+            <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--marched with the camp followers-->
+    <EquipmentRoster id="player_char_creation_huaxia_5_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_t1_hand_ji" />
+            <Equipment slot="Item1" id="Item.bound_adarga" />
+            <Equipment slot="Item3" id="Item.huaxia_fly_dagger" />
+            <Equipment slot="Body" id="Item.AR_empire_dress_armor_a" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.AR_empire_dress_armor_a" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <!-- commander staff -->
+    <EquipmentRoster id="player_char_creation_huaxia_10_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+            <Equipment slot="Item1" id="Item.large_adarga" />
+            <Equipment slot="Item2" id="Item.huaxia_puji_t3" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+            <Equipment slot="Cape" id="Item.datangfubingjianjia" />
+            <Equipment slot="Leg" id="Item.yingwujunxie" />
+            <Equipment slot="Horse" id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness" id="Item.steppe_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+            <Equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <EquipmentRoster id="player_char_creation_huaxia_10_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+            <Equipment slot="Item1" id="Item.large_adarga" />
+            <Equipment slot="Item2" id="Item.huaxia_puji_t3" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+            <Equipment slot="Cape" id="Item.datangfubingjianjia" />
+            <Equipment slot="Leg" id="Item.yingwujunxie" />
+            <Equipment slot="Horse" id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness" id="Item.steppe_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_dress_b" />
+            <Equipment slot="Cape" id="Item.female_scarf" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <!--trained with the cavalry=> -->
+    <EquipmentRoster id="player_char_creation_huaxia_9_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_puji_t2" />
+            <Equipment slot="Item1" id="Item.composite_bow" />
+            <Equipment slot="Item3" id="Item.steppe_arrows" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Cape" id="Item.battania_shoulder_strap" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+            <Equipment slot="Horse" id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness" id="Item.steppe_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+            <Equipment slot="Cape" id="Item.scarf" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <EquipmentRoster id="player_char_creation_huaxia_9_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_puji_t2" />
+            <Equipment slot="Item1" id="Item.composite_bow" />
+            <Equipment slot="Item3" id="Item.steppe_arrows" />
+            <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Cape" id="Item.battania_shoulder_strap" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+            <Equipment slot="Horse" id="Item.sumpter_horse" />
+            <Equipment slot="HorseHarness" id="Item.steppe_harness" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_dress_b" />
+            <Equipment slot="Cape" id="Item.female_scarf" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <EquipmentRoster id="player_char_creation_huaxia_8_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_jinchu_changjian" />
+            <Equipment slot="Item2" id="Item.huaxia_fly_dagger" />
+            <Equipment slot="Item3" id="Item.huaxia_fly_dagger" />
+            <Equipment slot="Head" id="Item.faji" />
+            <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+            <Equipment slot="Cape" id="Item.empire_cape_a" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_huaxia_8_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_jinchu_changjian" />
+            <Equipment slot="Item2" id="Item.huaxia_fly_dagger" />
+            <Equipment slot="Item3" id="Item.huaxia_fly_dagger" />
+            <Equipment slot="Head" id="Item.aserai_villager_female_headdress" />
+            <Equipment slot="Body" id="Item.AR_empire_dress_armor_a" />
+            <Equipment slot="Cape" id="Item.empire_cape_a" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.AR_empire_dress_armor_a" />
+            <Equipment slot="Cape" id="Item.female_scarf" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+
+    <!-- crossbows --> 
+    <EquipmentRoster id="player_char_creation_huaxia_6_m" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_t2_bronze_ji" />
+            <Equipment slot="Item2" id="Item.crossbow_a" />
+            <Equipment slot="Item1" id="Item.bolt_e" />
+            <Equipment slot="Item3" id="Item.bolt_e" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_huaxia_6_f" culture="Culture.huaxia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.huaxia_t2_bronze_ji" />
+            <Equipment slot="Item2" id="Item.crossbow_a" />
+            <Equipment slot="Item1" id="Item.bolt_e" />            
+            <Equipment slot="Item3" id="Item.bolt_e" />
+            <Equipment slot="Head" id="Item.tangdaitoujin" />
+            <Equipment slot="Body" id="Item.steppe_armor" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+            <Equipment slot="Body" id="Item.khuzait_dress_b" />
+            <Equipment slot="Leg" id="Item.cubukuzi" />
+        </EquipmentSet>
+    </EquipmentRoster>    
+
+</EquipmentRosters>

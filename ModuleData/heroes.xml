@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<Hero id="hx_lord_1" faction="Faction.clan_huaxia_li" spouse="Hero.hx_lord_1_a" text="{=hx_lord_1_text}Xuanlong is Huangdi of Huaxia. He showed brilliance in command at a young age of 16, and since then became the most prominent military leader and conqured much of Huaxia and unified the splintered factions. " />
+	<Hero id="hx_lord_1_a" spouse="Hero.hx_lord_1" faction="Faction.clan_huaxia_li" />
+	<Hero id="hx_lord_1_b" father="Hero.hx_lord_1" mother="Hero.hx_lord_1_a" faction="Faction.clan_huaxia_li" />
+	<Hero id="hx_lord_1_c" father="Hero.hx_lord_1" mother="Hero.hx_lord_1_a" faction="Faction.clan_huaxia_li" />
+	<Hero id="hx_lord_1_d" father="Hero.hx_lord_1" mother="Hero.hx_lord_1_a" faction="Faction.clan_huaxia_li" />
+	<Hero id="hx_lord_1_e" father="Hero.hx_lord_1" mother="Hero.hx_lord_1_a" faction="Faction.clan_huaxia_li" />	
+	
+	<Hero id="hx_lord_2"  spouse="Hero.hx_lord_2_a" faction="Faction.clan_huaxia_liu" />
+	<Hero id="hx_lord_2_a" spouse="Hero.hx_lord_2" faction="Faction.clan_huaxia_liu" />
+	<Hero id="hx_lord_2_b" father="Hero.hx_lord_2" mother="Hero.hx_lord_2_a" faction="Faction.clan_huaxia_liu" />
+	<Hero id="hx_lord_2_c" father="Hero.hx_lord_2" mother="Hero.hx_lord_2_a" faction="Faction.clan_huaxia_liu" />
+	<Hero id="hx_lord_2_d" father="Hero.hx_lord_2" mother="Hero.hx_lord_2_a" faction="Faction.clan_huaxia_liu" />	
+	<Hero id="hx_lord_2_e" faction="Faction.clan_huaxia_liu" />	
+	
+	<Hero id="hx_lord_3"  spouse="Hero.hx_lord_3_a" faction="Faction.clan_huaxia_zhou" />
+	<Hero id="hx_lord_3_a" spouse="Hero.hx_lord_3" faction="Faction.clan_huaxia_zhou" />
+	<Hero id="hx_lord_3_b" father="Hero.hx_lord_3" mother="Hero.hx_lord_3_a" faction="Faction.clan_huaxia_zhou" />
+	<Hero id="hx_lord_3_c" father="Hero.hx_lord_3" mother="Hero.hx_lord_3_a" faction="Faction.clan_huaxia_zhou" />	
+	
+	<Hero id="hx_lord_4" spouse="Hero.hx_lord_4_a" faction="Faction.clan_huaxia_zhao" />
+	<Hero id="hx_lord_4_a" spouse="Hero.hx_lord_4" faction="Faction.clan_huaxia_zhao" />
+	<Hero id="hx_lord_4_b" father="Hero.hx_lord_4" mother="Hero.hx_lord_4_a" faction="Faction.clan_huaxia_zhao" />
+	<Hero id="hx_lord_4_c" father="Hero.hx_lord_4" mother="Hero.hx_lord_4_a" faction="Faction.clan_huaxia_zhao" />	
+	
+	<Hero id="hx_lord_5" spouse="Hero.hx_lord_5_a" faction="Faction.clan_huaxia_chen" />
+	<Hero id="hx_lord_5_a" spouse="Hero.hx_lord_5" faction="Faction.clan_huaxia_chen" />
+	<Hero id="hx_lord_5_b" faction="Faction.clan_huaxia_chen" />
+	<Hero id="hx_lord_5_c" faction="Faction.clan_huaxia_chen" />
+	<Hero id="hx_lord_5_d" father="Hero.hx_lord_5" mother="Hero.hx_lord_5_a" faction="Faction.clan_huaxia_chen" />
+	
+	<Hero id="hx_sect_hero_1" faction="Faction.clan_huaxia_mingjiao" />
+	<Hero id="hx_sect_hero_1_a" faction="Faction.clan_huaxia_mingjiao" />
+	
+	<Hero id="hx_sect_hero_2" faction="Faction.clan_huaxia_yellowturban" />
+	<Hero id="hx_sect_hero_2_a" faction="Faction.clan_huaxia_yellowturban" />
+	<Hero id="hx_sect_hero_2_b" faction="Faction.clan_huaxia_yellowturban" />
+	
+	<Hero id="hx_bandit_hero" faction="Faction.clan_huaxia_jianghu_1"/>
+	<Hero id="hx_looter_hero" faction="Faction.clan_huaxia_looters"/>
+	<Hero id="hx_looter_yt_hero" faction="Faction.clan_huaxia_yellowturban_bandits"/>
+
+</Heroes>

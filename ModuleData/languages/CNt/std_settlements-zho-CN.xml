@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="繁體中文"/>
+ </tags>
+ <strings>
+   <string id="huaxia.stm.town" text="華夏村鎮" />
+    <string id="town_HX1" text="上京"/>
+    <string id="huaxia.setm.shangjing.text" text="上京，乃華夏國文化與軍事中心。位於珠湖北灣，四方有防禦堡壘，以抵禦北方蠻夷之威脅。" />
+
+    <string id="village_HX1_a" text="雙橋縣"/>
+    <string id="village_HX1_b" text="北嶺縣"/>
+    <string id="village_HX1_c" text="靈海縣"/>
+    <string id="village_HX1_d" text="貢米縣"/>
+    <string id="town_HX2" text="中寧"/>
+    <string id="huaxia.setm.zhongning.text" text="華夏國的經濟與文化中心。中寧位居中央，乃南北商路的終點。" />
+
+    <string id="village_HX2_a" text="漢和縣"/>
+    <string id="village_HX2_b" text="養馬縣"/>
+    <string id="village_HX2_c" text="靜港縣"/>
+    <string id="village_HX2_d" text="中谷縣"/>
+    <string id="town_HX3" text="南通"/>
+    <string id="huaxia.setm.nantong.text" text="南通位於玉河口，乃從南方進入中原的要道。此地爲南方商業與軍事安全之樞紐。" />
+
+    <string id="village_HX3_a" text="淘沙縣"/>
+    <string id="village_HX3_b" text="流沙縣"/>
+    <string id="village_HX3_c" text="碧湖縣"/>
+    <string id="town_HX4" text="新耀"/>
+    <string id="huaxia.setm.xinyao.text" text="古老的阿塞萊堡壘，位於東南貿易通道之起點。此堡壘於安谷口，爲重要的貿易樞紐。" />
+
+    <string id="village_HX4_a" text="望谷縣"/>
+    <string id="village_HX4_b" text="砂石縣"/>
+    <string id="village_HX4_c" text="玄鐵縣"/>
+    <string id="town_HX5" text="天湖"/>
+    <string id="huaxia.setm.tianhu.text" text="天湖，或稱天池，位於高原之上，得名於乾涸的湖牀。此地俯瞰東北山間通道，連接傳統的阿塞萊與華夏邊界。" />
+
+    <string id="village_HX5_a" text="滋魚縣"/>
+    <string id="village_HX5_b" text="高田縣"/>
+    <string id="village_HX5_c" text="果雲縣"/>
+    <string id="town_HX6" text="安疆"/>
+    <string id="huaxia.setm.anjiang.text" text="安疆，意爲邊境平安，是華夏勢力北緣新建的貿易市鎮。" />
+
+    <string id="village_HX6_a" text="見溪縣"/>
+    <string id="village_HX6_b" text="青林縣"/>
+    <string id="village_HX6_c" text="雁至縣"/>
+    <string id="castle_HX1" text="鄰龍關"/>
+    <string id="castle_village_HX1_a" text="龍溪村"/>
+    <string id="castle_village_HX1_b" text="川中村"/>
+    <string id="castle_HX2" text="北雁關"/>
+    <string id="castle_village_HX2_a" text="北川村"/>    
+    <string id="castle_village_HX2_b" text="孤羊村"/>
+    <string id="castle_HX3" text="西望臺"/>
+    <string id="castle_village_HX3_a" text="江村"/>
+    <string id="castle_village_HX3_b" text="若蕉村"/>
+    <string id="castle_HX4" text="東護門"/>
+    <string id="castle_village_HX4_a" text="曲河村"/>
+    <string id="castle_village_HX4_b" text="稷原村"/>
+    <string id="castle_HX5" text="火山關"/>    
+    <string id="castle_village_HX5_a" text="安谷村"/>
+    <string id="castle_village_HX5_b" text="臨谷村"/>
+ </strings>
+</base>

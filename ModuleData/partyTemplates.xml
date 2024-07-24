@@ -1,0 +1,195 @@
+<!--You can add new or override old party templates by adding nodes to this xml. For examples please refer to: SandBox/ModuleData/partyTemplates.xml.-->
+<partyTemplates>
+	<MBPartyTemplate id="huaxia_kingdom_hero_party" >
+		<stacks>
+          <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.huaxia_peasant_recruit" />
+		  <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.huaxia_jh_recruit" />
+          <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.huaxia_infantry_1" />
+		  <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.huaxia_wuyang" />
+          <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.huaxia_qingji" />
+		  <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.huaxia_tanma" />
+          <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_tuji" />
+          <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_tieji" />
+		  <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_biaoji" />
+		  <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_feiji" />			
+	      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_shenxiaoji" />
+          <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_crossbow_1" />
+          <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.huaxia_spear_2" />
+          <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_shock_2" />
+          <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_spear_3" />
+          <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_shock_3" />
+          <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.huaxia_crossbow_1" />
+          <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_crossbow_2" />
+		  <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_archer_2" />
+          <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_crossbow_3" />
+          <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_crossbow_4" />
+		  <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_archer_3" />
+		  <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_gongji" />
+          <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.huaxia_crossbow_2" />
+          <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_archer_2" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate id="vassal_reward_troops_huaxia" >
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_tieji" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_biaoji" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.huaxia_feiji" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.huaxia_wuyang" />
+		</stacks>
+	</MBPartyTemplate>	
+
+	<MBPartyTemplate id="caravan_template_huaxia" >
+		<stacks>
+			<PartyTemplateStack  min_value="8" max_value="8" troop="NPCCharacter.armed_trader_huaxia" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_huaxia" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_huaxia" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate id="elite_caravan_template_huaxia" >
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_huaxia" />
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_huaxia" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_huaxia" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_huaxia" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate id="militia_huaxia_template" >
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_militia_infantry" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_militia_archer" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_jh_infantry_1" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_jh_f_infantry_1" />						
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate id="villager_huaxia_template" >
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_huaxia" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate id="huaxia_bandits_template" >
+		<stacks>
+
+			<PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.huaxia_bandits_bandit" />
+			<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.huaxia_bandits_f_bandit" />
+			<PartyTemplateStack min_value="2" max_value="15" troop="NPCCharacter.huaxia_jh_recruit" />
+			<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.huaxia_jh_f_recruit" />			
+			<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.huaxia_bandits_raider" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_bandits_f_raider" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_bandits_raider2" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_bandits_f_raider2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_infantry_2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_f_infantry_2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_infantry_2a" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_f_infantry_2a" />			
+			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.huaxia_bandits_chief" />
+			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.huaxia_bandits_f_chief" />
+			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.huaxia_bandits_boss" />
+			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.huaxia_bandits_f_boss" />
+			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_3" />
+			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.huaxia_jh_f_infantry_3" />
+			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_3b" />
+			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.huaxia_jh_f_infantry_3b" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate id="huaxia_yellowturban_template" >
+		<stacks>
+			<PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.huaxia_looter" />
+			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.huaxia_f_looter" />
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.huaxia_bandits_bandit" />
+			<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.huaxia_bandits_f_bandit" />
+			<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.huaxia_bandits_raider" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_bandits_f_raider" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_bandits_raider2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_bandits_f_raider2" />			
+			<PartyTemplateStack min_value="2" max_value="15" troop="NPCCharacter.huaxia_jh_recruit" />
+			<PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.huaxia_jh_f_recruit" />					
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_infantry_2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_f_infantry_2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_infantry_2a" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_f_infantry_2a" />			
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_bandits_f_raider" />
+			<PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.huaxia_bandits_chief" />
+			<PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.huaxia_bandits_f_chief" />
+			<PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.huaxia_bandits_boss" />
+			<PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.huaxia_bandits_f_boss" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate id="huaxia_bandits_boss_party_template" >
+		<stacks>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_bandits_raider" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_bandits_f_raider" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_bandits_chief" />
+			<PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.huaxia_bandits_f_chief" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_bandits_boss" />
+			<PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.huaxia_bandits_f_boss" />
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate id="rebels_huaxia_template" >
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.villager_huaxia" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_jh_recruit" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_jh_f_recruit" />					
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate id="huaxia_looters_template" >
+		<stacks>
+			<PartyTemplateStack min_value="2" max_value="10" troop="NPCCharacter.huaxia_looter" />
+			<PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.huaxia_f_looter" />
+			<PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.huaxia_bandits_bandit" />
+			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.huaxia_bandits_f_bandit" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_recruit" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_f_recruit" />				
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate id="huaxia_cult_sect_template" >
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.huaxia_jh_recruit" />
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.huaxia_jh_f_recruit" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_1" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_jh_f_infantry_1" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.huaxia_jh_archer_1" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.huaxia_jh_f_archer_1" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_infantry_2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_f_infantry_2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_infantry_2a" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_f_infantry_2a" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_shock_3" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_shock_3" />			
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_3" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_f_infantry_3" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_3b" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_f_infantry_3b" />			
+		</stacks>
+	</MBPartyTemplate>
+
+	<MBPartyTemplate id="huaxia_outlaw_merc_template" >
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.huaxia_jh_recruit" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.huaxia_jh_f_recruit" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.huaxia_jh_archer_1" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.huaxia_jh_f_archer_1" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.huaxia_jh_infantry_1" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.huaxia_jh_f_infantry_1" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_infantry_2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_f_infantry_2" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_infantry_2a" />
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.huaxia_jh_f_infantry_2a" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_shock_3" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_shock_3" />			
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_3" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_f_infantry_3" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_infantry_3b" />
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.huaxia_jh_f_infantry_3b" />
+		</stacks>
+	</MBPartyTemplate>
+</partyTemplates>

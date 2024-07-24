@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<WeaponDescriptions>
+    <WeaponDescription id="hxOneHandedPolearm" weapon_class="OneHandedPolearm"
+        item_usage_features="onehanded_polearm:block:long:rshield:thrust">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon" />
+            <WeaponFlag value="WideGrip" />
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="huaxia_spear_blade_27" />
+            <AvailablePiece id="hanji_blade" />
+            <AvailablePiece id="hanji_guarded_blade" />
+            <AvailablePiece id="huaxia_ge_blade" />
+            <AvailablePiece id="huaxia_ge_fine_blade" />
+            <AvailablePiece id="huaxia_bronze_spear_blade_t2" />
+            <AvailablePiece id="huaxia_polearm_blade_3_iron" />
+            <AvailablePiece id="huaxia_polearm_blade_steel" />
+            <AvailablePiece id="spear_blade_10" />
+            <AvailablePiece id="spear_blade_38" />
+            <AvailablePiece id="spear_blade_23" />
+
+
+            <AvailablePiece id="default_polearm_guard" />
+            <AvailablePiece id="spear_guard_19" />
+            <AvailablePiece id="huaxia_guard_ge_blade" />
+            <AvailablePiece id="huaxia_guard_ge_blade_stacked" />
+            <AvailablePiece id="huaxia_guard_ge_fine_blade" />
+            <AvailablePiece id="huaxia_guard_ge_fine_blade_stacked" />
+            <AvailablePiece id="vlandian_guard_5" />
+            <AvailablePiece id="vlandian_guard_3" />
+            <AvailablePiece id="empire_guard_5" />
+            <AvailablePiece id="sturgian_guard_4" />
+
+            <AvailablePiece id="huaxia_spear_banner_3" />
+            <AvailablePiece id="huaxia_spear_banner_10" />
+            <AvailablePiece id="huaxia_spear_banner_15" />
+            <AvailablePiece id="huaxia_spear_banner_16" />
+            <AvailablePiece id="huaxia_spear_banner_17" />
+
+            <AvailablePiece id="spear_handle_1" />
+            <AvailablePiece id="spear_handle_3" />
+            <AvailablePiece id="spear_handle_4" />
+            <AvailablePiece id="spear_handle_6" />
+            <AvailablePiece id="spear_handle_8" />
+            <AvailablePiece id="spear_handle_13" />
+            <AvailablePiece id="spear_handle_14" />
+            <AvailablePiece id="spear_handle_15" />
+            <AvailablePiece id="spear_handle_16" />
+            <AvailablePiece id="spear_handle_17" />
+            <AvailablePiece id="spear_handle_18" />
+            <AvailablePiece id="spear_handle_19" />
+            <AvailablePiece id="spear_handle_20" />
+            <AvailablePiece id="spear_handle_21" />
+            <AvailablePiece id="spear_handle_23" />
+            <AvailablePiece id="spear_handle_24" />
+            <AvailablePiece id="spear_handle_25" />
+            <AvailablePiece id="spear_handle_27" />
+            <AvailablePiece id="huaxia_spear_handle_26" />
+            <AvailablePiece id="huaxia_spear_handle_5" />
+            <AvailablePiece id="huaxia_spear_handle_22" />
+
+            <AvailablePiece id="default_polearm_pommel" />
+            <AvailablePiece id="spear_pommel_1" />
+            <AvailablePiece id="spear_pommel_2" />
+            <AvailablePiece id="spear_pommel_3" />
+            <AvailablePiece id="spear_pommel_4" />
+            <AvailablePiece id="spear_pommel_5" />
+            <AvailablePiece id="spear_pommel_6" />
+            <AvailablePiece id="spear_pommel_7" />
+            <AvailablePiece id="spear_pommel_8" />
+            <AvailablePiece id="spear_pommel_9" />
+            <AvailablePiece id="spear_pommel_10" />
+            <AvailablePiece id="spear_pommel_11" />
+            <AvailablePiece id="spear_pommel_12" />
+            <AvailablePiece id="spear_pommel_13" />
+        </AvailablePieces>
+    </WeaponDescription>
+
+    <WeaponDescription id="hxTwoHandedPolearm" weapon_class="TwoHandedPolearm"
+        item_usage_features="polearm:block:long:shield:swing:thrust">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon" />
+            <WeaponFlag value="WideGrip" />
+            <WeaponFlag value="TwoHandIdleOnMount" />
+            <WeaponFlag value="NotUsableWithOneHand" />
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="huaxia_spear_blade_27" />
+            <AvailablePiece id="hanji_blade" />
+            <AvailablePiece id="hanji_guarded_blade" />
+            <AvailablePiece id="huaxia_ge_blade" />
+            <AvailablePiece id="huaxia_ge_fine_blade" />
+            <AvailablePiece id="huaxia_bronze_spear_blade_t2" />
+            <AvailablePiece id="huaxia_polearm_blade_3_iron" />
+            <AvailablePiece id="huaxia_polearm_blade_steel" />
+            <AvailablePiece id="spear_blade_10" />
+            <AvailablePiece id="spear_blade_38" />
+            <AvailablePiece id="spear_blade_23" />
+
+
+            <AvailablePiece id="default_polearm_guard" />
+            <AvailablePiece id="spear_guard_19" />
+            <AvailablePiece id="huaxia_guard_ge_blade" />
+            <AvailablePiece id="huaxia_guard_ge_blade_stacked" />
+            <AvailablePiece id="huaxia_guard_ge_fine_blade" />
+            <AvailablePiece id="huaxia_guard_ge_fine_blade_stacked" />
+            <AvailablePiece id="vlandian_guard_5" />
+            <AvailablePiece id="vlandian_guard_3" />
+            <AvailablePiece id="empire_guard_5" />
+            <AvailablePiece id="sturgian_guard_4" />
+
+            <AvailablePiece id="huaxia_spear_banner_3" />
+            <AvailablePiece id="huaxia_spear_banner_10" />
+            <AvailablePiece id="huaxia_spear_banner_15" />
+            <AvailablePiece id="huaxia_spear_banner_16" />
+            <AvailablePiece id="huaxia_spear_banner_17" />
+
+            <AvailablePiece id="spear_handle_1" />
+            <AvailablePiece id="spear_handle_3" />
+            <AvailablePiece id="spear_handle_4" />
+            <AvailablePiece id="spear_handle_6" />
+            <AvailablePiece id="spear_handle_8" />
+            <AvailablePiece id="spear_handle_13" />
+            <AvailablePiece id="spear_handle_14" />
+            <AvailablePiece id="spear_handle_15" />
+            <AvailablePiece id="spear_handle_16" />
+            <AvailablePiece id="spear_handle_17" />
+            <AvailablePiece id="spear_handle_18" />
+            <AvailablePiece id="spear_handle_19" />
+            <AvailablePiece id="spear_handle_20" />
+            <AvailablePiece id="spear_handle_21" />
+            <AvailablePiece id="spear_handle_23" />
+            <AvailablePiece id="spear_handle_24" />
+            <AvailablePiece id="spear_handle_25" />
+            <AvailablePiece id="spear_handle_27" />
+            <AvailablePiece id="huaxia_spear_handle_26" />
+            <AvailablePiece id="huaxia_spear_handle_5" />
+            <AvailablePiece id="huaxia_spear_handle_22" />
+
+            <AvailablePiece id="default_polearm_pommel" />
+            <AvailablePiece id="spear_pommel_1" />
+            <AvailablePiece id="spear_pommel_2" />
+            <AvailablePiece id="spear_pommel_3" />
+            <AvailablePiece id="spear_pommel_4" />
+            <AvailablePiece id="spear_pommel_5" />
+            <AvailablePiece id="spear_pommel_6" />
+            <AvailablePiece id="spear_pommel_7" />
+            <AvailablePiece id="spear_pommel_8" />
+            <AvailablePiece id="spear_pommel_9" />
+            <AvailablePiece id="spear_pommel_10" />
+            <AvailablePiece id="spear_pommel_11" />
+            <AvailablePiece id="spear_pommel_12" />
+            <AvailablePiece id="spear_pommel_13" />
+        </AvailablePieces>
+    </WeaponDescription>
+
+    <WeaponDescription id="hxTwoHandedPolearm_Couchable" weapon_class="TwoHandedPolearm"
+        item_usage_features="polearm:couch">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon" />
+            <WeaponFlag value="WideGrip" />
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="huaxia_spear_blade_27" />
+            <AvailablePiece id="hanji_blade" />
+            <AvailablePiece id="hanji_guarded_blade" />
+            <AvailablePiece id="huaxia_ge_blade" />
+            <AvailablePiece id="huaxia_ge_fine_blade" />
+            <AvailablePiece id="huaxia_bronze_spear_blade_t2" />
+            <AvailablePiece id="huaxia_polearm_blade_3_iron" />
+            <AvailablePiece id="huaxia_polearm_blade_steel" />
+            <AvailablePiece id="spear_blade_10" />
+            <AvailablePiece id="spear_blade_38" />
+            <AvailablePiece id="spear_blade_23" />
+
+
+            <AvailablePiece id="default_polearm_guard" />
+            <AvailablePiece id="spear_guard_19" />
+            <AvailablePiece id="huaxia_guard_ge_blade" />
+            <AvailablePiece id="huaxia_guard_ge_blade_stacked" />
+            <AvailablePiece id="huaxia_guard_ge_fine_blade" />
+            <AvailablePiece id="huaxia_guard_ge_fine_blade_stacked" />
+            <AvailablePiece id="vlandian_guard_5" />
+            <AvailablePiece id="vlandian_guard_3" />
+            <AvailablePiece id="empire_guard_5" />
+            <AvailablePiece id="sturgian_guard_4" />
+
+            <AvailablePiece id="huaxia_spear_banner_3" />
+            <AvailablePiece id="huaxia_spear_banner_10" />
+            <AvailablePiece id="huaxia_spear_banner_15" />
+            <AvailablePiece id="huaxia_spear_banner_16" />
+            <AvailablePiece id="huaxia_spear_banner_17" />
+
+            <AvailablePiece id="spear_handle_1" />
+            <AvailablePiece id="spear_handle_3" />
+            <AvailablePiece id="spear_handle_4" />
+            <AvailablePiece id="spear_handle_6" />
+            <AvailablePiece id="spear_handle_8" />
+            <AvailablePiece id="spear_handle_13" />
+            <AvailablePiece id="spear_handle_14" />
+            <AvailablePiece id="spear_handle_15" />
+            <AvailablePiece id="spear_handle_16" />
+            <AvailablePiece id="spear_handle_17" />
+            <AvailablePiece id="spear_handle_18" />
+            <AvailablePiece id="spear_handle_19" />
+            <AvailablePiece id="spear_handle_20" />
+            <AvailablePiece id="spear_handle_21" />
+            <AvailablePiece id="spear_handle_23" />
+            <AvailablePiece id="spear_handle_24" />
+            <AvailablePiece id="spear_handle_25" />
+            <AvailablePiece id="spear_handle_27" />
+            <AvailablePiece id="huaxia_spear_handle_26" />
+            <AvailablePiece id="huaxia_spear_handle_5" />
+            <AvailablePiece id="huaxia_spear_handle_22" />
+
+            <AvailablePiece id="default_polearm_pommel" />
+            <AvailablePiece id="spear_pommel_1" />
+            <AvailablePiece id="spear_pommel_2" />
+            <AvailablePiece id="spear_pommel_3" />
+            <AvailablePiece id="spear_pommel_4" />
+            <AvailablePiece id="spear_pommel_5" />
+            <AvailablePiece id="spear_pommel_6" />
+            <AvailablePiece id="spear_pommel_7" />
+            <AvailablePiece id="spear_pommel_8" />
+            <AvailablePiece id="spear_pommel_9" />
+            <AvailablePiece id="spear_pommel_10" />
+            <AvailablePiece id="spear_pommel_11" />
+            <AvailablePiece id="spear_pommel_12" />
+            <AvailablePiece id="spear_pommel_13" />
+        </AvailablePieces>
+    </WeaponDescription>
+
+    <WeaponDescription id="hxOneHandedDaggerAxe" weapon_class="OneHandedAxe" item_usage_features="onehanded:shield:axe">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon" />
+            <WeaponFlag value="BonusAgainstShield" />
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="hanji_blade" />
+            <AvailablePiece id="hanji_guarded_blade" />
+            <AvailablePiece id="huaxia_ge_blade" />
+            <AvailablePiece id="huaxia_ge_fine_blade" />
+            <AvailablePiece id="huaxia_bronze_spear_blade_t2" />
+            <AvailablePiece id="default_polearm_guard" />
+            <AvailablePiece id="huaxia_guard_ge_blade" />
+            <AvailablePiece id="huaxia_guard_ge_blade_stacked" />
+            <AvailablePiece id="huaxia_guard_ge_fine_blade" />
+            <AvailablePiece id="huaxia_guard_ge_fine_blade_stacked" />
+            
+            <AvailablePiece id="axe_craft_2_handle" />
+            <AvailablePiece id="axe_craft_3_handle" />
+            <AvailablePiece id="axe_craft_5_handle" />
+            <AvailablePiece id="axe_craft_13_handle" />
+            <AvailablePiece id="axe_craft_15_handle" />
+            <AvailablePiece id="axe_craft_16_handle" />
+            <AvailablePiece id="axe_craft_17_handle" />
+            <AvailablePiece id="axe_craft_18_handle" />
+            <AvailablePiece id="axe_craft_19_handle" />
+            <AvailablePiece id="axe_craft_20_handle" />
+            <AvailablePiece id="axe_craft_21_handle" />
+            <AvailablePiece id="axe_craft_22_handle" />
+            <AvailablePiece id="axe_craft_23_handle" />
+            <AvailablePiece id="axe_craft_24_handle" />
+            <AvailablePiece id="axe_craft_25_handle" />
+            <AvailablePiece id="axe_craft_26_handle" />
+            <AvailablePiece id="axe_craft_27_handle" />
+            
+            <AvailablePiece id="default_polearm_pommel" />
+            <AvailablePiece id="empire_pommel_1"/>
+            <AvailablePiece id="empire_pommel_2"/>
+            <AvailablePiece id="empire_pommel_3"/>
+            <AvailablePiece id="empire_pommel_4"/>
+            <AvailablePiece id="empire_pommel_5"/>
+            <AvailablePiece id="empire_pommel_6"/>
+            <AvailablePiece id="empire_noble_pommel_1"/>
+            <AvailablePiece id="empire_noble_pommel_2"/>
+            <AvailablePiece id="empire_noble_pommel_3"/>
+            <AvailablePiece id="empire_noble_pommel_4"/>
+            <AvailablePiece id="sturgian_pommel_2"/>
+            <AvailablePiece id="khuzait_pommel_1"/>
+            <AvailablePiece id="khuzait_pommel_2"/>
+            <AvailablePiece id="khuzait_pommel_5"/>
+            <AvailablePiece id="khuzait_pommel_6"/>
+            <AvailablePiece id="khuzait_pommel_7"/>
+            <AvailablePiece id="khuzait_noble_pommel_1"/>
+            <AvailablePiece id="khuzait_noble_pommel_2"/>
+            <AvailablePiece id="khuzait_noble_pommel_3"/>
+            <AvailablePiece id="vlandian_pommel_1"/>
+            <AvailablePiece id="vlandian_pommel_2"/>
+            <AvailablePiece id="vlandian_pommel_3"/>
+            <AvailablePiece id="vlandian_pommel_4"/>
+            <AvailablePiece id="vlandian_pommel_5"/>
+            <AvailablePiece id="vlandian_pommel_6"/>
+            <AvailablePiece id="vlandian_pommel_7"/>
+            <AvailablePiece id="vlandian_pommel_8"/>
+            <AvailablePiece id="vlandian_pommel_9"/>
+            <AvailablePiece id="vlandian_pommel_10"/>
+            <AvailablePiece id="vlandian_noble_pommel_1"/>
+            <AvailablePiece id="cleaver_pommel_1"/>
+            <AvailablePiece id="cleaver_pommel_2"/>
+            <AvailablePiece id="cleaver_pommel_3"/>
+            <AvailablePiece id="cleaver_pommel_4"/>
+            <AvailablePiece id="aserai_pommel_1"/>
+            <AvailablePiece id="aserai_pommel_2"/>
+            <AvailablePiece id="aserai_pommel_3"/>
+            <AvailablePiece id="aserai_pommel_4"/>
+            <AvailablePiece id="aserai_pommel_5"/>
+            <AvailablePiece id="aserai_pommel_8"/>
+            <AvailablePiece id="aserai_pommel_9"/>
+            <AvailablePiece id="aserai_noble_pommel_1"/>
+            <AvailablePiece id="aserai_noble_pommel_2"/>
+            <AvailablePiece id="aserai_noble_pommel_3"/>
+            <AvailablePiece id="aserai_noble_pommel_4"/>
+            <AvailablePiece id="battania_pommel_1"/>
+            <AvailablePiece id="battania_pommel_2"/>
+            <AvailablePiece id="battania_pommel_3"/>
+            <AvailablePiece id="battania_pommel_4"/>
+            <AvailablePiece id="battania_pommel_5"/>
+            <AvailablePiece id="battania_pommel_6"/>
+            <AvailablePiece id="battania_pommel_7"/>
+            <AvailablePiece id="battania_pommel_8"/>
+            <AvailablePiece id="battania_pommel_9"/>
+            <AvailablePiece id="battania_noble_pommel_1"/>
+            <AvailablePiece id="wood_pommel_1"/>
+            <AvailablePiece id="spear_pommel_1" />
+            <AvailablePiece id="spear_pommel_2" />
+            <AvailablePiece id="spear_pommel_3" />
+            <AvailablePiece id="spear_pommel_4" />
+            <AvailablePiece id="spear_pommel_5" />
+            <AvailablePiece id="spear_pommel_6" />
+            <AvailablePiece id="spear_pommel_7" />
+            <AvailablePiece id="spear_pommel_8" />
+            <AvailablePiece id="spear_pommel_9" />
+            <AvailablePiece id="spear_pommel_10" />
+            <AvailablePiece id="spear_pommel_11" />
+            <AvailablePiece id="spear_pommel_12" />            
+        </AvailablePieces>
+    </WeaponDescription>
+</WeaponDescriptions>

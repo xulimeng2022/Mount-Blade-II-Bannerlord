@@ -1,0 +1,963 @@
+<NPCCharacters>
+	<NPCCharacter id="huaxia_wuyang"
+			  name="{=huaxia_wuyang}Huaxia Wuxiangsheng"
+			  default_group="Ranged"
+			  occupation="Soldier"
+			  is_basic_troop="true"
+			  culture="Culture.huaxia"
+			  level="11">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="30" />
+			<skill id="Riding"
+				   value="15" />
+			<skill id="OneHanded"
+				   value="25" />
+			<skill id="TwoHanded"
+				   value="35" />
+			<skill id="Polearm"
+				   value="25" />
+			<skill id="Bow"
+				   value="35" />
+			<skill id="Crossbow"
+				   value="15" />
+			<skill id="Throwing"
+				   value="10" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_heavy_1" />
+			<upgrade_target id="NPCCharacter.huaxia_tanma" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_hengdao" />
+				<equipment slot="Item1"
+						   id="Item.composite_bow" />
+				<equipment slot="Item2"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Head"
+						   id="Item.tangdaitoujin" />
+				<equipment slot="Body"
+						   id="Item.ao_khuzait_leather_vest" />
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_hengdao" />
+				<equipment slot="Item1"
+						   id="Item.composite_bow" />
+				<equipment slot="Item2"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Head"
+						   id="Item.faji" />
+				<equipment slot="Body"
+						   id="Item.khuzait_belt_leather" />
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.huaxia_hengdao" />
+				<equipment slot="Head"
+						   id="Item.tangdaitoujin" />
+				<equipment slot="Body"
+						   id="Item.ao_khuzait_leather_vest" />
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>			
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="huaxia_heiji"
+		  name="{=huaxia_heiji}Huaxia Heiji"
+		  default_group="Cavalry"
+		  occupation="Soldier"
+		  culture="Culture.huaxia"
+		  level="21">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="110" />
+			<skill id="Riding"
+				   value="150" />
+			<skill id="OneHanded"
+				   value="120" />
+			<skill id="TwoHanded"
+				   value="120" />
+			<skill id="Polearm"
+				   value="150" />
+			<skill id="Bow"
+				   value="80" />
+			<skill id="Crossbow"
+				   value="70" />
+			<skill id="Throwing"
+				   value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_tuji"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_puji_t3" />
+				<equipment slot="Item1"
+						   id="Item.tribal_steppe_shield" />
+				<equipment slot="Item2"
+						   id="Item.huaxia_hengdao" />
+				<equipment slot="Head"
+						   id="Item.TV_khuzait_lord_helmet_k" />
+				<equipment slot="Cape"
+						   id="Item.TV_khuzait_shoulder_t" />
+				<equipment slot="Body"
+						   id="Item.TV_khuzait_armor_u" />
+				<equipment slot="Gloves"
+						   id="Item.TV_khuzait_gloves_a" />
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_puji_t3" />
+				<equipment slot="Item1"
+						   id="Item.tribal_steppe_shield" />
+				<equipment slot="Item2"
+						   id="Item.huaxia_hengdao" />
+				<equipment slot="Head"
+						   id="Item.TV_khuzait_lord_helmet_h2" />
+				<equipment slot="Cape"
+						   id="Item.TV_khuzait_shoulder_t" />
+				<equipment slot="Body"
+						   id="Item.TV_khuzait_armor_u" />
+				<equipment slot="Gloves"
+						   id="Item.TV_khuzait_gloves_a" />
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>			
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" civilian="true" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="huaxia_tuji"
+		  name="{=huaxia_tuji}Huaxia Tuji"
+		  default_group="Cavalry"
+		  occupation="Soldier"
+		  culture="Culture.huaxia"
+		  level="26">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="110" />
+			<skill id="Riding"
+				   value="150" />
+			<skill id="OneHanded"
+				   value="120" />
+			<skill id="TwoHanded"
+				   value="120" />
+			<skill id="Polearm"
+				   value="150" />
+			<skill id="Bow"
+				   value="80" />
+			<skill id="Crossbow"
+				   value="70" />
+			<skill id="Throwing"
+				   value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_tieji"/>
+			<upgrade_target id="NPCCharacter.huaxia_biaoji"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_puji_t3" />
+				<equipment slot="Item1"
+						   id="Item.tribal_steppe_shield" />
+				<equipment slot="Item2"
+						   id="Item.huaxia_hengdao" />
+				<equipment slot="Head"
+						   id="Item.xuanjiajundoumou" />
+				<equipment slot="Cape"
+						   id="Item.AR_imperial_lamellar_cape_h" />
+				<equipment slot="Body"
+						   id="Item.AR_aserai_scale_armor_c" />
+				<equipment slot="Gloves"
+						   id="Item.lamellar_plate_gauntlets" />
+				<equipment slot="Leg"
+						   id="Item.lamellar_plate_boots" />
+			</EquipmentRoster>			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_puji_t3" />
+				<equipment slot="Item1"
+						   id="Item.tribal_steppe_shield" />
+				<equipment slot="Item2"
+						   id="Item.huaxia_hengdao" />
+				<equipment slot="Head"
+						   id="Item.TV_khuzait_lord_helmet_m" />
+				<equipment slot="Cape"
+						   id="Item.xuanjiajunxiongjia" />
+				<equipment slot="Body"
+						   id="Item.desert_scale_armor" />
+				<equipment slot="Gloves"
+						   id="Item.lamellar_plate_gauntlets" />
+				<equipment slot="Leg"
+						   id="Item.lamellar_plate_boots" />
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" civilian="true" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="huaxia_tieji"
+			  name="{=huaxia_tieji}Huaxia Xuantieji"
+			  default_group="Cavalry"
+			  occupation="Soldier"
+			  culture="Culture.huaxia"
+			  level="32">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="150" />
+			<skill id="Riding"
+				   value="250" />
+			<skill id="OneHanded"
+				   value="200" />
+			<skill id="TwoHanded"
+				   value="200" />
+			<skill id="Polearm"
+				   value="250" />
+			<skill id="Bow"
+				   value="90" />
+			<skill id="Crossbow"
+				   value="80" />
+			<skill id="Throwing"
+				   value="130" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_shuo" />
+				<equipment slot="Item1"
+						   id="Item.noyans_shield" />
+				<equipment slot="Item2"
+						   id="Item.zhongxinggangbian" />
+				<equipment slot="Head"
+						   id="Item.qianniuweidoumou" />
+				<equipment slot="Cape"
+						   id="Item.longwujunjianjia" />
+				<equipment slot="Body"
+						   id="Item.xuanjiajunxiongjia" />
+				<equipment slot="Gloves"
+						   id="Item.longwujunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.modaoduixie" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_shuo" />
+				<equipment slot="Item1"
+						   id="Item.noyans_shield" />
+				<equipment slot="Item2"
+						   id="Item.zhongxinggangbian" />
+				<equipment slot="Head"
+						   id="Item.qianniuweidoumou" />
+				<equipment slot="Cape"
+						   id="Item.xuanjiajunjianjia" />
+				<equipment slot="Body"
+						   id="Item.xuanjiajunxiongjia" />
+				<equipment slot="Gloves"
+						   id="Item.longwujunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.modaoduixie" />
+			</EquipmentRoster>
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+			<equipment slot="Horse" id="Item.noble_horse_northern" />
+			<equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="huaxia_biaoji"
+			  name="{=huaxia_biaoji}Huaxia Xuanbiaoji"
+			  default_group="Cavalry"
+			  occupation="Soldier"
+			  culture="Culture.huaxia"
+			  level="32">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="150" />
+			<skill id="Riding"
+				   value="200" />
+			<skill id="OneHanded"
+				   value="150" />
+			<skill id="TwoHanded"
+				   value="170" />
+			<skill id="Polearm"
+				   value="250" />
+			<skill id="Bow"
+				   value="200" />
+			<skill id="Crossbow"
+				   value="100" />
+			<skill id="Throwing"
+				   value="200" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_guandao" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_3_t4" />
+				<equipment slot="Item2"
+						   id="Item.eastern_javelin_3_t4" />					   
+				<equipment slot="Head"
+						   id="Item.qianniuweidoumou" />
+				<equipment slot="Cape"
+						   id="Item.longwujunjianjia" />
+				<equipment slot="Body"
+						   id="Item.xuanjiajunxiongjia" />
+				<equipment slot="Gloves"
+						   id="Item.longwujunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.modaoduixie" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_guandao" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_3_t4" />
+				<equipment slot="Item2"
+						   id="Item.eastern_javelin_3_t4" />					   
+				<equipment slot="Head"
+						   id="Item.qianniuweidoumou" />
+				<equipment slot="Cape"
+						   id="Item.xuanjiajunjianjia" />
+				<equipment slot="Body"
+						   id="Item.xuanjiajunxiongjia" />
+				<equipment slot="Gloves"
+						   id="Item.longwujunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.modaoduixie" />
+			</EquipmentRoster>
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+			<equipment slot="Horse" id="Item.noble_horse_northern" />
+			<equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="huaxia_tanma"
+			  name="{=huaxia_tanma}Huaxia Tanma"
+			  default_group="HorseArcher"
+			  occupation="Soldier"
+			  is_basic_troop="true"
+			  culture="Culture.huaxia"
+			  level="16">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="80" />
+			<skill id="Riding"
+				   value="90" />
+			<skill id="OneHanded"
+				   value="75" />
+			<skill id="TwoHanded"
+				   value="75" />
+			<skill id="Polearm"
+				   value="80" />
+			<skill id="Bow"
+				   value="90" />
+			<skill id="Crossbow"
+				   value="60" />
+			<skill id="Throwing"
+				   value="70" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_heiji" />
+			<upgrade_target id="NPCCharacter.huaxia_feiji" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.composite_bow" />
+				<equipment slot="Item1"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Item2"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Item3"
+						   id="Item.huaxia_puji_t2" />
+				<equipment slot="Head"
+						   id="Item.tangdaitoujin" />
+				<equipment slot="Cape"
+						   id="Item.battania_shoulder_strap" />
+				<equipment slot="Body"
+						   id="Item.ao_durkhan_light_lamellar" />
+				<equipment slot="Gloves"
+						   id="Item.strapped_leather_bracers" />
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.composite_bow" />
+				<equipment slot="Item1"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Item2"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Item3"
+						   id="Item.huaxia_puji_t2" />
+				<equipment slot="Head"
+						   id="Item.tangdaitoujin" />
+				<equipment slot="Cape"
+						   id="Item.battanian_leather_shoulder_a" />
+				<equipment slot="Body"
+						   id="Item.ao_durkhan_light_lamellar" />
+				<equipment slot="Gloves"
+						   id="Item.strapped_leather_bracers" />
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" civilian="true" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+			<equipment slot="HorseHarness" id="Item.light_harness" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="huaxia_feiji"
+			  name="{=huaxia_feiji}Huaxia Feiji"
+			  default_group="HorseArcher"
+			  occupation="Soldier"
+			  culture="Culture.huaxia"
+			  level="21">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="90" />
+			<skill id="Riding"
+				   value="110" />
+			<skill id="OneHanded"
+				   value="80" />
+			<skill id="TwoHanded"
+				   value="80" />
+			<skill id="Polearm"
+				   value="95" />
+			<skill id="Bow"
+				   value="100" />
+			<skill id="Crossbow"
+				   value="70" />
+			<skill id="Throwing"
+				   value="80" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_xiaoji"/>			
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.composite_bow" />
+				<equipment slot="Item1"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Item2"
+						   id="Item.steppe_arrows" />						   
+				<equipment slot="Item3"
+						   id="Item.huaxia_puji_t2" />
+				<equipment slot="Head"
+						   id="Item.TV_khuzait_lord_helmet_h2" />
+				<equipment slot="Cape"
+						   id="Item.brass_scale_shoulders" />
+				<equipment slot="Body"
+						   id="Item.sturgian_lamellar_gambeson_heavy" />
+				<equipment slot="Gloves"
+						   id="Item.bianjunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.composite_bow" />
+				<equipment slot="Item1"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Item2"
+						   id="Item.steppe_arrows" />						   
+				<equipment slot="Item3"
+						   id="Item.huaxia_puji_t2" />
+				<equipment slot="Head"
+						   id="Item.yingwujundoumou" />
+				<equipment slot="Cape"
+						   id="Item.brass_scale_shoulders" />
+				<equipment slot="Body"
+						   id="Item.sturgian_lamellar_gambeson_heavy" />
+				<equipment slot="Gloves"
+						   id="Item.bianjunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" civilian="true" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>	
+
+	<NPCCharacter id="huaxia_xiaoji"
+			  name="{=huaxia_xiaoji}Huaxia Xiaoji"
+			  default_group="HorseArcher"
+			  occupation="Soldier"
+			  culture="Culture.huaxia"
+			  level="26">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="100" />
+			<skill id="Riding"
+				   value="160" />
+			<skill id="OneHanded"
+				   value="100" />
+			<skill id="TwoHanded"
+				   value="100" />
+			<skill id="Polearm"
+				   value="120" />
+			<skill id="Bow"
+				   value="180" />
+			<skill id="Crossbow"
+				   value="100" />
+			<skill id="Throwing"
+				   value="100" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_shenxiaoji"/>			
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.composite_bow" />
+				<equipment slot="Item1"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Item2"
+						   id="Item.steppe_arrows" />						   
+				<equipment slot="Item3"
+						   id="Item.huaxia_pudao" />
+				<equipment slot="Head"
+						   id="Item.TV_khuzait_lord_helmet_c" />
+				<equipment slot="Cape"
+						   id="Item.xuanjiajunjianjia" />
+				<equipment slot="Body"
+						   id="Item.AR_aserai_scale_armor_b" />
+				<equipment slot="Gloves"
+						   id="Item.bianjunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.plated_strip_boots" />
+			</EquipmentRoster>			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.composite_bow" />
+				<equipment slot="Item1"
+						   id="Item.steppe_arrows" />
+				<equipment slot="Item2"
+						   id="Item.steppe_arrows" />						   
+				<equipment slot="Item3"
+						   id="Item.huaxia_pudao" />
+				<equipment slot="Head"
+						   id="Item.yingwujundoumou" />
+				<equipment slot="Cape"
+						   id="Item.xuanjiajunjianjia" />
+				<equipment slot="Body"
+						   id="Item.desert_scale_armor" />
+				<equipment slot="Gloves"
+						   id="Item.bianjunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.plated_strip_boots" />
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" civilian="true" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+		</Equipments>
+	</NPCCharacter>	
+
+	<NPCCharacter id="huaxia_shenxiaoji"
+			  name="{=huaxia_shenxiaoji}Huaxia Shenxiaoji"
+			  default_group="HorseArcher"
+			  occupation="Soldier"
+			  culture="Culture.huaxia"
+			  level="32">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="150" />
+			<skill id="Riding"
+				   value="260" />
+			<skill id="OneHanded"
+				   value="150" />
+			<skill id="TwoHanded"
+				   value="150" />
+			<skill id="Polearm"
+				   value="230" />
+			<skill id="Bow"
+				   value="250" />
+			<skill id="Crossbow"
+				   value="120" />
+			<skill id="Throwing"
+				   value="100" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_cw_huolongdao" />
+				<equipment slot="Item1"
+						   id="Item.noble_bow" />
+				<equipment slot="Item2"
+						   id="Item.heavy_steppe_arrows" />
+				<equipment slot="Item3"
+						   id="Item.heavy_steppe_arrows" />						   
+				<equipment slot="Head"
+						   id="Item.TV_khuzait_lord_helmet_k" />
+				<equipment slot="Cape"
+						   id="Item.imperial_lamellar_shoulders" />
+				<equipment slot="Body"
+						   id="Item.sturgian_fortified_armor" />
+				<equipment slot="Gloves"
+						   id="Item.lamellar_plate_gauntlets" />				
+				<equipment slot="Leg"
+						   id="Item.plated_strip_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_cw_huolongdao" />
+				<equipment slot="Item1"
+						   id="Item.noble_bow" />
+				<equipment slot="Item2"
+						   id="Item.heavy_steppe_arrows" />
+				<equipment slot="Item3"
+						   id="Item.heavy_steppe_arrows" />						   
+				<equipment slot="Head"
+						   id="Item.TV_khuzait_lord_helmet_c" />
+				<equipment slot="Cape"
+						   id="Item.imperial_lamellar_shoulders" />
+				<equipment slot="Body"
+						   id="Item.sturgian_fortified_armor" />
+				<equipment slot="Gloves"
+						   id="Item.lamellar_plate_gauntlets" />				
+				<equipment slot="Leg"
+						   id="Item.plated_strip_boots" />
+			</EquipmentRoster>
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />	
+			<equipment slot="Horse" id="Item.noble_horse_northern" />
+			<equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</Equipments>
+	</NPCCharacter>	
+
+	<NPCCharacter id="huaxia_heavy_1"
+				  name="{=huaxia_heavy_1}Huaxia Shadow Swords"
+				  default_group="Infantry"
+				  occupation="Soldier"
+				  culture="Culture.huaxia"
+				  level="16">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="60" />
+			<skill id="Riding"
+				   value="40" />
+			<skill id="OneHanded"
+				   value="50" />
+			<skill id="TwoHanded"
+				   value="70" />
+			<skill id="Polearm"
+				   value="60" />
+			<skill id="Bow"
+				   value="30" />
+			<skill id="Crossbow"
+				   value="30" />
+			<skill id="Throwing"
+				   value="40" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_heavy_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_hengdao" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_1_t2" />
+				<equipment slot="Head" id="Item.datangfubingtoukui" />
+				<equipment slot="Cape" id="Item.TV_khuzait_shoulder_t"/>
+				<equipment slot="Body"
+						   id="Item.TV_khuzait_armor_t" />
+				<equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_hengdao" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_1_t2" />
+				<equipment slot="Head" id="Item.datangfubingtoukui" />
+				<equipment slot="Cape" id="Item.TV_khuzait_shoulder_r"/>
+				<equipment slot="Body"
+						   id="Item.TV_khuzait_armor_t" />
+				<equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
+				<equipment slot="Leg"
+						   id="Item.bianjunxie" />
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" civilian="true" />		
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="huaxia_heavy_2"
+				  name="{=huaxia_heavy_2}Huaxia Golden Tiger"
+				  default_group="Infantry"
+				  occupation="Soldier"
+				  culture="Culture.huaxia"
+				  level="21">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="100" />
+			<skill id="Riding"
+				   value="70" />
+			<skill id="OneHanded"
+				   value="100" />
+			<skill id="TwoHanded"
+				   value="110" />
+			<skill id="Polearm"
+				   value="100" />
+			<skill id="Bow"
+				   value="60" />
+			<skill id="Crossbow"
+				   value="70" />
+			<skill id="Throwing"
+				   value="90" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_heavy_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_zhanma_1" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_1_t2" />
+				<equipment slot="Head" id="Item.fengchidoumou" />
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_n"/>
+				<equipment slot="Body"
+						   id="Item.yingwujunxiongjia" />
+				<equipment slot="Gloves" id="Item.jianyipijia"/>
+				<equipment slot="Leg"
+						   id="Item.modaoduixie" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_zhanma_1" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_1_t2" />
+				<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_c" />
+				<equipment slot="Cape" id="Item.TV_sturgia_shoulders_n"/>
+				<equipment slot="Body"
+						   id="Item.yingwujunxiongjia" />
+				<equipment slot="Gloves" id="Item.jianyipijia"/>
+				<equipment slot="Leg"
+						   id="Item.modaoduixie" />
+			</EquipmentRoster>						
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_zhanma_1" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_1_t2" />
+				<equipment slot="Head" id="Item.fengchidoumou" />
+				<equipment slot="Cape" id="Item.xuanjiajunjianjia"/>
+				<equipment slot="Body"
+						   id="Item.yingwujunxiongjia" />
+				<equipment slot="Gloves" id="Item.jianyipijia"/>
+				<equipment slot="Leg"
+						   id="Item.modaoduixie" />
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="huaxia_heavy_3"
+				  name="{=huaxia_heavy_3}Huaxia White Python"
+				  default_group="Infantry"
+				  occupation="Soldier"
+				  culture="Culture.huaxia"
+				  level="26">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="150" />
+			<skill id="Riding"
+				   value="100" />
+			<skill id="OneHanded"
+				   value="130" />
+			<skill id="TwoHanded"
+				   value="200" />
+			<skill id="Polearm"
+				   value="130" />
+			<skill id="Bow"
+				   value="80" />
+			<skill id="Crossbow"
+				   value="90" />
+			<skill id="Throwing"
+				   value="100" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_heavy_4"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.podao" />
+				<equipment slot="Item1"
+						   id="Item.western_javelin_2_t3" />
+				<equipment slot="Head" id="Item.xuanjiajundoumou" />
+				<equipment slot="Cape" id="Item.AR_aserai_scale_cape_a" />
+				<equipment slot="Body"
+						   id="Item.AR_aserai_scale_armor_c" />
+				<equipment slot="Gloves"
+						   id="Item.lamellar_plate_gauntlets" />
+				<equipment slot="Leg"
+						   id="Item.lamellar_plate_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.podao" />
+				<equipment slot="Item1"
+						   id="Item.western_javelin_2_t3" />
+				<equipment slot="Head" id="Item.xuanjiajundoumou" />
+				<equipment slot="Cape" id="Item.AR_imperial_lamellar_cape_h" />
+				<equipment slot="Body"
+						   id="Item.AR_aserai_scale_armor_c" />
+				<equipment slot="Gloves"
+						   id="Item.lamellar_plate_gauntlets" />
+				<equipment slot="Leg"
+						   id="Item.lamellar_plate_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.podao" />
+				<equipment slot="Item1"
+						   id="Item.western_javelin_2_t3" />
+				<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_m" />
+				<equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+				<equipment slot="Body"
+						   id="Item.AR_aserai_scale_armor_c" />
+				<equipment slot="Gloves"
+						   id="Item.lamellar_plate_gauntlets" />
+				<equipment slot="Leg"
+						   id="Item.lamellar_plate_boots" />
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" civilian="true" />	
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="huaxia_heavy_4"
+				  name="{=huaxia_heavy_4}Huaxia Black Dragon"
+				  default_group="Infantry"
+				  occupation="Soldier"
+				  culture="Culture.huaxia"
+				  level="32">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+				   value="220" />
+			<skill id="Riding"
+				   value="160" />
+			<skill id="OneHanded"
+				   value="100" />
+			<skill id="TwoHanded"
+				   value="250" />
+			<skill id="Polearm"
+				   value="250" />
+			<skill id="Bow"
+				   value="160" />
+			<skill id="Crossbow"
+				   value="160" />
+			<skill id="Throwing"
+				   value="220" />
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.modao" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_3_t4" />						   
+				<equipment slot="Head" id="Item.qianniuweidoumou" />
+				<equipment slot="Body"
+						   id="Item.xuanjiajunxiongjia" />
+				<equipment slot="Cape" id="Item.longwujunjianjia" />
+				<equipment slot="Gloves"
+						   id="Item.xuanjiajunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.xuanjiajunxie" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.modao" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_3_t4" />						   
+				<equipment slot="Head" id="Item.qianniuweidoumou" />
+				<equipment slot="Body"
+						   id="Item.xuanjiajunxiongjia" />
+				<equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+				<equipment slot="Gloves"
+						   id="Item.xuanjiajunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.xuanjiajunxie" />
+			</EquipmentRoster>	
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_t4_modao" />
+				<equipment slot="Item1"
+						   id="Item.eastern_javelin_3_t4" />						   
+				<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_m" />
+				<equipment slot="Body"
+						   id="Item.xuanjiajunxiongjia" />
+				<equipment slot="Cape" id="Item.longwujunjianjia" />
+				<equipment slot="Gloves"
+						   id="Item.xuanjiajunhuwan" />
+				<equipment slot="Leg"
+						   id="Item.xuanjiajunxie" />
+			</EquipmentRoster>
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />					
+		</Equipments>
+	</NPCCharacter>	
+</NPCCharacters>

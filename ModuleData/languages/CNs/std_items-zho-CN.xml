@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+    <string id="huaxia_han_dao_1" text="华夏生铁汉刀"/>
+    <string id="huaxia_han_dao_2" text="华夏锻钢汉刀"/>
+    <string id="huaxia_war_jian" text="华夏铁短剑"/>
+    <string id="huaxia_jinchu_changjian" text="华夏荆楚长剑"/>
+    <string id="huaxia_elite_jian_1" text="华夏含光剑"/>
+    <string id="huaxia_elite_jian_2" text="华夏巨阙剑"/>
+    <string id="huaxia_hengdao" text="华夏横刀"/>
+    <string id="huaxia_zhanma_1" text="华夏斩马刀"/>
+    <string id="huaxia_zhanma_2" text="华夏巨型斩马刀"/>
+    <string id="huaxia_elite_changjian" text="华夏秦王长剑"/>
+    <string id="huaxia_inf_ji" text="华夏卒戟"/>
+    <string id="huaxia_tigerfork" text="华夏虎叉"/>
+    <string id="huaxia_pudao" text="华夏朴刀"/>
+    <string id="huaxia_guandao" text="华夏关公偃月刀"/>
+    <string id="huaxia_shuo" text="华夏马槊"/>
+    <string id="huaxia_cw_huolongdao" text="华夏炎龙刀"/>
+    <string id="huaxia_cw_heihuqiang" text="华夏黑虎枪"/>
+    <string id="huaxia_noble_dagger" text="华夏鱼肠剑"/>
+    <string id="huaxia_fly_dagger" text="华夏飞镖"/>
+    <string id="huaxia_puji_t2" text="华夏卜戟"/>
+    <string id="huaxia_puji_t3" text="华夏加长卜戟"/>
+    <string id="huaxia_t1_ge" text="华夏青铜戈"/>
+    <string id="huaxia_t2_ge" text="华夏青铜长戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+    <string id="huaxia_t3_ge" text="华夏吴王戈"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string id="hanji_blade" text="卜戟刃头"/>
+    <string id="hanji_guarded_blade" text="优质卜戟刃头"/>
+    <string id="huaxia_bronze_spear_blade_t2" text="青铜矛头"/>
+    <string id="huaxia_ge_blade" text="青铜戈头"/>
+    <string id="huaxia_guard_ge_blade" text="青铜戈头"/>
+    <string id="huaxia_ge_fine_blade" text="贵族青铜戈头"/>
+    <string id="huaxia_guard_ge_fine_blade" text="贵族青铜戈头"/>
+
+    
+ </strings>
+</base>

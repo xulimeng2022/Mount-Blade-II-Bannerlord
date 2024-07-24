@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+
+	<Kingdom id="kingdom_huaxia" 
+		owner="Hero.hx_lord_1"   
+		banner_key="11.132.132.2970.2970.768.788.1.0.0.122.142.142.524.524.876.765.0.1.0.122.142.145.524.524.650.765.0.0.0" 
+		primary_banner_color="0xfff1c232" 
+		secondary_banner_color="0xff830808" 
+		label_color="FFFFA400" 
+		color="FFFFA400" 
+		color2="FFFF7B00" 
+		alternative_color="FFBA1418" 
+		alternative_color2="FFFFA400" 
+		culture="Culture.huaxia" 
+		settlement_banner_mesh="encounter_flag_d" 
+		flag_mesh="info_screen_flags_b" 
+		name="{=huaxia.kingdom.name}Huaxia" 
+		short_name="{=huaxia.kingdom.short_name}Huaxia"
+		title="{=huaxia.kingdom.title}Empire of Huaxia" 
+		ruler_title="{huaxia.kingdom.ruler_title}Huangdi" 
+		text="{=huaxia.kingdom.text}The unified land of Huaxia is a strong agricultural power, with strong crossbow infantry and swordsmen. While content to stay within its own domain, beyond the south eastern mountains, it may find new territorial ambitions with control of trade routes to Calradia proper.">
+		<relationships>
+			<relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+		</relationships>
+		<policies>
+			<policy id="policy_royal_commissions" />
+			<policy id="policy_castle_charters" />
+			<policy id="policy_royal_privilege" />
+			<policy id="policy_lords_privy_council" />
+			<policy id="policy_magistrates" />
+			<policy id="policy_royal_guard" />
+			<policy id="policy_cantons" />
+		</policies>
+	</Kingdom>
+
+</Kingdoms>

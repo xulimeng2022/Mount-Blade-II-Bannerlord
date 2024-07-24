@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<strings>
+		<string id="str_culture_description.huaxia" text="{=str_culture_description.huaxia}Beyond the eastern mountains, across the far east plains, the Huaxia people thrived. The people is said to originate beside the river Han. Some say it refers to the celestrial river in the heaven, more probable that it refers to a now lost river to the far east. They are farmers and engineers that tamed the flooding of rivers and grew abundant crops to feed their growing population. They are the earliest to develop crossbows, or Nu, in the local tongue. Experts not only in crossbows and heavy infantry, they also adopted horse archery to defend against the northern nomadic raiders."/>
+		
+		<string id="str_crafting_template.HuaxiaPolearm" text="{=str_crafting_template.HuaxiaPolearm}Huaxia Polearm" />
+		<string id="str_crafting_template.HuaxiaDaggeraxe" text="{=str_crafting_template.HuaxiaDaggeraxe}Huaxia Daggeraxe" />
+
+		<string id="str_culture_rich_name.huaxia" text="{=str_culture_rich_name.huaxia}Huaxians" />
+		<string id="str_faction_official.huaxia_f" text="{=str_faction_official.huaxia_f}a junwang" />
+		<string id="str_faction_official.huaxia" text="{=str_faction_official.huaxia}a junwang" />
+
+		<string id="str_faction_ruler_name_with_title.huaxia" text="{=str_faction_ruler_name_with_title}{RULER.NAME} Huangdi" />
+		<string id="str_faction_noble_name_with_title.huaxia" text="{=str_faction_noble_name_with_title}{RULER.NAME} Wang" />
+		<string id="str_faction_ruler_term_in_speech.huaxia" text="{=str_faction_ruler_term_in_speech.huaxia}{RULER.NAME} Huangdi" />
+		<string id="str_faction_ruler.huaxia_f" text="{=str_faction_official.huaxia}huangdi" />
+		<string id="str_faction_ruler.huaxia" text="{=str_faction_official.huaxia}huangdi" />
+		<string id="str_neutral_term_for_culture.huaxia" text="{=str_neutral_term_for_culture.huaxia}Huaxians" />
+		<string id="str_adjective_for_faction.huaxia" text="{=str_adjective_for_faction.huaxia}Huaxian" />
+		<string id="str_short_term_for_faction.huaxia" text="{=str_short_term_for_faction.huaxia}Huaxians" />
+		<string id="str_faction_formal_name_for_culture.huaxia" text="{=str_faction_formal_name_for_culture.huaxia}Huaxia Realm" />
+	
+
+		<string id="str_weapon_usage.hxOneHandedPolearm" text="One Handed" />
+		<string id="str_weapon_usage.hxTwoHandedPolearm" text="Two Handed" />
+		<string id="str_weapon_usage.hxTwoHandedPolearm_Couchable" text="Couch Lance" />
+		<string id="str_weapon_usage.hxOneHandedDaggerAxe" text="One Handed" />
+
+		<string id="str_player_father_name.huaxia" text="博然" />
+		<string id="str_player_mother_name.huaxia" text="天悦" />
+		<string id="str_player_brother_name.huaxia" text="聂阵" />
+		<string id="str_player_little_brother_name.huaxia" text="飞鸿" />
+		<string id="str_player_little_sister_name.huaxia" text="艾薇" />
+	</strings>

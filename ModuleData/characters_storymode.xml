@@ -1,0 +1,91 @@
+<NPCCharacters>
+    <NPCCharacter id="tutorial_npc_brother" default_group="Infantry" age="25" voice="curt" is_hero="true"
+        is_female="false" culture="Culture.huaxia" name="{=!}(Brother name set by culture)"
+        banner_symbol_mesh_name="test_symbol_a" occupation="Lord" banner_symbol_color="FF000000">
+        <face>
+            <BodyProperties version="4" weight="0.5886" build="0.5725"
+                key="0013F80FC00038C9FCAFFEEBFFEF7E4F88ECCFFFFFFFFFBFAA9CCFF8A3338866C99A86030FA8A76C00000FA6FCBBBBBF00000000000000000000000041FC50C2" />
+        </face>
+        <skills></skills>
+        <Traits>
+            <Trait id="HopliteFightingSkills" value="5" />
+            <Trait id="Commander" value="7" />
+            <Trait id="Politician" value="5" />
+            <Trait id="Manager" value="8" />
+            <Trait id="Valor" value="1" />
+            <Trait id="Calculating" value="1" />
+        </Traits>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.huaxia_jinchu_changjian" />
+                <equipment slot="Cape" id="Item.empire_cape_a" />
+                <equipment slot="Body" id="Item.khuzait_belt_leather" />
+                <equipment slot="Leg" id="Item.yingwujunxie" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.huaxia_war_jian" />
+                <equipment slot="Cape" id="Item.empire_cape_a" />
+                <equipment slot="Body" id="Item.aserai_civil_d" />
+                <equipment slot="Leg" id="Item.yingwujunxie" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="storymode_little_brother" default_group="Infantry" voice="softspoken" age="11" is_hero="true"
+        is_female="false" culture="Culture.huaxia" name="{=!}(Little brother name set by culture)"
+        banner_symbol_mesh_name="test_symbol_a" occupation="Lord" banner_symbol_color="FF000000">
+        <face>
+            <BodyProperties version="4" weight="0.45" build="0.4"
+                key="0010F00FC0000050728C9B567789677848C77C8EBFAFCB77ECBAAF73859477763496462408B8A96800028885644276A300000000000000000000000079142002" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.huaxia_hengdao" />
+                <equipment slot="Item1" id="Item.large_adarga" />
+                <equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+                <equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+                <equipment slot="Leg" id="Item.strapped_shoes" />
+                <equipment slot="Cape" id="Item.empire_cape_a" />
+                <equipment slot="Horse" id="Item.empire_horse" />
+                <equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.huaxia_hengdao" />
+                <equipment slot="Head" id="Item.tangdaitoujin" />
+                <equipment slot="Body" id="Item.aserai_civil_a" />
+                <equipment slot="Leg" id="Item.leather_shoes" />
+                <equipment slot="Gloves" id="Item.leather_gloves" />
+                <equipment slot="Horse" id="Item.empire_horse" />
+                <equipment slot="HorseHarness" id="Item.desert_cloth_harness" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="storymode_little_sister" default_group="Infantry" voice="softspoken" age="14" is_hero="true"
+        is_female="true" culture="Culture.huaxia" name="{=!}(Little sister name set by culture)"
+        banner_symbol_mesh_name="test_symbol_a" occupation="Lord" banner_symbol_color="FF000000">
+        <face>
+            <BodyProperties version="4" weight="0.4" build="0.3"
+                key="0010D40D80000041558636777574886360238738866E133884577B00853524132254460301063247000016380000000000000000000000000000000070342002" />
+        </face>
+        <Equipments>
+            <EquipmentRoster>
+                <equipment slot="Item0" id="Item.huaxia_war_jian" />
+                <equipment slot="Item1" id="Item.large_adarga" />
+                <equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+                <equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+                <equipment slot="Leg" id="Item.strapped_shoes" />
+                <equipment slot="Cape" id="Item.empire_cape_a" />
+                <equipment slot="Horse" id="Item.empire_horse" />
+                <equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+            </EquipmentRoster>
+            <EquipmentRoster civilian="true">
+                <equipment slot="Item0" id="Item.huaxia_war_jian" />
+                <equipment slot="Body" id="Item.khuzait_dress" />
+                <equipment slot="Leg" id="Item.strapped_shoes" />
+                <equipment slot="Gloves" id="Item.leather_gloves" />
+                <equipment slot="Horse" id="Item.empire_horse" />
+                <equipment slot="HorseHarness" id="Item.desert_cloth_harness" />
+            </EquipmentRoster>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="spc_wanderer_huaxia_0" name="{=spc_wanderer_huaxia_0}{FIRSTNAME} the Mohist" voice="softspoken" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_0" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="CrossbowmanStyle" value="3" />
+      <Trait id="EngineerSkills" value="5" />
+      <Trait id="Generosity" value="2" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+	
+  <!-- the hawk, curt voice. Rural clan nemesis. Easily insulted, killed a man's brother over a girl -->
+  <NPCCharacter id="spc_wanderer_huaxia_1" name="{=spc_wanderer_huaxia_1}{FIRSTNAME} the Leopard" voice="earnest" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_1" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="BalancedFightingSkills" value="3" />
+      <Trait id="Valor" value="2" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- the fatherless, backed out of a family feud -->
+  <NPCCharacter id="spc_wanderer_huaxia_2" name="{=spc_wanderer_huaxia_2}{FIRSTNAME} the Unfilial" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_2" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HorseArcherFightingSkills" value="3" />
+      <Trait id="Valor" value="2" />
+      <Trait id="Mercy" value="2" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_horsearcher_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- ironeye, professional soldier. infantryman -->
+  <NPCCharacter id="spc_wanderer_huaxia_3" name="{=spc_wanderer_huaxia_3}{FIRSTNAME} Ironwill" voice="curt" age="32" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_3" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HopliteFightingSkills" value="4" />
+      <Trait id="SergeantCommandSkills" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--the proud, turned on protectors. lord as nemesis -->
+  <NPCCharacter id="spc_wanderer_huaxia_4" name="{=spc_wanderer_huaxia_4}{FIRSTNAME} the Masterless" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_4" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="BalancedFightingSkills" value="3" />
+      <Trait id="Commander" value="3" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- 'the mad' soft voice, sinister? Pickpocket. Have gang leader as nemesis? -->
+  <NPCCharacter id="spc_wanderer_huaxia_5" name="{=spc_wanderer_huaxia_5}{FIRSTNAME} the Mad" voice="softspoken" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_5" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="WandererEquipment" value="1" />
+      <!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+      <Trait id="HuscarlFightingSkills" value="4" />
+      <Trait id="RogueSkills" value="3" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--the grey falcon, lone survivor of a hunted steppe clan -->
+  <NPCCharacter id="spc_wanderer_huaxia_6" name="{=spc_wanderer_huaxia_6}{FIRSTNAME} the Grey Wolf" voice="curt" age="20" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_6" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="HorseArcherFightingSkills" value="3" />
+      <Trait id="HillScoutSkills" value="2" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_horsearcher_wanderer_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--the she-wolf - taken by empire, slave in arena. CHANGED TO AT-START-->
+  <NPCCharacter id="spc_wanderer_huaxia_7" name="{=spc_wanderer_huaxia_7}{FIRSTNAME} the She-Tiger" voice="earnest" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_7" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+      <Trait id="SergeantCommandSkills" value="2" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_female_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_armed_wanderer_female_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- lone daughter of mother -->
+  <NPCCharacter id="spc_wanderer_huaxia_8" name="{=spc_wanderer_huaxia_8}{FIRSTNAME} the Lonesome" voice="softspoken" age="29" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.beauty_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_8" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="WandererEquipment" value="1" />
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="HillScoutSkills" value="2" />
+      <Trait id="Surgeon" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_female_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_armed_wanderer_female_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- tomboy daughter of caravan guard -->
+  <NPCCharacter id="spc_wanderer_huaxia_9" name="{=spc_wanderer_huaxia_9}{FIRSTNAME} the Protector" voice="earnest" age="21" is_female="true" is_hero="false" default_group="Infantry" is_template="true" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_huaxia_9" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+	  <Trait id="WandererEquipment" value="1" />
+      <Trait id="BalancedFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="5" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- former 'horsethief' -->
+  <NPCCharacter id="spc_wanderer_huaxia_10" name="{=spc_wanderer_huaxia_10}{FIRSTNAME} the Begger" voice="softspoken" default_group="Infantry" is_hero="false" culture="Culture.huaxia" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_huaxia" />
+    </face>
+    <!--<Hero id="spc_wanderer_karakhuzaits_10" faction="Faction.karakhuzaits" clan="Clan.karakhuzaits"/>-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="SpawnAsPrisoner" value="1" />-->
+	  <Trait id="WandererEquipment" value="1" />
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="HillScoutSkills" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.huaxia_jinchu_changjian" />
+        <equipment slot="Body" id="Item.ragged_robes" />
+        <equipment slot="Leg" id="Item.ragged_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_poor_wanderer_huaxia" civilian="true" />
+      <EquipmentSet id="npc_poor_wanderer_huaxia" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+   <tags>
+      <tag language="繁體中文" />
+   </tags>
+   <strings>
+      <string id="huaxia.name" text="華夏" />
+      <string id="huaxia_bandits.name" text="江湖流寇" />
+      <string id="huaxia_looters.name" text="流民" />
+      <string id="huaxia.kingdom.name" text="華夏" />
+      <string id="huaxia.kingdom.short_name" text="華夏" />
+      <string id="huaxia.kingdom.title" text="華夏帝國" />
+      <string id="huaxia.kingdom.ruler_title" text="皇帝" />
+
+      <string id="clan_huaxia_li" text="安李" />
+      <string id="clan_huaxia_liu" text="洛劉" />
+      <string id="clan_huaxia_zhou" text="豳周" />
+      <string id="clan_huaxia_zhao" text="封趙" />
+      <string id="clan_huaxia_chen" text="宛陳" />
+      <string id="clan_huaxia_mingjiao" text="明教" />
+      <string id="clan_huaxia_yushan" text="玉山好漢" />
+      <string id="clan_huaxia_yellowturban" text="黃巾" />
+      <string id="clan_huaxia_jianghu_1" text="江湖流寇" />
+      <string id="clan_huaxia_looters" text="流民遊寇" />
+
+      <string id="hx_male_name1" text="子強" />
+      <string id="hx_male_name2" text="剛武" />
+      <string id="hx_male_name3" text="無忌" />
+      <string id="hx_male_name4" text="子勇" />
+      <string id="hx_male_name5" text="子毅" />
+      <string id="hx_male_name6" text="子劍" />
+      <string id="hx_male_name7" text="子共" />
+      <string id="hx_male_name8" text="子威" />
+      <string id="hx_male_name9" text="子傑" />
+      <string id="hx_male_name10" text="雷夫" />
+      <string id="hx_male_name11" text="望舒" />
+      <string id="hx_male_name12" text="莫愁" />
+      <string id="hx_male_name13" text="飛鴻" />
+      <string id="hx_male_name14" text="念真" />
+      <string id="hx_male_name15" text="青山" />
+      <string id="hx_male_name16" text="子伯" />
+      <string id="hx_male_name17" text="子仲" />
+      <string id="hx_male_name18" text="子季" />
+      <string id="hx_male_name19" text="鳳林" />
+      <string id="hx_male_name20" text="曉宇" />
+      <string id="hx_male_name21" text="開明" />
+      <string id="hx_male_name22" text="永恆" />
+      <string id="hx_male_name23" text="明哲" />
+      <string id="hx_male_name24" text="長安" />
+      <string id="hx_male_name25" text="瑞祥" />
+      <string id="hx_male_name26" text="天義" />
+      <string id="hx_male_name27" text="運動" />
+      <string id="hx_male_name28" text="小天" />
+      <string id="hx_male_name29" text="嘉義" />
+      <string id="hx_male_name30" text="文昌" />
+      <string id="hx_male_name31" text="仲立" />
+      <string id="hx_male_name32" text="守哲" />
+      <string id="hx_male_name33" text="匯健" />
+      <string id="hx_male_name34" text="雲龍" />
+      <string id="hx_male_name35" text="玄開" />
+      <string id="hx_male_name36" text="昭明" />
+      <string id="hx_male_name37" text="金明" />
+      <string id="hx_male_name38" text="長威" />
+
+      <string id="hx_female_name1" text="秀靜" />
+      <string id="hx_female_name2" text="麗麗" />
+      <string id="hx_female_name3" text="子靜" />
+      <string id="hx_female_name4" text="娜薇" />
+      <string id="hx_female_name5" text="妍子" />
+      <string id="hx_female_name6" text="嵐嵐" />
+      <string id="hx_female_name7" text="秀英" />
+      <string id="hx_female_name8" text="玉琴" />
+      <string id="hx_female_name9" text="芷若" />
+      <string id="hx_female_name10" text="語嫣" />
+      <string id="hx_female_name11" text="徽因" />
+      <string id="hx_female_name12" text="映月" />
+      <string id="hx_female_name13" text="如是" />
+      <string id="hx_female_name14" text="美季" />
+      <string id="hx_female_name15" text="若蘭" />
+      <string id="hx_female_name16" text="如花" />
+      <string id="hx_female_name17" text="子娟" />
+      <string id="hx_female_name18" text="紫蓮" />
+      <string id="hx_female_name19" text="青雲" />
+      <string id="hx_female_name20" text="寶兒" />
+      <string id="hx_female_name21" text="花香" />
+      <string id="hx_female_name22" text="蓮心" />
+      <string id="hx_female_name23" text="明珠" />
+      <string id="hx_female_name24" text="玉瑤" />
+      <string id="hx_female_name25" text="蕊珠" />
+      <string id="hx_female_name26" text="秋菊" />
+      <string id="hx_female_name27" text="翠玉" />
+      <string id="hx_female_name28" text="紫雲" />
+      <string id="hx_female_name29" text="春花" />
+      <string id="hx_female_name30" text="梅香" />
+      <string id="hx_female_name31" text="瑤珠" />
+      <string id="hx_female_name32" text="鶴舞" />
+      <string id="hx_female_name33" text="雪花" />
+      <string id="hx_female_name34" text="蘭心" />
+      <string id="hx_female_name35" text="珊瑚" />
+      <string id="hx_female_name36" text="凰兒" />
+      <string id="hx_female_name37" text="秋瑾" />
+
+      <string id="hx_clan_name1" text="殷" />
+      <string id="hx_clan_name2" text="商" />
+      <string id="hx_clan_name3" text="陳" />
+      <string id="hx_clan_name4" text="齊" />
+      <string id="hx_clan_name5" text="秦" />
+      <string id="hx_clan_name6" text="趙" />
+      <string id="hx_clan_name7" text="劉" />
+      <string id="hx_clan_name8" text="項" />
+      <string id="hx_clan_name9" text="楚" />
+      <string id="hx_clan_name10" text="曹" />
+      <string id="hx_clan_name11" text="孫" />
+      <string id="hx_clan_name12" text="李" />
+      <string id="hx_clan_name21" text="吳" />
+      <string id="hx_clan_name22" text="胡" />
+      <string id="hx_clan_name23" text="張" />
+      <string id="hx_clan_name24" text="龔" />
+      <string id="hx_clan_name25" text="徐" />
+      <string id="hx_clan_name26" text="王" />
+      <string id="hx_clan_name27" text="白" />
+      <string id="hx_clan_name28" text="鄧" />
+      <string id="hx_clan_name29" text="方" />
+      <string id="hx_clan_name30" text="江" />
+      <string id="hx_clan_name31" text="莫" />
+      <string id="hx_clan_name32" text="牛" />
+      <string id="hx_clan_name33" text="歐陽" />
+      <string id="hx_clan_name34" text="彭" />
+      <string id="hx_clan_name35" text="石" />
+      <string id="hx_clan_name36" text="唐" />
+      <string id="hx_clan_name37" text="夏" />
+      <string id="hx_clan_name38" text="楊" />
+      <string id="hx_clan_name39" text="朱" />
+      <string id="hx_clan_name40" text="樑" />
+      <string id="hx_clan_name41" text="南宮" />
+      <string id="hx_clan_name42" text="司馬" />
+      <string id="hx_clan_name43" text="諸葛" />
+      <string id="hx_clan_name44" text="曹" />
+
+      <string id="hx_lord_1" text="玄隆" />
+      <string id="hx_lord_1_a" text="怡媛" />
+      <string id="hx_lord_1_b" text="基維" />
+      <string id="hx_lord_1_c" text="太平" />
+      <string id="hx_lord_1_d" text="無忌" />
+      <string id="hx_lord_1_e" text="含胭" />
+      <string id="hx_lord_2" text="光" />
+      <string id="hx_lord_2_a" text="月季" />
+      <string id="hx_lord_2_b" text="詠露" />
+      <string id="hx_lord_2_c" text="劍雲" />
+      <string id="hx_lord_2_d" text="劍山" />
+      <string id="hx_lord_2_e" text="玉嵐" />
+      <string id="hx_lord_3" text="子傅" />
+      <string id="hx_lord_3_a" text="紅娘" />
+      <string id="hx_lord_3_b" text="耀鵬" />
+      <string id="hx_lord_3_c" text="耀舉" />
+      <string id="hx_lord_4" text="且耘" />
+      <string id="hx_lord_4_a" text="圓圓" />
+      <string id="hx_lord_4_b" text="健" />
+      <string id="hx_lord_4_c" text="萬鴻" />
+      <string id="hx_lord_5" text="羽" />
+      <string id="hx_lord_5_a" text="蟬翼" />
+      <string id="hx_lord_5_b" text="傲夫" />
+      <string id="hx_lord_5_c" text="漢如" />
+      <string id="hx_lord_5_d" text="至翌" />
+      <string id="hx_sect_hero_2" text="天道" />
+      <string id="hx_sect_hero_2_a" text="天罡" />
+      <string id="hx_sect_hero_2_b" text="天師" />
+      <string id="hx_sect_hero_1" text="重九" />
+      <string id="hx_sect_hero_1_a" text="火明" />
+
+      <string id="spc_wanderer_huaxia_0" text="墨客{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_1" text="豹子{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_2" text="不孝{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_3" text="鐵漢{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_4" text="浪客{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_5" text="瘋魔{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_6" text="灰狼{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_7" text="母老虎{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_8" text="孤女{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_9" text="鏢人{FIRSTNAME}" />
+      <string id="spc_wanderer_huaxia_10" text="乞丐{FIRSTNAME}" />
+
+      <string id="str_culture_description.huaxia"
+         text="東嶺之越，東漠之遙，乃華夏之地。傳其祖源於漢水。漢，天水也，不明其域。華夏之民，世代務農務工，善於掌握水利灌溉以滋養民生。華人掌握弓弩之術久矣，故弓弩法精盛，兵法嚴謹。因常年抵禦狄騎之侵擾，故騎射亦爲國之所長。" />
+
+      <string id="huaxia_kingdom_text"
+         text="自古以來，華夏之地，乃先進之農耕文明之源。其弩手與劍士，傳頌千古，聲名顯赫。華夏之民守於東南之山谷，不嗜趨陟夷地。李朝新興之安疆與新耀，志欲保守文明，自西而擴，掌控西域之貿易要塞。" />
+
+      <string id="clan_huaxia_li_text" text="安李家祖先通婚於北狄，獲重騎兵之術引入華夏。武技超羣，李家威名迅速崛起，一時之霸主。李家之人對外來之文化寬厚，故引發其他世族之不滿。" />
+
+      <string id="clan_huaxia_liu_text" text="洛劉家原乃華夏帝王之室，數百年前被黃巾之起義所推翻。劉家之衰敗引發華夏之動盪，雖今不如往昔，然多年之政治基礎仍然保存。" />
+
+      <string id="clan_huaxia_zhou_text" text="豳周家傳承上古之貴族，其輝煌之日已逝，然此族驕傲自守，從不放棄復興家族之機會。" />
+
+      <string id="clan_huaxia_zhao_text" text="封趙家爲武將之門，忠誠輔佐華夏帝王多年。" />
+
+      <string id="clan_huaxia_chen_text" text="宛陳家出自南方之望族，曾與洛劉家同舉兵起事，名聲大噪，其後代以英勇善戰而著名。" />
+
+      <string id="clan_huaxia_mingjiao_text" text="明教爲西域拜火教之一支，信奉今日之亂世將被烈焰所吞噬，迎來淨化之新世界。" />
+
+      <string id="clan_huaxia_yushan_text" text="玉山，爲流亡社會底層者之棲身之所。其英雄之士，結義爲玉山之義士，高舉俠義之旗，以武力維護內心之正義。" />
+
+      <string id="clan_huaxia_yellowturban_text" text="黃巾之徒，爲民間道教之極端主義者，志在消弭世間一切不平等，以實現天下大同。" />
+
+      <string id="clan_huaxia_jianghu_1_text" text="流離於世之各路行者，匯聚於此，自謂行俠仗義，實則往往從事殺掠之勾當。" />
+
+      <string id="hx_lord_1_text" text="安李玄隆者，華夏之皇帝也。時年方十六，已颇呈將領才華，後爲出色統帥，瞬間一統分裂華夏。" />
+
+      <string id="str_crafting_template.HuaxiaPolearm" text="華夏長兵" />
+      <string id="str_faction_ruler.huaxia" text="皇帝" />
+      <string id="str_faction_ruler.huaxia_f" text="皇帝" />
+      <string id="str_faction_official.huaxia" text="王" />
+      <string id="str_faction_official.huaxia_f" text="王" />
+      <string id="str_neutral_term_for_culture.huaxia" text="華夏" />
+      <string id="str_culture_rich_name.huaxia" text="華夏人" />
+      <string id="str_faction_ruler_name_with_title.huaxia" text="{RULER.NAME}皇帝" />
+      <string id="str_faction_noble_name_with_title.huaxia" text="{RULER.NAME}王" />
+      <string id="str_faction_ruler_term_in_speech.huaxia" text="{RULER.NAME}皇帝" />
+      <string id="str_neutral_term_for_culture.huaxia" text="華夏人" />
+      <string id="str_adjective_for_faction.huaxia" text="華夏人" />
+      <string id="str_short_term_for_faction.huaxia" text="華夏人" />
+      <string id="str_faction_formal_name_for_culture.huaxia" text="華夏帝國" />
+      <string id="str_faction_formal_name_for_culture.huaxia" text="華夏帝國" />
+
+      <string id="str_player_father_name.huaxia" text="博然" />
+      <string id="str_player_mother_name.huaxia" text="天悅" />
+      <string id="str_player_brother_name.huaxia" text="聶陣" />
+      <string id="str_player_little_brother_name.huaxia" text="飛鴻" />
+      <string id="str_player_little_sister_name.huaxia" text="艾薇" />
+   </strings>
+</base>

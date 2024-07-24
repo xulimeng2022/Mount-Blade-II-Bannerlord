@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="繁體中文"/>
+ </tags>
+ <strings>
+    <string id="huaxia_wuyang" text="華夏武庠生"/>
+    <string id="huaxia_qingji" text="華夏輕騎"/>
+    <string id="huaxia_heiji" text="華夏黑騎"/>
+    <string id="huaxia_tuji" text="華夏突騎"/>
+    <string id="huaxia_tieji" text="華夏鐵騎"/>
+    <string id="huaxia_biaoji" text="華夏彪騎"/>
+    <string id="huaxia_tanma" text="華夏探馬"/>
+    <string id="huaxia_feiji" text="華夏飛騎"/>
+    <string id="huaxia_xiaoji" text="華夏驍騎"/>
+    <string id="huaxia_shenxiaoji" text="華夏神驍騎"/>
+
+    <string id="huaxia_militia_infantry" text="華夏村勇"/>
+    <string id="huaxia_militia_veteran_infantry" text="華夏勇丁"/>
+    <string id="huaxia_militia_archer" text="華夏弓勇"/>
+    <string id="huaxia_militia_veteran_archer" text="華夏弓丁"/>
+    <string id="huaxia_peasant_recruit" text="華夏農兵"/>
+    <string id="huaxia_infantry_1" text="華夏兵勇"/>
+    <string id="huaxia_spear_2" text="華夏矛士"/>
+    <string id="huaxia_spear_3" text="華夏鐵槍營"/>
+    <string id="huaxia_spear_4" text="華夏鐵浮屠"/>
+    <string id="huaxia_spear_4b" text="華夏鐵林軍"/>
+    <string id="huaxia_shock_2" text="華夏陷陣兵"/>
+    <string id="huaxia_shock_3" text="華夏破陣軍"/>
+    <string id="huaxia_shock_4" text="華夏虎賁軍"/>    
+    <string id="huaxia_heavy_1" text="華夏幽劍營"/>
+    <string id="huaxia_heavy_2" text="華夏金虎營"/>
+    <string id="huaxia_heavy_3" text="華夏白蟒軍"/>
+    <string id="huaxia_heavy_4" text="華夏玄龍軍"/>
+    <string id="huaxia_crossbow_1" text="華夏弩勇"/>
+    <string id="huaxia_crossbow_2" text="華夏弩士"/>
+    <string id="huaxia_crossbow_3" text="華夏弩銳"/>
+    <string id="huaxia_crossbow_4" text="華夏神機營"/>
+    <string id="huaxia_archer_2" text="華夏弓士"/>
+    <string id="huaxia_archer_3" text="華夏弓銳"/>
+    <string id="huaxia_archer_4" text="華夏神弓營"/>
+    <string id="huaxia_horse_archer_3" text="華夏羽騎"/>
+    <string id="huaxia_gongji" text="華夏弓騎"/>
+
+    <string id="huaxia_looter" text="華夏流民"/>
+    <string id="huaxia_bandits_bandit" text="草寇"/>
+    <string id="huaxia_bandits_raider2" text="隱蛇"/>
+    <string id="huaxia_bandits_raider" text="豺狼"/>
+    <string id="huaxia_bandits_chief" text="豹寇"/>
+    <string id="huaxia_bandits_boss" text="虎寇"/>
+
+    <string id="huaxia_jh_recruit" text="江湖新勇"/>
+    <string id="huaxia_jh_infantry_1" text="江湖遊俠"/>
+    <string id="huaxia_jh_infantry_2" text="江湖執衛"/>
+    <string id="huaxia_jh_infantry_3" text="江湖掠騎"/>
+    <string id="huaxia_jh_infantry_2a" text="江湖刺客"/>
+    <string id="huaxia_jh_archer_1" text="綠林獵人"/>
+    <string id="huaxia_jh_archer_2" text="平原遊獵"/>
+    <string id="huaxia_jh_archer_3" text="獵虎騎"/>    
+ </strings>
+</base>

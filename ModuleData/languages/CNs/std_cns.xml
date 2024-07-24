@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-16"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+    <string id="hx.create.parent.retainer" text="帝国将军" />  
+    <string id="hx.create.parent.retainer.desc" text="你的父亲是帝国贵族值得信赖的将军。他与领主的骑兵一起，以骑兵战士的身份战斗。" />
+    
+    <string id="651FhzdR" text="城市的商人"/>
+    <string id="hx.create.parent.merchant.desc" text="你的家族是华夏一个主要城市的商人。他们有时组织商队前往附近的城镇，并在商人行会中讨论问题。" />
+    
+    <string id="hx.create.parent.farmer" text="农民"/>
+    <string id="hx.create.parent.farmer.desc" text="你的家庭是小农，只有足够的土地养活自己，赚取微薄的利润。像他们这样的人是农村经济的支柱，也是税收的中坚力量。"/>
+    
+    <string id="hx.create.parent.artisan" text="工匠"/>
+    <string id="hx.create.parent.artisan.desc" text="您的家人世世代代都以工匠和工匠的身份生活在这座城市。"/>
+    
+    <string id="hx.create.parent.healer" text="乡绅"/>
+    <string id="yRFSzSDZ" text="}你的家族是学者的后裔。你的父亲是当地一位受人尊敬的长者，经常决定当地的事情。从你出生起，你的人生目标就是通过官方考试，成为大城市的一名政府官员。" />
+    
+    <string id="hx.create.parent.vagabond" text="江湖武侠"/>
+    <string id="hx.create.parent.vagabond.desc" text="你的家庭在黑暗的社会中旅行得很好，在社会的底层。他们不断地迁徙，以他们的剑和名字在这片土地上生存。"/>
+    
+    <string id="CITG915d" text="加入了指挥官的参谋部。"/>
+    <string id="Ay0G3f7I" text="你的家人安排你成为一名军官的幕僚。你没有被赋予主要的责任——主要是传递信息和照料他的马——但它确实给了你一个机会，看看战役是如何计划的，士兵是如何部署在战场上的。"/>
+    
+    <string id="hx.create.youth.crossbows.button" text="加入弓弩部队。"/>
+    <string id="hx.create.youth.crossbows" text="你与驻军一起站岗，并被分配了弓弩的角色。你学习了弩的操作、维护和防御训练。" />
+    <string id="h2KnarLL" text="与骑兵一起训练。"/>
+    <string id="hx.create.youth.calvary" text="你的军事能力开始被注意到，一位当地官员介绍你加入了髑髅地。你加入了装甲骑兵，训练长柄武器和各各他的战术。"/>
+    <string id="hx.create.youth.wuxia" text="加入了一个秘密教派。"/>
+    <string id="hx.create.youth.calvary" text="你逃避了兵役，加入了一个秘密社团。你接受了成为一名打手所需的所有武术训练。"/>
+      #对话
+    <string id="prebackstory.spc_wanderer_huaxia_0" text="{=hx.wanderers.0.1}当然，请坐。" />
+    <string id="backstory_a.spc_wanderer_huaxia_0" text="{=hx.wanderers.0.2}我被一位富有的地主接触，他正在寻找人来为他的庄园建造防御工事。" />
+    <string id="backstory_b.spc_wanderer_huaxia_0" text="{=hx.wanderers.0.3}他为这项工作提供了丰厚的报酬，但在进一步检查后，我意识到这些防御工事将用于阻止贫穷和弱势的社区成员。我良心上无法参与这样的行为。" />
+    <string id="backstory_c.spc_wanderer_huaxia_0" text="{=hx.wanderers.0.4}我必须在接受这份工作并赚取可观收入和坚持我的原则并拒绝这份工作之间做出选择。我选择了拒绝这个提议，继续寻找与我信念相符的工作。" />
+    <string id="response_1.spc_wanderer_huaxia_0" text="{=hx.wanderers.0.5}你做出的决定非常光荣。为你的信念而站出来，并拒绝一份如此丰厚的工作需要很大的勇气。" />
+    <string id="response_2.spc_wanderer_huaxia_0" text="{=hx.wanderers.0.6}你应该接受这份工作，你可以用赚到的钱帮助更多的人。你的原则不应该阻碍帮助他人。" />
+    <string id="backstory_d.spc_wanderer_huaxia_0" text="{=hx.wanderers.0.7}我最终来到了这家酒馆，因为这里是找工作的一个知名地方，我希望找到与我的原则相符的工作。" />
+<string id="generic_backstory.spc_wanderer_huaxia_0" text="{=hx.wanderers.0.8}我擅长工程，精通使用弩。我遵循墨子的教义，强调普遍的爱、同情和社会福利的促进。" />
+
+<string id="prebackstory.spc_wanderer_huaxia_1" text="{=hx.wanderers.1.1}我是一名寻找工作的流浪者。我是一名全面发展的步兵，擅长近战和远程战斗。" />
+<string id="backstory_a.spc_wanderer_huaxia_1" text="{=hx.wanderers.1.2}我在寻找雇佣兵工作，旅行在土地上。我刚完成了一项保护商队免受强盗袭击的工作，现在我在这里休息并庆祝我的成功。" />
+<string id="backstory_b.spc_wanderer_huaxia_1" text="{=hx.wanderers.1.3}我被一位富有的商人雇来保护他的商队免受强盗袭击。商人给了我很多黄金，但在旅途中，我发现他在剥削贫穷的人并利用他们的困境。我面临着一个道德困境，我应该继续这份工作，保护商人的财富，还是放弃它，拒绝参与不公正的事情。" />
+<string id="backstory_c.spc_wanderer_huaxia_1" text="{=hx.wanderers.1.4}我决定完成这项工作，虽然我可能不同意商人的方法，但保护商队是我的职责，我履行了职责。我确保在强盗袭击中尽量减少伤亡，尽量保护无辜的人。我得到了报酬，现在我在这家酒馆享受我的劳动成果。" />
+<string id="response_1.spc_wanderer_huaxia_1" text="{=hx.wanderers.1.5}我钦佩你快速有效决策的能力，你显然知道如何处理困难的情况。" />
+<string id="response_2.spc_wanderer_huaxia_1" text="{=hx.wanderers.1.6}我不同意你的做法，作为一名雇佣兵，拥有道德指南针很重要，不参与不公正的事情。" />
+<string id="backstory_d.spc_wanderer_huaxia_1" text="{=hx.wanderers.1.7}我在这里谋生，我不会拒绝承担任何任务，只要我能为此获得报酬。说到这里，如果你知道有什么需要做的工作，我是你的男人。" />
+<string id="generic_backstory.spc_wanderer_huaxia_1" text="{=hx.wanderers.1.8}我是一名全面发展的步兵，擅长近战和远程战斗，正在寻找工作。" />
+
+<string id="prebackstory.spc_wanderer_huaxia_2" text="{=hx.wanderers.2.0}当然，为什么不呢。" />
+<string id="backstory_a.spc_wanderer_huaxia_2" text="{=hx.wanderers.2.1}“不孝”，这是我为家人所做的必要之事而获得的称号。" />
+<string id="backstory_b.spc_wanderer_huaxia_2" text="{=hx.wanderers.2.2}我离开了家，加入了军队，成为一名骑射手，我的工资寄回家支持我的家人。这是对孝道的代价。" />
+<string id="backstory_c.spc_wanderer_huaxia_2" text="{=hx.wanderers.2.3}战争结束了，我的收入也没有了。现在我只是另一个寻找新生活方式的老兵。也许一杯烈酒能麻痹我的记忆。" />
+<string id="response_1.spc_wanderer_huaxia_2" text="{=hx.wanderers.2.4}我能看出你对家人的重视，你为他们提供支持的选择体现了你的孝道。" />
+<string id="response_2.spc_wanderer_huaxia_2" text="{=hx.wanderers.2.5}我理解你想帮助家人的心情，但我相信有其他方法可以支持他们，而不必将自己置于危险之中，离开他们。" />
+<string id="backstory_d.spc_wanderer_huaxia_2" text="{=hx.wanderers.2.6}是的，我们看看吧。生活从不提供你想要的，只有你需要的。" />
+<string id="generic_backstory.spc_wanderer_huaxia_2" text="{=hx.wanderers.2.7}我是一名骑射手，寻找任何能支付的工作，我没有选择或偏好，我只需要生存。" />
+
+<string id="prebackstory.spc_wanderer_huaxia_3" text="{=hx.wanderers.3.0}是的，当然。" />
+<string id="backstory_a.spc_wanderer_huaxia_3" text="{=hx.wanderers.3.1}最近，我被一位地方领主雇来平息邻省的叛乱。叛乱是由一位曾经的将军领导的，他对领主的统治感到不满。我带领我的士兵与叛军作战。尽管我们处于人数劣势，但我知道我们在训练和装备上占有优势。" />
+<string id="backstory_b.spc_wanderer_huaxia_3" text="{=hx.wanderers.3.2}在战斗中，我面临一个道德选择。一个叛军领袖，我的一个老朋友，被我的部队俘获了。他恳求我给予宽恕，但我知道如果我宽恕他，他只会再次返回来与我们作战。" />
+<string id="backstory_c.spc_wanderer_huaxia_3" text="{=hx.wanderers.3.3}我必须做出一个艰难的决定，但最终，我选择了忠于我的领主并处决了他。" />
+<string id="response_1.spc_wanderer_huaxia_3" text="{=hx.wanderers.3.4}我支持你处决叛军领袖的决定。他对省的稳定构成了威胁，消灭他是确保人民安全的必要措施。" />
+<string id="response_2.spc_wanderer_huaxia_3" text="{=hx.wanderers.3.5}我反对你处决叛军领袖的决定。他或许有正当的理由反抗，而杀死他只会延续暴力的循环。或许有和解与和平的机会。" />
+<string id="backstory_d.spc_wanderer_huaxia_3" text="{=hx.wanderers.3.6}战斗结束后，我回到了领主的城堡，因我的服务得到了奖励。我在酒馆度过了夜晚，因为这里是我可以放松并与我的士兵庆祝的地方。现在我在这里寻找新工作。" />
+<string id="generic_backstory.spc_wanderer_huaxia_3" text="{=hx.wanderers.3.7}我在寻找任何需要我作为战士和领导者技能的工作。我不挑剔，只要报酬公平，事业正义。" />
+
+<string id="prebackstory.spc_wanderer_huaxia_4" text="{=hx.wanderers.4.0}啊，嗯，这是个有趣的故事。" />
+<string id="backstory_a.spc_wanderer_huaxia_4" text="{=hx.wanderers.4.1}我在寻找工作，因为我需要钱。我碰到了一个被强盗恐吓的村庄。村民们提出要付钱让我解决这个问题。" />
+<string id="backstory_b.spc_wanderer_huaxia_4" text="{=hx.wanderers.4.2}我同意了，我们出发去寻找强盗的藏身处。但当我们到达那里时，发现强盗其实只是一群绝望的农民，他们为了养活家庭而转行做强盗。" />
+<string id="backstory_c.spc_wanderer_huaxia_4" text="{=hx.wanderers.4.3}这是一个艰难的决定，但我选择放他们一马，并把他们带回村庄与村民谈判一个公平的交易。" />
+<string id="response_1.spc_wanderer_huaxia_4" text="{=hx.wanderers.4.4}我认为放走强盗并试图为村民找到和平解决方案是非常高尚的决定。这表明你有强烈的正义感和同情心。" />
+<string id="response_2.spc_wanderer_huaxia_4" text="{=hx.wanderers.4.5}我认为你放走强盗是个错误。他们是罪犯，应该被相应地处理。你的慷慨使村庄处于危险之中，你的行为可能造成了更多的伤害。" />
+<string id="backstory_d.spc_wanderer_huaxia_4" text="{=hx.wanderers.4.6}在那次小冒险之后，我决定休息一下，在当地酒馆喝一两杯。我总是在寻找新工作，但我并不挑剔。只要报酬丰厚，不涉及伤害无辜，我都会接受。" />
+<string id="generic_backstory.spc_wanderer_huaxia_4" text="{=hx.wanderers.4.7}我在寻找任何需要我作为战士和领导者技能的工作。我不挑剔，只要报酬公平，事业正义。" />
+
+<string id="prebackstory.spc_wanderer_huaxia_5" text="{=hx.wanderers.5.0}啊，是的，当然。" />
+<string id="backstory_a.spc_wanderer_huaxia_5" text="{=hx.wanderers.5.1}我曾经受雇于一位富有的商人，保护他的商队穿越强盗出没的地区。在旅途中，我们被一群强盗袭击了。" />
+<string id="backstory_b.spc_wanderer_huaxia_5" text="{=hx.wanderers.5.2}在战斗的激烈中，我让我的狂暴一面占据了上风，我有点失控。最后，我们获得了胜利，但强盗首领恳求宽恕。我必须做出选择，杀死他还是放过他。" />
+<string id="backstory_c.spc_wanderer_huaxia_5" text="{=hx.wanderers.5.3}我决定放过他，但最后，他最终背叛了我们，导致强盗再次袭击我们。我们再次能够击败他们，但这是一场代价高昂的胜利。我学到了，有时宽恕也可能是一种弱点。" />
+<string id="response_1.spc_wanderer_huaxia_5" text="{=hx.wanderers.5.4}我认为你放过强盗首领的选择是正确的。这表明你在战斗激烈时也有荣誉感和同情心。" />
+<string id="response_2.spc_wanderer_huaxia_5" text="{=hx.wanderers.5.5}我不同意你放过强盗首领的决定。这最终导致了你和商队更多的伤害和危险。在某些情况下，宽恕可能是一个负担。" />
+<string id="backstory_d.spc_wanderer_huaxia_5" text="{=hx.wanderers.5.6}在商队的工作结束后，我需要一个地方休息和恢复。我听说了这家酒馆，并决定来看看。我目前在这里休息，并寻找我的下一个工作机会。" />
+<string id="generic_backstory.spc_wanderer_huaxia_5" text="{=hx.wanderers.5.7}我正在寻找作为雇佣兵或保镖的工作。我战斗技巧高超，也有些狂野，因此我很适合这类工作。" />
+
+<string id="prebackstory.spc_wanderer_huaxia_6" text="{=hx.wanderers.6.0}为什么不呢。" />
+<string id="backstory_a.spc_wanderer_huaxia_6" text="{=hx.wanderers.6.1}最近，我被一位富有的商人雇来护送一批贵重货物穿越艰难的地形。在途中，我们被强盗袭击了。我面临着一个艰难的道德选择。" />
+<string id="backstory_b.spc_wanderer_huaxia_6" text="{=hx.wanderers.6.2}- 是优先保护商人和货物，还是冒险去拯救同样被强盗攻击的无辜村民的生命。我决定优先保护商人和货物，因为那是我的主要责任。" />
+<string id="backstory_c.spc_wanderer_huaxia_6" text="{=hx.wanderers.6.3}然而，我也确保尽快有效地消灭强盗，以尽量减少对村民的伤害。最后，我们成功地交付了货物，村民们也能够抵御强盗的攻击。" />
+<string id="response_1.spc_wanderer_huaxia_6" text="{=hx.wanderers.6.4}我认为你做出了正确的选择。商人和货物的安全很重要，而你能够消灭强盗并尽量减少对村民的伤害。" />
+<string id="response_2.spc_wanderer_huaxia_6" text="{=hx.wanderers.6.5}我不同意你的决定。无辜村民的生命应该是优先考虑的，商人财物的安全不应更重要。" />
+<string id="backstory_d.spc_wanderer_huaxia_6" text="{=hx.wanderers.6.6}完成这项工作后，商人对我的工作感到满意，并向其他人推荐了我。我一直在旅行，接受各种工作，现在在这家酒馆休息，为下一个工作做好准备。" />
+<string id="generic_backstory.spc_wanderer_huaxia_6" text="{=hx.wanderers.6.7}我是一名骑射手，经验丰富的侦察员。我对任何能支付得起的工作持开放态度，尤其是那些能够让我发挥技能的工作。我特别希望为富有的商人或强大的领主工作，担任保镖或雇佣兵。" />
+
+<string id="prebackstory.spc_wanderer_huaxia_7" text="{=hx.wanderers.7.0}没问题。" />
+<string id="backstory_a.spc_wanderer_huaxia_7" text="{=hx.wanderers.7.1}我想到的一个场景是我在战斗中指挥一组士兵。我们的敌人抓住了人质，并威胁说如果我们不撤退，他们就会杀死这些人质。" />
+<string id="backstory_b.spc_wanderer_huaxia_7" text="{=hx.wanderers.7.2}我必须权衡人质的生命、我们任务的成功和我士兵的生命。最后，我做出了继续进攻的决定，不幸的是，人质被杀了。" />
+<string id="backstory_c.spc_wanderer_huaxia_7" text="{=hx.wanderers.7.3}这是一个艰难而悲惨的选择，但最终导致了我们的胜利。" />
+<string id="response_1.spc_wanderer_huaxia_7" text="{=hx.wanderers.7.4}我认为你做出了正确的选择。商人和货物的安全很重要，而你能够消灭强盗并尽量减少对村民的伤害。" />
+<string id="response_2.spc_wanderer_huaxia_7" text="{=hx.wanderers.7.5}我不同意你的决定。无辜村民的生命应该是优先考虑的，商人财物的安全不应更重要。" />
+<string id="backstory_d.spc_wanderer_huaxia_7" text="{=hx.wanderers.7.6}之后，我退回到一间酒馆，感受到我决定的重担，但也知道我为完成任务的成功和保护我的士兵做出了最佳选择。" />
+<string id="generic_backstory.spc_wanderer_huaxia_7" text="{=hx.wanderers.7.7}我是一名狂战士和优秀的指挥官。我愿意接受任何挑战性和报酬丰厚的工作。我在战斗、战略和领导方面有经验，因此我非常适合担任雇佣兵或保镖。" />
+
+<string id="prebackstory.spc_wanderer_huaxia_8" text="{=hx.wanderers.8.0}那么，让我告诉你，我有很多故事要分享。" />
+<string id="backstory_a.spc_wanderer_huaxia_8" text="{=hx.wanderers.8.1}最近一个最显著的故事是，我受雇于一位富有的商人护送他的女儿前往邻国进行联姻。在路上，我们遭遇了强盗袭击。我成功抵御了他们，但商人的女儿受了重伤。" />
+<string id="backstory_b.spc_wanderer_huaxia_8" text="{=hx.wanderers.8.2}我必须做出选择：要么继续旅程，把她送到她的未婚夫那里，要么留下来照顾她的伤口。我选择留下来医治她，因此我们错过了婚礼。" />
+<string id="backstory_c.spc_wanderer_huaxia_8" text="{=hx.wanderers.8.3}商人非常生气，并且没有支付我的服务费。但我的荣誉和作为医者的职责对我而言，比任何金钱都重要。" />
+<string id="response_1.spc_wanderer_huaxia_8" text="{=hx.wanderers.8.4}我完全理解并支持你留下来照顾商人的女儿的决定。你作为医者的荣誉和责任非常值得赞赏。" />
+<string id="response_2.spc_wanderer_huaxia_8" text="{=hx.wanderers.8.5}虽然我理解你的理由，但我认为留下来错过婚礼是个错误。商人的经济损失和愤怒是一个重大后果。" />
+<string id="backstory_d.spc_wanderer_huaxia_8" text="{=hx.wanderers.8.6}现在，我在这里，寻找新的机会和可能的新冒险，尤其是如果它们包括像你这样迷人的陪伴。" />
+<string id="generic_backstory.spc_wanderer_huaxia_8" text="{=hx.wanderers.8.7}我是一名流浪者，寻找弓箭手、侦察员和医者的工作。你来这个酒馆的目的是什么？你是否在寻找像我这样可以保护和捍卫你的人？" />
+
+<string id="prebackstory.spc_wanderer_huaxia_9" text="{=hx.wanderers.9.0}我有很多故事。" />
+<string id="backstory_a.spc_wanderer_huaxia_9" text="{=hx.wanderers.9.1}我正前往附近的城镇询问潜在的工作机会时，遇到了一群强盗正在袭击一辆商人商队。" />
+<string id="backstory_b.spc_wanderer_huaxia_9" text="{=hx.wanderers.9.2}我插手并帮助击退了强盗，但在此之前，他们已经造成了显著的损害。我不能只是站在那里看着无辜的人被抢劫和伤害。" />
+<string id="backstory_c.spc_wanderer_huaxia_9" text="{=hx.wanderers.9.3}我出手与商人并肩作战。我们能够驱赶强盗，夺回被盗的货物。" />
+<string id="response_1.spc_wanderer_huaxia_9" text="{=hx.wanderers.9.4}我认为插手帮助商人是一个勇敢而光荣的选择。你的行为显示了真正的勇气和慷慨。" />
+<string id="response_2.spc_wanderer_huaxia_9" text="{=hx.wanderers.9.5}我不同意你介入强盗的攻击。这样可能把你置于不必要的危险中，导致所有参与者的更糟结果。" />
+<string id="backstory_d.spc_wanderer_huaxia_9" text="{=hx.wanderers.9.6}商人们非常感激，愿意请我吃一顿饭，在最近的酒馆里住宿，以表达他们的感谢。我接受了他们的提议，决定留宿一晚，明天继续我的旅程。" />
+<string id="generic_backstory.spc_wanderer_huaxia_9" text="{=hx.wanderers.9.7}我是一名流浪者，寻找工作。我擅长战斗，熟悉阴暗和危险的交易。我特别感兴趣的是涉及保护商队或护送重要人物的工作。我对进入危险的情况并不害怕，只要是为了一个正义的原因。" />
+
+<string id="prebackstory.spc_wanderer_huaxia_10" text="{=hx.wanderers.10.0}过去是个谜，未来是个谜语。" />
+<string id="backstory_a.spc_wanderer_huaxia_10" text="{=hx.wanderers.10.1}我曾面临许多机会，但没有哪一个如我所拒绝的那般引人入胜。我被邀请参加精英圈，但这不是我的命运。" />
+<string id="backstory_b.spc_wanderer_huaxia_10" text="{=hx.wanderers.10.2}我揭示了他们隐藏的真相，并掌握了这些真理，但代价巨大。我不得不消失，成为一个新的人，但他们仍在寻找我。但我如夜里的阴影般难以捉摸。" />
+<string id="backstory_c.spc_wanderer_huaxia_10" text="{=hx.wanderers.10.3}现在，我像风中的叶子一样漫游，寻找新的神秘和机会。前方的道路漫长而曲折，而我所做的每一个选择将塑造我的命运。" />
+<string id="response_1.spc_wanderer_huaxia_10" text="{=hx.wanderers.10.4}你做出了正确的选择，为正义而站起来需要勇气。" />
+<string id="response_2.spc_wanderer_huaxia_10" text="{=hx.wanderers.10.5}我不同意你的选择，这似乎太冒险，而且也似乎你在隐瞒什么。" />
+<string id="backstory_d.spc_wanderer_huaxia_10" text="{=hx.wanderers.10.6}现在，我发现自己在这家酒馆里，命运交汇，命运交错。" />
+<string id="generic_backstory.spc_wanderer_huaxia_10" text="{=hx.wanderers.10.7}未来是个谜，我渴望揭开它，我随时准备做出将塑造我命运的选择。" />  
+ </strings>
+</base>

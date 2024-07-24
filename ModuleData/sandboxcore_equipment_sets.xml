@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+
+  <EquipmentRoster id="hua_bat_template_medium" culture="Culture.huaxia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_guandao" />
+			<Equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+			<Equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_h2" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.yingwujunxiongjia" />
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<Equipment slot="Leg" id="Item.longwujunxie" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_t3_ge_stacked" />
+			<Equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+			<Equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_k" />
+			<Equipment slot="Cape" id="Item.brass_lamellar_shoulder" />
+			<Equipment slot="Body" id="Item.yingwujunxiongjia" />
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<Equipment slot="Leg" id="Item.longwujunxie" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_guandao" />
+			<Equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+			<Equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_c" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<Equipment slot="Leg" id="Item.northern_plated_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+    <Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="hua_bat_template_flamboyant" culture="Culture.huaxia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_puji_t3" />
+			<Equipment slot="Item1" id="Item.noble_bow" />
+			<Equipment slot="Item2" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_m" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.xuanjiajunxiongjia" />
+			<Equipment slot="Gloves" id="Item.xuanjiajunhuwan" />
+			<Equipment slot="Leg" id="Item.xuanjiajunxie" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_guandao" />
+			<Equipment slot="Item1" id="Item.noble_bow" />
+			<Equipment slot="Item2" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Head" id="Item.fengchidoumou" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.xuanjiajunxiongjia" />
+			<Equipment slot="Gloves" id="Item.xuanjiajunhuwan" />
+			<Equipment slot="Leg" id="Item.xuanjiajunxie" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_cw_huolongdao" />
+			<Equipment slot="Item1" id="Item.noble_bow" />
+			<Equipment slot="Item2" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_m" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.imperial_scale_armor" />
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<Equipment slot="Leg" id="Item.northern_plated_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="hua_bat_template_heavy" culture="Culture.huaxia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_shuo" />
+			<Equipment slot="Item1" id="Item.noyans_shield" />
+			<Equipment slot="Item2" id="Item.gangbian" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_m" />
+			<Equipment slot="Cape" id="Item.longwujunjianjia" />
+			<Equipment slot="Body" id="Item.xuanjiajunxiongjia" />
+			<Equipment slot="Gloves" id="Item.xuanjiajunhuwan" />
+			<Equipment slot="Leg" id="Item.xuanjiajunxie" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_shuo" />
+			<Equipment slot="Item1" id="Item.noyans_shield" />
+			<Equipment slot="Item2" id="Item.gangbian" />
+			<Equipment slot="Head" id="Item.qianniuweidoumou" />
+			<Equipment slot="Cape" id="Item.longwujunjianjia" />
+			<Equipment slot="Body" id="Item.imperial_scale_armor" />
+			<Equipment slot="Gloves" id="Item.xuanjiajunhuwan" />
+			<Equipment slot="Leg" id="Item.xuanjiajunxie" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_shuo" />
+			<Equipment slot="Item1" id="Item.noyans_shield" />
+			<Equipment slot="Item2" id="Item.gangbian" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_m" />
+			<Equipment slot="Cape" id="Item.longwujunjianjia" />
+			<Equipment slot="Body" id="Item.xuanjiajunxiongjia" />
+			<Equipment slot="Gloves" id="Item.xuanjiajunhuwan" />
+			<Equipment slot="Leg" id="Item.xuanjiajunxie" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+    <Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true" />
+  </EquipmentRoster>
+  
+  <EquipmentRoster id="hua_bat_template_nomad" culture="Culture.huaxia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_t4_bronze_ji" />
+			<Equipment slot="Item1" id="Item.noble_bow" />
+			<Equipment slot="Item2" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_m" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<Equipment slot="Leg" id="Item.plated_strip_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_t3_ge_stacked" />
+			<Equipment slot="Item1" id="Item.noble_bow" />
+			<Equipment slot="Item2" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_m" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.yingwujunxiongjia" />
+			<Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<Equipment slot="Leg" id="Item.plated_strip_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+    <Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="hua_bat_template_lady" culture="Culture.huaxia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_t4_bronze_ji" />
+			<Equipment slot="Item1" id="Item.steppe_war_bow" />
+			<Equipment slot="Item2" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_h2" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.AR_aserai_scale_armor_b" />
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<Equipment slot="Leg" id="Item.northern_plated_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_t4_bronze_ji" />
+			<Equipment slot="Item1" id="Item.steppe_war_bow" />
+			<Equipment slot="Item2" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_k" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<Equipment slot="Leg" id="Item.northern_plated_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.huaxia_puji_t3" />
+			<Equipment slot="Item1" id="Item.steppe_war_bow" />
+			<Equipment slot="Item2" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_c" />
+			<Equipment slot="Cape" id="Item.xuanjiajunjianjia" />
+			<Equipment slot="Body" id="Item.AR_aserai_scale_armor_b" />
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<Equipment slot="Leg" id="Item.northern_plated_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+		</EquipmentSet>
+    <Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsCombatantTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="hua_civ_template_default" culture="Culture.huaxia">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+			<Equipment slot="Body" id="Item.battania_civil_c" />
+			<Equipment slot="Leg" id="Item.fine_town_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+			<Equipment slot="Body" id="Item.aserai_civil_d" />
+			<Equipment slot="Leg" id="Item.fine_town_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+    <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="hua_civ_template_lady_normal" culture="Culture.huaxia">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Body" id="Item.empire_dress" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Body" id="Item.steppe_dress" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Body" id="Item.empire_dress_b" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="hua_civ_template_flamboyant" culture="Culture.huaxia">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+			<Equipment slot="Body" id="Item.eastern_silk_clothing" />
+			<Equipment slot="Leg" id="Item.fine_town_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+			<Equipment slot="Body" id="Item.aserai_civil_a" />
+			<Equipment slot="Leg" id="Item.fine_town_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+    <Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsFlamboyantTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="hua_civ_template_heavy" culture="Culture.huaxia">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+			<Equipment slot="Body" id="Item.eastern_silk_clothing" />
+			<Equipment slot="Leg" id="Item.fine_town_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+			<Equipment slot="Body" id="Item.aserai_civil_a" />
+			<Equipment slot="Leg" id="Item.fine_town_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsHeavyTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="hua_civ_template_nomad" culture="Culture.huaxia">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+			<Equipment slot="Body" id="Item.battania_civil_c" />
+			<Equipment slot="Leg" id="Item.fine_town_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_elite_jian_1" />
+			<Equipment slot="Body" id="Item.aserai_civil_d" />
+			<Equipment slot="Leg" id="Item.fine_town_boots" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+    <Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNomadTemplate="true" />
+  </EquipmentRoster>
+
+  <EquipmentRoster id="hua_noncom_template_default" culture="Culture.huaxia">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Body" id="Item.empire_dress" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Body" id="Item.steppe_dress" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Body" id="Item.empire_dress_b" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse_southern" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+    <Flags IsFemaleTemplate="true" IsNoncombatantTemplate="true" />
+  </EquipmentRoster>
+  
+  <EquipmentRoster id="hua_noncom_template_flamboyant" culture="Culture.huaxia">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Head" id="desert_headdress" />
+			<Equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Head" id="desert_headdress" />
+			<Equipment slot="Body" id="Item.fine_southern_dress" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Body" id="Item.fine_southern_dress" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Head" id="desert_headdress" />
+			<Equipment slot="Body" id="Item.aserai_female_civil_a" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.huaxia_noble_dagger" />
+			<Equipment slot="Body" id="Item.aserai_female_civil_a" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Horse" id="Item.noble_horse" />
+			<Equipment slot="HorseHarness" id="Item.imperial_riding_harness" />
+		</EquipmentSet>
+    <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" IsFlamboyantTemplate="true" />
+  </EquipmentRoster>
+  
+  <EquipmentRoster id="marriage_female_hua_cutscene_template" culture="Culture.huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.empire_dress" />
+      <Equipment slot="Leg" id="Item.southern_moccasins" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="comingofage_kid_hua_cutscene_template" culture="Culture.huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+</EquipmentRosters>

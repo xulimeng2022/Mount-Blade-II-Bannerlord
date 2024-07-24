@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="hx_lord_1" name="{=hx_lord_1}Xuanlong" age="52" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true" >
+		<face>
+			<BodyProperties version="4" age="52" weight="0.442" build="0.6683"  key="0005380E40002701C6BF11FFB669A47E8295858CFEBF8639C8756149864B8436457776130AB1E94400001AA70544002000000000000000000000000023504082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="9"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="8"/>			
+			<Trait id="Calculating" value="1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Valor" value="3" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_close_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_lord_1_a" name="{=hx_lord_1_a}Yiyuan" age="47" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true"  culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47" weight="0.6602" build="0.6839"  key="000AD40F0000305520863677757B889760718733BBEF0094465D2B538222B223566666460886324F00048AA422774743000000000000000000000000590C4042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="0" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_lady_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_lady_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+
+	<NPCCharacter id="hx_lord_1_b" name="{=hx_lord_1_b}Jiwei" age="33" voice="earnest" default_group="Cavalry" is_hero="true"  culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.06" weight="0.5057" build="0.7452"  key="0008380F00000089C67C11FFB669746D8295858CFEBF8639C8756149864B8436757776130BB1E94400001BB8A759A96900000000000000000000000039782082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_close_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+	
+	<NPCCharacter id="hx_lord_1_c" name="{=hx_lord_1_c}Taiping" age="25" is_female="true" voice="ironic" default_group="Cavalry" is_hero="true"  culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.74" weight="0.4102" build="0.5572"  key="000A2C0F00003044238A74A77787A67760718535C99F3077465D2B538222B223335646130886324F00018864346435520000000000000000000000005CFC4044"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="0" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_lady_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>		
+	
+	<NPCCharacter id="hx_lord_1_d" name="{=hx_lord_1_d}Wuji" age="24" voice="ironic" default_group="Cavalry" is_hero="true"  culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.8" weight="0.6627" build="0.482"  key="000DEC0E40000003C6BF11FFBA99A4AC8295858CFEBFCA39C8756149864B84365467961309B1E9440000197A554634530000000000000000000000005D384085"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Valor" value="0" />
+			<Trait id="Generosity" value="0" />
+			<Trait id="Oligarchic" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_close_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+	
+	<NPCCharacter id="hx_lord_1_e" name="{=hx_lord_1_e}Hanyan" age="19" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true"  culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19" weight="0.2238" build="0.2925"  key="000AD80F0000104F018780A95564878858558958F88D3077AB9D2E5383437212223246920886324C00098432233253010000000000000000000000006D042044"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_close_lady_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_lady_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>		
+	
+	<NPCCharacter id="hx_lord_2" name="{=hx_lord_2}Guang" age="42" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34" weight="0.442" build="0.6683"  key="000DD40FC00031C9867D35FFB66892CC959A854EFEBE8539C8756149864BA768457776130AB1E94400001AA70544002000000000000000000000000023508082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="9"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>			
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="hx_lord_2_a" name="{=hx_lord_2_a}Yueji" age="41"  is_female="true" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.95" weight="0.5964" build="0.3774"  key="0010F40FC000004E4386409B877A697855B97D5ADDDF53579DC79B66777695763577863506B7B6C6000366956442767300000000000000000000000078CC3002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>			
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="0" />
+			<Trait id="Generosity" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_lady_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_lady_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+
+	<NPCCharacter id="hx_lord_2_b" name="{=hx_lord_2_b}Yonglu" age="24" is_female="true" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.68" weight="0.3929" build="0.6324"  key="0010F40FC000104667A8819B899A9B7946C97D5ADD9F52369DC79B66777674755377561307B7B6C600017964B97593A300000000000000000000000078E42002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>			
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_close_lady_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_lady_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+	
+	<NPCCharacter id="hx_lord_2_c" name="{=hx_lord_2_c}Jianyun" age="21" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21" weight="0.442" build="0.6683"  key="000AD40FC0003003997D35FFB66892CC959A854EED8FA637C875A937864BA768578646020BB1E94800000BA778B5C93600000000000000000000000045687082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>			
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_close_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>		
+	
+	<NPCCharacter id="hx_lord_2_d" name="{=hx_lord_2_d}Jianshan" age="21" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21" weight="0.442" build="0.6683"  key="000AD40FC0001003997D35FFB66892CC959A854EED8FA637C875A337864BA768A78646020BB1E94800000BA7BF76743700000000000000000000000033687082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>			
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="0" />
+			<Trait id="Generosity" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>			
+
+	<NPCCharacter id="hx_lord_2_e" name="{=hx_lord_2_e}Yulan" age="20" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.39" weight="0.3929" build="0.6324"  key="0010E00F0000104454876198789B9B6935AB7B5ABC6F36139DC7893486975475526776D209B7B6C6000D69613463749200000000000000000000000054C43004"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="9"/>			
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Valor" value="0" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_lady_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_lady_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+			
+	<NPCCharacter id="hx_lord_3" name="{=hx_lord_3}Zifu" age="36" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.93" weight="0.6675" build="0.5"  key="000AFC0E400032499BBF61FFB762A46E384E9AF6799E9E3DC875682674736545248776350AB1E94400003A7A3220053300000000000000000000000029503082"  />
+		</face>
+		<skills>
+			<skill id="OneHanded" value="100" />
+			<skill id="TwoHanded" value="200" />
+			<skill id="Polearm" value="200" />
+			<skill id="Bow" value="200" />
+			<skill id="Crossbow" value="100" />
+			<skill id="Throwing" value="50" />
+			<skill id="Riding" value="200" />
+			<skill id="Athletics" value="200" />
+			<skill id="Crafting" value="0" />
+			<skill id="Tactics" value="150" />
+			<skill id="Scouting" value="40" />
+			<skill id="Roguery" value="10" />
+			<skill id="Leadership" value="150" />
+			<skill id="Charm" value="100" />
+			<skill id="Trade" value="80" />
+			<skill id="Steward" value="200" />
+			<skill id="Medicine" value="100" />
+			<skill id="Engineering" value="100" />
+		</skills>
+		<Traits>
+			<Trait id="Generosity" value="1" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Egalitarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_lord_3_a" name="{=hx_lord_3_a}Hongniang" age="38" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.97" weight="0.5351" build="0.5613"  key="0010E00D8000104BF57CB0975AC8863A73757A74CDDE1810BD8B5684835D7298447566240639E86C000268833556387400000000000000000000000042DC2002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>			
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_lady_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_lady_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+
+	<NPCCharacter id="hx_lord_3_b" name="{=hx_lord_3_b}Yaopeng" age="21" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.63" weight="0.4738" build="0.6888"  key="000DFC0E40000083AB8D61EFB865C56D394C8BF6A99FBC6AA8747B2984736554889556030BB3E94400000BA74776A86500000000000000000000000029784084"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="3"/>			
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+
+	<NPCCharacter id="hx_lord_3_c" name="{=hx_lord_3_c}Yaoju" age="21" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.63" weight="0.4738" build="0.6888"  key="000DFC0E40003181AB8D61EFB865C67D394C8BF6A99FBC6AA8747B2984736554889556030BB3E94400000BA74776A86500000000000000000000000029784084"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>			
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t2_ranged_huaxia" />
+			<EquipmentSet id="lord_set_t2_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+			
+	<NPCCharacter id="hx_lord_4" name="{=hx_lord_4}Qieyun" age="35" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30" weight="0.3578" build="0.6814"  key="000DFC0E40003089498F61F7B95DC46CAC959DBEDBCF4662C7958733844934567677761407B1E944000017A56342220500000000000000000000000044F09082"  />
+		</face>
+		<skills>
+			<skill id="OneHanded" value="100" />
+			<skill id="TwoHanded" value="150" />
+			<skill id="Polearm" value="150" />
+			<skill id="Bow" value="100" />
+			<skill id="Crossbow" value="100" />
+			<skill id="Throwing" value="100" />
+			<skill id="Riding" value="150" />
+			<skill id="Athletics" value="100" />
+			<skill id="Crafting" value="10" />
+			<skill id="Tactics" value="100" />
+			<skill id="Scouting" value="100" />
+			<skill id="Roguery" value="10" />
+			<skill id="Leadership" value="150" />
+			<skill id="Charm" value="100" />
+			<skill id="Trade" value="100" />
+			<skill id="Steward" value="200" />
+			<skill id="Medicine" value="100" />
+			<skill id="Engineering" value="200" />
+		</skills>
+		<Traits>
+			<Trait id="Generosity" value="2" />
+			<Trait id="Honor" value="1" />
+			<Trait id="Egalitarian" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t1_close_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_lord_4_a" name="{=hx_lord_4_a}Yuanyuan" age="32" is_female="true" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="32" weight="0.5866" build="0.3832"  key="000DD40FC00031CB237D35FFB669826C54A8814AAF8E1744C87A4994843732873344562408A1E944000286933562134100000000000000000000000051000082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>			
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="-1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t1_ranged_lady_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_lady_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_lord_4_b" name="{=hx_lord_4_b}Jian" age="23" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.57" weight="0.3578" build="0.7427"  key="000DFC0FC00016819C8D82C7B666956B9C9889A6CBCF7936C7983433853926669666360308B4EA27000008B56665643500000000000000000000000053107082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>			
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t1_close_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="hx_lord_4_c" name="{=hx_lord_4_c}Wanhong" age="21" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.17" weight="0.3578" build="0.7427"  key="000DFC0FC00006C39C7A53C7B686956D97978CA8BCCF7936C7983433853966649666360208B4EA27000008B56555543500000000000000000000000065107082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>			
+			<Trait id="Honor" value="-1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t1_close_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+
+	<NPCCharacter id="hx_lord_5" name="{=hx_lord_5}Yu" age="42" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.2" weight="0.4935" build="0.96"  key="000DF80FC00033C9EF7D35FFB66892CD87F1881E6EFCE02DC894D77680047463C894363509D7E977000039E7FEFFFECE0000000000000000000000001F209082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="9"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>			
+			<Trait id="Honor" value="-1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="2" />
+			<Trait id="Generosity" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t1_close_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_lord_5_a" name="{=hx_lord_5_a}Chanyi" age="32" is_female="true" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31.81" weight="0.2721" build="0.5229"  key="000AF00F0000104E558584777575886363838738886E13388457BB008335241330732624020632470002284143502380000000000000000000000000683C2002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>			
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t1_close_lady_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_lady_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+			
+	<NPCCharacter id="hx_lord_5_b" name="{=hx_lord_5_b}Aofu" age="30" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.36" weight="0.4935" build="0.8995"  key="000DF80FC0001001AC7D35FFB66892CD87D28A3E9EFDE14AB896BA7680057463B792261408C7B977000018D7ECDDDBAF00000000000000000000000027104082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>			
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t1_close_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="hx_lord_5_c" name="{=hx_lord_5_c}Hanru" age="26" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.38" weight="0.3656" build="0.7745"  key="000DF80FC0000003AC7D35FFB66DA5CE87C38A3E9EFDE14AB898B97780057467977356130AC6B97700001AC5E898789C0000000000000000000000002F402082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>			
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t1_ranged_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_lord_5_d" name="{=hx_lord_5_d}Zhiyi" age="2" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="2" weight="0.4935" build="0.96"  key="000DF80FC0000303EC7D35FFB66D95CE87F38A3E6EFDE14AB898B97780057467977356130AC6B97700001AC5E898789C0000000000000000000000002F402082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>			
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="lord_set_t1_close_huaxia" />
+			<EquipmentSet id="lord_set_t1_civ_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+			
+	<NPCCharacter id="hx_sect_hero_2" name="{=hx_sect_hero_2}Tiandao" age="41" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.51" weight="0.5784" build="0.951"  key="0013EC0E40002501FFC781FFB762A46EF017AA6EDFEE730A72873489D64B85C8877AA6130BB1E84B00001BE9EBFCEA5400000000000000000000000001703082"  />
+		</face>
+		<skills>
+			<skill id="OneHanded" value="100" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="100" />
+			<skill id="Bow" value="100" />
+			<skill id="Crossbow" value="100" />
+			<skill id="Throwing" value="100" />
+			<skill id="Riding" value="100" />
+			<skill id="Athletics" value="100" />
+			<skill id="Crafting" value="60" />
+			<skill id="Tactics" value="100" />
+			<skill id="Scouting" value="200" />
+			<skill id="Roguery" value="100" />
+			<skill id="Leadership" value="150" />
+			<skill id="Charm" value="80" />
+			<skill id="Trade" value="50" />
+			<skill id="Steward" value="100" />
+			<skill id="Medicine" value="200" />
+			<skill id="Engineering" value="150" />
+		</skills>
+		<Traits>
+			<Trait id="Calculating" value="2" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Egalitarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bandit_boss_template_huaxia" />
+			<EquipmentSet id="bandit_boss_template_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_sect_hero_2_a" name="{=hx_sect_hero_2_a}Tiangang" age="39" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.51" weight="0.6421" build="0.951"  key="0015EC0E40003382FFC781FFB762A46EF017CFFE7FEE730A72873489D64B85C8877AA6130CB1E84B00001CEAEBFEEF5400000000000000000000000041A09082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />			
+			<Trait id="Egalitarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bandit_boss_template_huaxia" />
+			<EquipmentSet id="bandit_boss_template_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="hx_sect_hero_2_b" name="{=hx_sect_hero_2_b}Tianshi" age="34" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.11" weight="0.6421" build="0.951"  key="0015EC0E40002884FFC781FFB762A46EF7972FF0EFEE730A7287348FD64B85C8877AA6240CF1E84B00002CEAEBFEEF5400000000000000000000000041A03082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="-1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />			
+			<Trait id="Egalitarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bandit_boss_template_huaxia" />
+			<EquipmentSet id="bandit_boss_template_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="spc_clan_huaxia_yellowturban_leader_0" name="The Daoren" voice="curt" default_group="Cavalry" is_hero="true"  is_template="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />			
+			<Trait id="Egalitarian" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bandit_boss_template_huaxia" />
+			<EquipmentSet id="bandit_boss_template_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+			
+
+	<NPCCharacter id="spc_clan_huaxia_yushan_leader_0" name="The Yushan Haohan" voice="curt" default_group="Cavalry" is_hero="true"  is_template="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />			
+			<Trait id="Egalitarian" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="spc_clan_huaxia_yushan_leader_1" name="The Yushan Haojie" is_female="true" voice="curt" default_group="Cavalry" is_hero="true"  is_template="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="0" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="0" />
+			<Trait id="Generosity" value="1" />			
+			<Trait id="Egalitarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_female_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="spc_clan_huaxia_yushan_leader_2" name="The Yushan Haohan" voice="curt" default_group="Cavalry" is_hero="true"  is_template="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />			
+			<Trait id="Egalitarian" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+	
+	<NPCCharacter id="spc_clan_huaxia_yushan_leader_3" name="The Yushan Haojie" voice="curt" default_group="Cavalry" is_hero="true"  is_template="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />			
+			<Trait id="Egalitarian" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>		
+	
+	<NPCCharacter id="spc_clan_huaxia_yushan_leader_4" name=" the Yushan Haohan" voice="curt" default_group="Cavalry" is_hero="true"  is_template="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />			
+			<Trait id="Egalitarian" value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>		
+			
+	<NPCCharacter id="hx_sect_hero_1" name="{=hx_sect_hero_1}崇久赐明者" age="26" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31.97" weight="0.1053" build="0.7819"  key="0010FC0E400027409E9F01EF9CC47FEC62919A5FF0AFCE3DC87561498E8984386577762409B1E944000029C2AF9AB32400000000000000000000000011387084"  />
+		</face>
+		<skills>
+			<skill id="OneHanded" value="100" />
+			<skill id="TwoHanded" value="100" />
+			<skill id="Polearm" value="100" />
+			<skill id="Bow" value="100" />
+			<skill id="Crossbow" value="100" />
+			<skill id="Throwing" value="100" />
+			<skill id="Riding" value="100" />
+			<skill id="Athletics" value="100" />
+			<skill id="Crafting" value="100" />
+			<skill id="Tactics" value="100" />
+			<skill id="Scouting" value="200" />
+			<skill id="Roguery" value="80" />
+			<skill id="Leadership" value="150" />
+			<skill id="Charm" value="120" />
+			<skill id="Trade" value="80" />
+			<skill id="Steward" value="80" />
+			<skill id="Medicine" value="200" />
+			<skill id="Engineering" value="30" />
+		</skills>
+		<Traits>
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Egalitarian" value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="hx_sect_hero_1_a" name="{=hx_sect_hero_1_a}火明赐明者" age="31" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.11" weight="0.2989" build="0.5318"  key="0015EC0E4000220186C781FFB9A3BD6385F22FF0EFEE730775971787E2CCA531758706240AD1844700002A8495979C7700000000000000000000000049482082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />			
+			<Trait id="Egalitarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="spc_clan_huaxia_mingjiao_leader_0" name="赐明者" voice="curt" default_group="Cavalry" is_hero="true" is_template="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />			
+			<Trait id="Egalitarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="spc_clan_huaxia_mingjiao_leader_1" name="赐明者" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" is_template="true" culture="Culture.huaxia" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="0" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Calculating" value="0" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="0" />			
+			<Trait id="Egalitarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_female_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_bandit_hero" name="土匪英雄" age="35" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Bandit">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia" />
+		</face>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait id="BalancedFightingSkills" value="6" />
+			<Trait id="Commander" value="7" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="merc_hero_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_looter_hero" name="掠夺者英雄" age="30" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.huaxia" occupation="Bandit">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia" />
+		</face>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait id="BalancedFightingSkills" value="4" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="4" />
+			<Trait id="Manager" value="5" />
+			<Trait id="Mercy" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bandit_boss_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="hx_looter_yt_hero" name="黄巾土匪英雄(测试)" age="35" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.huaxia" occupation="Bandit">
+		<face>
+			<face_key_template value="BodyProperty.fighter_huaxia" />
+		</face>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait id="BalancedFightingSkills" value="6" />
+			<Trait id="Commander" value="7" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="bandit_boss_template_huaxia" />
+			<EquipmentSet id="npc_gang_leader_equipment_huaxia" civilian="true" />
+		</Equipments>
+	</NPCCharacter>	
+</NPCCharacters>

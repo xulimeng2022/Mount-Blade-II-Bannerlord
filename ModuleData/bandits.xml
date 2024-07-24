@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+	<NPCCharacter id="huaxia_looter" default_group="Infantry" name="{=huaxia_looter}Huaxia Vagrant" level="6" occupation="Bandit" culture="Culture.huaxia_looters">
+		<face>
+			<face_key_template value="BodyProperty.villager_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30" />
+			<skill id="Bow" value="20" />
+			<skill id="OneHanded" value="40" />
+			<skill id="Polearm" value="30" />
+			<skill id="Riding" value="0" />
+			<skill id="Throwing" value="40" />
+			<skill id="TwoHanded" value="20" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_bandits_bandit" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1" />
+				<equipment slot="Item1" id="Item.throwing_stone" />
+				<equipment slot="Body" id="Item.cubuyi" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.seax" />
+				<equipment slot="Item1" id="Item.throwing_stone" />
+				<equipment slot="Body" id="Item.bandit_leather_water_flask" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+				<equipment slot="Gloves" id="Item.armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_2_t1" />
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+				<equipment slot="Head" id="Item.tangdaitoujin" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_2_t1" />
+				<equipment slot="Item1" id="Item.throwing_stone" />
+				<equipment slot="Body" id="Item.torn_bandit_clothes" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pickaxe_1_t1" />
+				<equipment slot="Body" id="Item.bandit_gambeson" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+				<equipment slot="Head" id="Item.pilgrim_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+				<equipment slot="Item1" id="Item.throwing_stone" />
+				<equipment slot="Body" id="Item.cubuyi" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+				<equipment slot="Head" id="Item.pilgrim_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.huaxia_han_dao_1" />
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_1_t2" />
+				<equipment slot="Item1" id="Item.throwing_stone" />
+				<equipment slot="Body" id="Item.bandit_leather_water_flask" />
+				<equipment slot="Head" id="Item.pilgrim_hood" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+				<equipment slot="Gloves" id="Item.armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_2_t1" />
+				<equipment slot="Body" id="Item.cubuyi" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+				<equipment slot="Head" id="Item.tangdaitoujin" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2" />
+				<equipment slot="Body" id="Item.torn_bandit_clothes" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+				<equipment slot="Head" id="Item.tangdaitoujin" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.huaxia_inf_ji" />
+				<equipment slot="Item1" id="Item.throwing_stone" />
+				<equipment slot="Body" id="Item.bandit_gambeson" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+				<equipment slot="Head" id="Item.tangdaitoujin" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1" />
+				<equipment slot="Item1" id="Item.throwing_stone" />
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="huaxia_bandits_bandit" default_group="Infantry" name="{=huaxia_bandits_bandit}Grass Bandit" level="11" occupation="Bandit" culture="Culture.huaxia_bandits">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20" />
+			<skill id="Bow" value="20" />
+			<skill id="OneHanded" value="30" />
+			<skill id="Polearm" value="40" />
+			<skill id="Riding" value="20" />
+			<skill id="Throwing" value="0" />
+			<skill id="TwoHanded" value="10" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_bandits_raider" />
+			<upgrade_target id="NPCCharacter.huaxia_bandits_raider2" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_t1_hand_daggeraxe" />
+				<equipment slot="Item1"
+						   id="Item.celtic_throwing_dagger" />
+				<equipment slot="Body"
+						   id="Item.fur_coat_over_tunic" />
+				<equipment slot="Leg"
+						   id="Item.eastern_leather_boots" />
+				<equipment slot="Head"
+						   id="Item.pilgrim_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_t1_hand_daggeraxe" />
+				<equipment slot="Item1"
+						   id="Item.celtic_throwing_dagger" />
+				<equipment slot="Body"
+						   id="Item.ao_durkhan_topless_leather_lamellar" />
+				<equipment slot="Leg"
+						   id="Item.eastern_leather_boots" />
+				<equipment slot="Head"
+						   id="Item.tangdaitoujin" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_t1_hand_ji" />
+				<equipment slot="Item1"
+						   id="Item.celtic_throwing_dagger" />
+				<equipment slot="Body"
+						   id="Item.ao_durkhan_topless_leather_lamellar" />
+				<equipment slot="Leg"
+						   id="Item.eastern_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_t1_ge" />
+				<equipment slot="Item1"
+						   id="Item.celtic_throwing_dagger" />						   
+				<equipment slot="Body"
+						   id="Item.thick_sleeved_robe" />
+				<equipment slot="Leg"
+						   id="Item.eastern_leather_boots" />
+				<equipment slot="Head"
+						   id="Item.tangdaitoujin" />
+			</EquipmentRoster>
+
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1" />
+				<equipment slot="Item2" id="Item.throwing_stone" />
+				<equipment slot="Body" id="Item.fur_coat_over_tunic" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="huaxia_bandits_raider2" default_group="Ranged" name="{=huaxia_bandits_raider2}Hidden Snake" level="16" occupation="Bandit" culture="Culture.huaxia_bandits">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60" />
+			<skill id="Bow" value="60" />
+			<skill id="OneHanded" value="50" />
+			<skill id="Polearm" value="70" />
+			<skill id="Riding" value="20" />
+			<skill id="Throwing" value="70" />
+			<skill id="TwoHanded" value="60" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_jh_archer_2" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.highland_ranger_bow" />
+				<equipment slot="Item1"
+						   id="Item.default_arrows" />
+				<equipment slot="Item2"
+						   id="Item.default_arrows" />				
+				<equipment slot="Item3"
+						   id="Item.huaxia_t1_hand_ji" />
+				<equipment slot="Body"
+						   id="Item.ao_khuzait_leather_vest" />
+				<equipment slot="Head" id="Item.pilgrim_hood" />
+				<equipment slot="Leg"
+						   id="Item.eastern_leather_boots" />
+				<equipment slot="Cape"
+						   id="Item.scarf" />
+				<equipment slot="Gloves"
+						   id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.highland_ranger_bow" />
+				<equipment slot="Item1"
+						   id="Item.default_arrows" />
+				<equipment slot="Item2"
+						   id="Item.default_arrows" />
+				<equipment slot="Item3"
+						   id="Item.huaxia_t1_hand_ji" />
+				<equipment slot="Body"
+						   id="Item.ao_khuzait_leather_vest" />
+				<equipment slot="Head"
+						   id="Item.battania_civil_hood" />
+				<equipment slot="Cape"
+						   id="Item.scarf" />						   
+				<equipment slot="Leg"
+						   id="Item.eastern_leather_boots" />
+				<equipment slot="Gloves"
+						   id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.highland_ranger_bow" />
+				<equipment slot="Item1"
+						   id="Item.default_arrows" />
+				<equipment slot="Item2"
+						   id="Item.default_arrows" />
+				<equipment slot="Item3"
+						   id="Item.huaxia_t1_ge" />
+				<equipment slot="Head" id="Item.pilgrim_hood" />						   
+				<equipment slot="Body"
+						   id="Item.TV_khuzait_armor_c" />
+				<equipment slot="Leg"
+						   id="Item.eastern_leather_boots" />
+				<equipment slot="Cape"
+						   id="Item.female_scarf" />
+				<equipment slot="Gloves"
+						   id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>			
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1" />
+				<equipment slot="Item2" id="Item.throwing_stone" />
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+				<equipment slot="Leg" id="Item.cubukuzi" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="huaxia_bandits_raider" default_group="Infantry" name="{=huaxia_bandits_raider}Wolf Dog" level="16" occupation="Bandit" culture="Culture.huaxia_bandits">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60" />
+			<skill id="Bow" value="60" />
+			<skill id="OneHanded" value="50" />
+			<skill id="Polearm" value="70" />
+			<skill id="Riding" value="20" />
+			<skill id="Throwing" value="70" />
+			<skill id="TwoHanded" value="60" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_bandits_chief" />
+			<upgrade_target id="NPCCharacter.huaxia_jh_infantry_2" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.huaxia_jinchu_changjian" />
+				<equipment slot="Item1" id="Item.huaxia_fly_dagger" />
+				<equipment slot="Head" id="Item.tangdaitoujin" />
+				<equipment slot="Body" id="Item.studded_steppe_leather" />
+				<equipment slot="Leg" id="Item.strapped_leather_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_jinchu_changjian" />
+				<equipment slot="Item1"
+						   id="Item.huaxia_fly_dagger" />
+				<equipment slot="Body"
+						   id="Item.khuzait_lamellar_strapped" />
+				<equipment slot="Head"
+						   id="Item.tangdaitoujin" />
+				<equipment slot="Leg"
+						   id="Item.highland_leg_wrappings" />
+				<equipment slot="Cape"
+						   id="Item.bolted_leather_strips" />
+				<equipment slot="Gloves"
+						   id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_jinchu_changjian" />
+				<equipment slot="Item1"
+						   id="Item.huaxia_fly_dagger" />
+				<equipment slot="Body"
+						   id="Item.TV_khuzait_armor_d" />
+				<equipment slot="Leg"
+						   id="Item.highland_leg_wrappings" />
+				<equipment slot="Cape"
+						   id="Item.bolted_leather_strips" />
+				<equipment slot="Gloves"
+						   id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="huaxia_bandits_chief" default_group="Infantry" name="{=huaxia_bandits_chief}Leopard Lord" level="21" occupation="Bandit" culture="Culture.huaxia_bandits">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60" />
+			<skill id="Bow" value="100" />
+			<skill id="OneHanded" value="110" />
+			<skill id="Polearm" value="100" />
+			<skill id="Riding" value="100" />
+			<skill id="Throwing" value="60" />
+			<skill id="TwoHanded" value="50" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.huaxia_bandits_boss" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+						   id="Item.huaxia_zhanma_1" />
+				<equipment slot="Body"
+						   id="Item.rough_fur_over_chain" />
+				<equipment slot="Head"
+						   id="Item.leather_studdedhelm_over_roughscale" />
+				<equipment slot="Cape"
+						   id="Item.leopard_pelt" />				
+				<equipment slot="Leg"
+						   id="Item.eastern_leather_boots" />
+				<equipment slot="Gloves"
+						   id="Item.studded_leather_vambraces" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+						   id="Item.huaxia_zhanma_1" />
+				<equipment slot="Body"
+						   id="Item.AR_bandit_armor_a" />
+				<equipment slot="Head"
+						   id="Item.leather_studdedhelm_over_roughscale" />
+				<equipment slot="Cape"
+						   id="Item.rough_bearskin" />
+				<equipment slot="Leg"
+						   id="Item.eastern_leather_boots" />
+				<equipment slot="Gloves"
+						   id="Item.studded_leather_vambraces" />
+			</EquipmentRoster>			
+		</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter id="huaxia_bandits_boss" default_group="HorseArcher" name="{=huaxia_bandits_boss}Tiger Lord" upgrade_requires="ItemCategory.horse" level="26" occupation="Bandit" culture="Culture.huaxia_bandits">
+		<face>
+			<face_key_template value="BodyProperty.outlaw_huaxia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80" />
+			<skill id="Bow" value="100" />
+			<skill id="OneHanded" value="120" />
+			<skill id="Polearm" value="160" />
+			<skill id="Riding" value="160" />
+			<skill id="Throwing" value="120" />
+			<skill id="TwoHanded" value="80" />
+		</skills>
+		<Equipments>
+			<EquipmentSet id="bandit_boss_template_huaxia" civilian="true" />
+			<EquipmentSet id="bandit_boss_template_huaxia" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

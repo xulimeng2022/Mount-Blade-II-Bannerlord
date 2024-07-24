@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_default_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.crude_leather_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.sleeveless_fur_coat" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.padded_leather_overcoat" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.crude_leather_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.crude_leather_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.padded_leather_overcoat" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_default_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_child_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+      <Equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_t" />
+      <Equipment slot="Gloves" id="Item.studded_vambraces" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.rough_fur_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_child_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+      <Equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_t" />
+      <Equipment slot="Gloves" id="Item.studded_vambraces" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.rough_fur_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_child_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+      <Equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_t" />
+      <Equipment slot="Gloves" id="Item.studded_vambraces" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.rough_fur_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+
+  <!-- STAGE 3 - PAGE 0 --> 
+
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_default_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Cape" id="Item.battania_shoulder_strap" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+<!-- STAGE 3 - PAGE 1 --> 
+
+  <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_t" />
+      <Equipment slot="Gloves" id="Item.studded_vambraces" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+			<Equipment slot="Cape" id="Item.battania_woodland_cloak" />
+			<Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+<!-- STAGE 3 - PAGE 2 --> 
+
+  <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.aserai_civil_a" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <!-- STAGE 4 --> 
+
+  <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_default_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_h" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Cape" id="Item.battania_shoulder_strap" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <!-- STAGE 4 - PAGE 1 --> 
+
+  <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_h" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Cape" id="Item.battania_shoulder_strap" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+
+  <!-- STAGE 4 - PAGE 2 --> 
+
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Gloves" id="Item.studded_vambraces" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_h" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Cape" id="Item.battania_shoulder_strap" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+
+  <!-- STAGE 5 --> 
+
+  <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_default_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.steppe_robe" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_t" />
+      <Equipment slot="Gloves" id="Item.studded_vambraces" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.studded_leather_waistcoat" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Cape" id="Item.battania_shoulder_strap" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <!-- STAGE 5 - PAGE 1 --> 
+
+  <EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_t" />
+      <Equipment slot="Gloves" id="Item.studded_vambraces" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.studded_leather_waistcoat" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+  <!-- STAGE 5 - PAGE 2 --> 
+
+  <EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_0_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
+      <Equipment slot="Body" id="Item.TV_khuzait_armor_t" />
+      <Equipment slot="Gloves" id="Item.studded_vambraces" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_1_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.faji" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_2_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.aserai_civil_d" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_3_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.studded_leather_waistcoat" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_4_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Cape" id="Item.khuzait_leather_pauldron" />
+      <Equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+      <Equipment slot="Gloves" id="Item.eastern_wrapped_armguards" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_5_huaxia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.tangdaitoujin" />
+      <Equipment slot="Body" id="Item.khuzait_belt_leather" />
+      <Equipment slot="Leg" id="Item.bianjunxie" />
+    </EquipmentSet>
+  </EquipmentRoster>
+</EquipmentRosters>

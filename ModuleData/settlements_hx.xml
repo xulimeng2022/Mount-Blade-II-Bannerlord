@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settlements>
+  <Settlement id="town_HX1" name="{=town_HX1}Shangjing" owner="Faction.clan_huaxia_liu" posX="769.765" posY="154.364" culture="Culture.huaxia" gate_posX="775.1149" gate_posY="154.1833" text="{=huaxia.setm.shangjing.text}Shangjing, or supreme capital, serves as the cultural and military center of the Huaxia realm. Situated on the northern bay of Pearl Lake, it is surrounded by defensive castles on the 4 sides to boster defences against the northern babarian threats.">
+    <Components>
+      <Town id="town_comp_HX1" is_castle="false" level="3" prosperity="5000"  background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.8" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="khuzait_city_a" scene_name_1="khuzait_city_a" scene_name_2="khuzait_city_a" scene_name_3="khuzait_city_a" />
+      <Location id="arena" scene_name="arena_khuzait_a" />
+      <Location id="tavern" scene_name="khuzait_tavern_a" />
+      <Location id="lordshall" scene_name_1="khuzait_castle_keep_a_l1_interior" scene_name_2="khuzait_castle_keep_a_l2_interior" scene_name_3="khuzait_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="khuzait_dungeon_a" />
+      <Location id="house_1" scene_name="khuzait_house_c_interior_a_house" />
+      <Location id="house_2" scene_name="khuzait_house_c_interior_a_house" />
+      <Location id="house_3" scene_name="khuzait_house_c_interior_a_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX1_a" name="{=village_HX1_a}Shuangqiao" posX="738.26" posY="178.277" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX1_a" village_type="VillageType.wheat_farm" hearth="350" gate_rotation="0.008" bound="Settlement.town_HX1" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX1_b" name="{=village_HX1_b}Beiling" posX="770.539" posY="190.44" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX1_b" village_type="VillageType.steppe_horse_ranch" hearth="300" gate_rotation="0.008" bound="Settlement.town_HX1" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX1_c" name="{=village_HX1_c}Linghai" posX="756.389" posY="142.757" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX1_c" village_type="VillageType.fisherman" hearth="400" gate_rotation="0.008" bound="Settlement.town_HX1" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX1_d" name="{=village_HX1_d}Gongmi" posX="795.533" posY="158.122" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX1_d" village_type="VillageType.wheat_farm" hearth="400" gate_rotation="0.008" bound="Settlement.town_HX1" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_HX2" name="{=town_HX2}Zhongning" owner="Faction.clan_huaxia_li" posX="788.92" posY="77.383" culture="Culture.huaxia" gate_posX="784.693" gate_posY="78.96735" text="{=huaxia.setm.zhongning.text}The economic and cultural center of Huaxia realm. Zhongning's central position is the final destination of both north and south trade routes.">
+    <Components>
+      <Town id="town_comp_HX2" is_castle="false" level="2" prosperity="5500" background_crop_position="0.235" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.808" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="khuzait_city_a" scene_name_1="khuzait_city_a" scene_name_2="khuzait_city_a" scene_name_3="khuzait_city_a" />
+      <Location id="arena" scene_name="arena_khuzait_a" />
+      <Location id="tavern" scene_name="khuzait_tavern_a" />
+      <Location id="lordshall" scene_name_1="khuzait_castle_keep_a_l1_interior" scene_name_2="khuzait_castle_keep_a_l2_interior" scene_name_3="khuzait_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="khuzait_dungeon_a" />
+      <Location id="house_1" scene_name="khuzait_house_c_interior_a_house" />
+      <Location id="house_2" scene_name="khuzait_house_c_interior_a_house" />
+      <Location id="house_3" scene_name="khuzait_house_c_interior_a_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX2_a" name="{=village_HX2_a}Hanhe" posX="788" posY="119.185" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX2_a" village_type="VillageType.silk_plant" hearth="600" gate_rotation="0.008" bound="Settlement.town_HX2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX2_b" name="{=village_HX2_b}Yangma" posX="778.761" posY="87.741" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX2_b" village_type="VillageType.steppe_horse_ranch" hearth="400" gate_rotation="0.008" bound="Settlement.town_HX2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX2_c" name="{=village_HX2_c}Jinggang" posX="748.399" posY="115.022" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX2_c" village_type="VillageType.fisherman" hearth="400" gate_rotation="0.008" bound="Settlement.town_HX2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX2_d" name="{=village_HX2_d}Zhonggu" posX="795.922" posY="95.264" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX2_d" village_type="VillageType.wheat_farm" hearth="500" gate_rotation="0.008" bound="Settlement.town_HX2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_HX3" name="{=town_HX3}Nantong" owner="Faction.clan_huaxia_zhou" posX="724.048" posY="84.495" culture="Culture.huaxia" gate_posX="728.3897" gate_posY="81.36404" text="{=huaxia.setm.nantong.text}Nantong situates at the mouth of the Jade river, and is the point of access to the central realm from the south. It functions as the  logistical junction for southern trade and military security. ">
+    <Components>
+      <Town id="town_comp_HX3" is_castle="false" level="1" prosperity="4500" background_crop_position="0.235" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.808" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="khuzait_city_a" scene_name_1="khuzait_city_a" scene_name_2="khuzait_city_a" scene_name_3="khuzait_city_a" />
+      <Location id="arena" scene_name="arena_khuzait_a" />
+      <Location id="tavern" scene_name="khuzait_tavern_a" />
+      <Location id="lordshall" scene_name_1="khuzait_castle_keep_a_l1_interior" scene_name_2="khuzait_castle_keep_a_l2_interior" scene_name_3="khuzait_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="khuzait_dungeon_a" />
+      <Location id="house_1" scene_name="khuzait_house_c_interior_a_house" />
+      <Location id="house_2" scene_name="khuzait_house_c_interior_a_house" />
+      <Location id="house_3" scene_name="khuzait_house_c_interior_a_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX3_a" name="{=village_HX3_a}Taosha" posX="690.654" posY="112.796" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX3_a" village_type="VillageType.salt_mine" hearth="500" gate_rotation="0.008" bound="Settlement.town_HX3" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX3_b" name="{=village_HX3_b}Liusha" posX="751.117" posY="78.547" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX3_b" village_type="VillageType.fisherman" hearth="400" gate_rotation="0.008" bound="Settlement.town_HX3" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX3_c" name="{=village_HX3_c}Bihu" posX="707.877" posY="96.254" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX3_c" village_type="VillageType.wheat_farm" hearth="500" gate_rotation="0.008" bound="Settlement.town_HX3" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_HX4" name="{=town_HX4}Xinyao" owner="Faction.clan_huaxia_zhou" posX="617.313" posY="95.107" culture="Culture.huaxia" gate_posX="616.7117" gate_posY="93.2352" text="{=huaxia.setm.xinyao.text}An ancient Aserai fortress at the beginning of the south eastern trade passage. It has served as an important trade juction at the mouth of the Angu valley.">
+    <Components>
+      <Town id="town_comp_HX4" is_castle="false" level="1" prosperity="4000" background_crop_position="0.235" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.808" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="aserai_town_a" scene_name_1="aserai_town_a" scene_name_2="aserai_town_a" scene_name_3="aserai_town_a" />
+      <Location id="arena" scene_name="arena_aserai_a" />
+      <Location id="tavern" scene_name="aserai_tavern_interior" />
+      <Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="aserai_dungeon_a" />
+      <Location id="house_1" scene_name="arabian_house_new_a_interior_a_house" />
+      <Location id="house_2" scene_name="arabian_house_new_a_interior_a_house" />
+      <Location id="house_3" scene_name="arabian_house_new_a_interior_a_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX4_a" name="{=village_HX4_a}Wanggu" posX="628.781" posY="78.03" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX4_a" village_type="VillageType.date_farm" hearth="300" gate_rotation="0.008" bound="Settlement.town_HX4" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX4_b" name="{=village_HX4_b}Shashi" posX="610.005" posY="83.808" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX4_b" village_type="VillageType.steppe_horse_ranch" hearth="300" gate_rotation="0.008" bound="Settlement.town_HX4" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX4_c" name="{=village_HX4_c}Xuantie" posX="642.112" posY="67.357" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX4_c" village_type="VillageType.iron_mine" hearth="300" gate_rotation="0.008" bound="Settlement.town_HX4" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_i" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_HX5" name="{=town_HX5}Tianhu" owner="Faction.clan_huaxia_li" posX="714.743" posY="164.585" culture="Culture.huaxia" gate_posX="714.5244" gate_posY="161.5282" text="{=huaxia.setm.tianhu.text}Situated on the high plateau, named after the dried lake bed. Tianhu, or heavenly lake, oversees the north eastern mountain passage between traditional Aserai and Huaxia borders. ">
+    <Components>
+      <Town id="town_comp_HX5" is_castle="false" level="2" prosperity="3000" background_crop_position="0.235" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.808" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="aserai_town_a" scene_name_1="aserai_town_a" scene_name_2="aserai_town_a" scene_name_3="aserai_town_a" />
+      <Location id="arena" scene_name="arena_aserai_a" />
+      <Location id="tavern" scene_name="aserai_tavern_interior" />
+      <Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="aserai_dungeon_a" />
+      <Location id="house_1" scene_name="arabian_house_new_a_interior_a_house" />
+      <Location id="house_2" scene_name="arabian_house_new_a_interior_a_house" />
+      <Location id="house_3" scene_name="arabian_house_new_a_interior_a_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX5_a" name="{=village_HX5_a}Ziyu" posX="690.093" posY="144.622" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX5_a" village_type="VillageType.fisherman" hearth="300" gate_rotation="0.008" bound="Settlement.town_HX5" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_l" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX5_b" name="{=village_HX5_b}Gaotian" posX="643.251" posY="160.477" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX5_b" village_type="VillageType.wheat_farm" hearth="300" gate_rotation="0.008" bound="Settlement.town_HX5" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX5_c" name="{=village_HX5_c}Guoyun" posX="660.748" posY="146.23" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX5_c" village_type="VillageType.date_farm" hearth="300" gate_rotation="0.008" bound="Settlement.town_HX5" background_crop_position="0.0" background_mesh="menu_aserai_village_1" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_e" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="town_HX6" name="{=town_HX6}Anjiang" owner="Faction.clan_huaxia_liu" posX="744.23" posY="249.59" culture="Culture.huaxia" gate_posX="740.101" gate_posY="246.1834" text="{=huaxia.setm.anjiang.text}Anjiang, or peace to the borders, is a newly established trade post city on the northern edge of Huaxia influence. ">
+    <Components>
+      <Town id="town_comp_HX6" is_castle="false" level="1"  prosperity="3000" background_crop_position="0.235" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.808" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.town_complex">
+      <Location id="center" scene_name="khuzait_city_a" scene_name_1="khuzait_city_a" scene_name_2="khuzait_city_a" scene_name_3="khuzait_city_a" />
+      <Location id="arena" scene_name="arena_khuzait_a" />
+      <Location id="tavern" scene_name="khuzait_tavern_a" />
+      <Location id="lordshall" scene_name_1="khuzait_castle_keep_a_l1_interior" scene_name_2="khuzait_castle_keep_a_l2_interior" scene_name_3="khuzait_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="khuzait_dungeon_a" />
+      <Location id="house_1" scene_name="khuzait_house_c_interior_a_house" />
+      <Location id="house_2" scene_name="khuzait_house_c_interior_a_house" />
+      <Location id="house_3" scene_name="khuzait_house_c_interior_a_house" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />
+      <Area type="Clearing" name="{=LWHIVshb}Clearing" />
+      <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX6_a" name="{=village_HX6_a}Jianxi" posX="729.354" posY="229.86" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX6_a" village_type="VillageType.wheat_farm" hearth="400" gate_rotation="0.008" bound="Settlement.town_HX6" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX6_b" name="{=village_HX6_b}Qinglin" posX="748.257" posY="289.412" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX6_b" village_type="VillageType.lumberjack" hearth="350" gate_rotation="0.008" bound="Settlement.town_HX6" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="village_HX6_c" name="{=village_HX6_c}Yanzhi" posX="728.799" posY="288.509" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="village_comp_HX6_c" village_type="VillageType.wheat_farm" hearth="350" gate_rotation="0.008" bound="Settlement.town_HX6" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_HX1" name="{=castle_HX1}Linlongguan" owner="Faction.clan_huaxia_liu" posX="748.393" posY="216.524" culture="Culture.huaxia" gate_posX="747.6728" gate_posY="217.6737">
+    <Components>
+      <Town id="castle_comp_HX1" is_castle="true" level="2" prosperity="850" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_HX1_a" name="{=castle_village_HX1_a}Longxi" posX="761.724" posY="211.916" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX1_a" village_type="VillageType.wheat_farm" hearth="250" gate_rotation="0.008" bound="Settlement.castle_HX1" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_HX1_b" name="{=castle_village_HX1_b}Chuanzhong" posX="756.417" posY="230.607" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX1_b" village_type="VillageType.wheat_farm" hearth="250" gate_rotation="0.008" bound="Settlement.castle_HX1" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_HX2" name="{=castle_HX2}Beiyanguan" owner="Faction.clan_huaxia_liu" posX="820.793" posY="188.159" culture="Culture.huaxia" gate_posX="821.0039" gate_posY="186.8188">
+    <Components>
+      <Town id="castle_comp_HX2" is_castle="true" level="2" prosperity="850" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_HX2_a" name="{=castle_village_HX2_a}Beichuanxian" posX="800.774" posY="207.112" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX2_a" village_type="VillageType.wheat_farm" hearth="300" gate_rotation="0.008" bound="Settlement.castle_HX2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_HX2_b" name="{=castle_village_HX2_b}Guyang" posX="832.594" posY="203.397" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX2_b" village_type="VillageType.sheep_farm" hearth="300" gate_rotation="0.008" bound="Settlement.castle_HX2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_i" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_HX3" name="{=castle_HX3}Xiwangtai" owner="Faction.clan_huaxia_li" posX="762.7" posY="114.607" culture="Culture.huaxia" gate_posX="763.7563" gate_posY="115.4582">
+    <Components>
+      <Town id="castle_comp_HX3" is_castle="true" level="2" prosperity="800" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_HX3_a" name="{=castle_village_HX3_a}Jiangxian" posX="723.652" posY="132.186" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX3_a" village_type="VillageType.wheat_farm" hearth="300" gate_rotation="0.008" bound="Settlement.castle_HX3" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_HX3_b" name="{=castle_village_HX3_b}Ruojiao" posX="742.33" posY="153.943" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX3_b" village_type="VillageType.date_farm" hearth="300" gate_rotation="0.008" bound="Settlement.castle_HX3" background_crop_position="0.0" background_mesh="menu_aserai_village_1" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_e" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_HX4" name="{=castle_HX4}Donghumen" owner="Faction.clan_huaxia_zhao" posX="811.271" posY="125.666" culture="Culture.huaxia" gate_posX="809.9267" gate_posY="126.608">
+    <Components>
+      <Town id="castle_comp_HX4" is_castle="true" level="2" prosperity="700" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_HX4_a" name="{=castle_village_HX4_a}Quhe" posX="825.888" posY="141.563" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX4_a" village_type="VillageType.wheat_farm" hearth="350" gate_rotation="0.008" bound="Settlement.castle_HX4" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_HX4_b" name="{=castle_village_HX4_b}Jiyuan" posX="831.641" posY="125.144" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX4_b" village_type="VillageType.wheat_farm" hearth="350" gate_rotation="0.008" bound="Settlement.castle_HX4" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_HX5" name="{=castle_HX5}Huoshanguan" owner="Faction.clan_huaxia_chen" posX="660.385" posY="95.072" culture="Culture.huaxia" gate_posX="661.6365" gate_posY="95.59562">
+    <Components>
+      <Town id="castle_comp_HX5" is_castle="true" level="1" prosperity="700" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="empire_siege_001" scene_name_1="empire_siege_001" scene_name_2="empire_siege_001" scene_name_3="empire_siege_001" />
+      <Location id="lordshall" scene_name_1="empire_castle_keep_a_l1_interior" scene_name_2="empire_castle_keep_a_l2_interior" scene_name_3="empire_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="empire_dungeon_a" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_HX5_a" name="{=castle_village_HX5_a}Angu" posX="672.306" posY="70.633" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX5_a" village_type="VillageType.wheat_farm" hearth="300" gate_rotation="0.008" bound="Settlement.castle_HX5" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_HX5_b" name="{=castle_village_HX5_b}Lingu" posX="641.537" posY="81.977" culture="Culture.huaxia" text="{=huaxia.stm.town}Huaxia Town">
+    <Components>
+      <Village id="castle_village_comp_HX5_b" village_type="VillageType.wheat_farm" hearth="500" gate_rotation="0.008" bound="Settlement.castle_HX5" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="khuzait_village_a" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX1" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="690.53" posY="169.01" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX1" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX2" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="649.936" posY="46.533" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX2" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX3" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="727.44" posY="57.48" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX3" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX4" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="809.12" posY="67.81" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX4" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX5" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="783.621" posY="255.406" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX5" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX6" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="834.23" posY="246" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX6" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX7" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="792.517" posY="218.914" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX7" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX8" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="785.83" posY="179.5" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX8" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX9" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="820.781" posY="95.547" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX9" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX10" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="685.129" posY="90.401" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX10" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX11" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="742.689" posY="200.691" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX11" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+  <Settlement id="hideout_steppe_HX12" name="{=Settlements.Settlement.name.hideout_steppe_1}Hideout" type="Hideout" posX="731.238" posY="205.341" culture="Culture.huaxia_bandits">
+    <Components>
+      <Hideout id="hideout_steppe_HX12" map_icon="bandit_hideout_a" scene_name="hx_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
+    </Components>
+  </Settlement>
+</Settlements>
